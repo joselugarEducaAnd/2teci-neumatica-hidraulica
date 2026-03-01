@@ -24,7 +24,9 @@ Dentro de esta categoría encontramos compresores alternativos o rotativos:
 #### Alternativos
 Utilizan un pistón que se mueve alternativamente gracias a un mecanismo de biela-manivela y va comprimiendo el aire.
 
+::: {.content-hidden when-format="pdf"}
 ![Compresor de pistón](media/piston.gif){fig-align="center" width="300"}
+::: {.content-hidden when-format="pdf"}
 
 #### Rotativos
 Tienen piezas que se mueven de forma rotativa y fuerzan al aire a estar en un recinto con un volumen cada vez menor, con lo que se comprime. Los más utilizados son:
@@ -33,10 +35,14 @@ Tienen piezas que se mueven de forma rotativa y fuerzan al aire a estar en un re
 ![Compresor de paletas](media/paletas.jpg){fig-align="center" width="199"}
 
 ##### De tornillo
+::: {.content-hidden when-format="pdf"}
 ![Compresor de tornillo](media/tornillo.gif){fig-align="center" width="240"}
+:::
 
 ##### De scroll
+::: {.content-hidden when-format="pdf"}
 ![Compresor de scroll](media/scroll.gif){fig-align="center" width="240"}
+:::
 
 ### Compresores dinámicos
 

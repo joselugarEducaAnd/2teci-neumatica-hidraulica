@@ -18,7 +18,9 @@ En este vídeo tienes las **normas más importantes** que hay que seguir a la ho
 
 Para analizar un circuito neumático dado, hay que seguir una serie de pasos. Los vamos a ver mediante un ejemplo para fijar ideas. Se trata de analizar el siguiente circuito neumático:
 
+::: {.content-hidden when-format="pdf"}
 ![](media/analisis-circuito.gif){fig-align="center" width="700"}
+:::
 
 ## 1. Identificar los elementos del circuito {.text-success}
 

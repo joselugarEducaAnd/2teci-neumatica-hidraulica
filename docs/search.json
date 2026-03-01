@@ -1,123 +1,42 @@
 [
   {
-    "objectID": "apendice_PAU.html",
-    "href": "apendice_PAU.html",
-    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Unidad 8: Neumática e hidráulica",
     "section": "",
-    "text": "B Bloque 1: Hidráulica",
+    "text": "Introducción\nBienvenido a la unidad de Neumática e Hidráulica de la asignatura de Tecnología e Ingeniería II. En este bloque estudiaremos cómo el uso de fluidos a presión (aire comprimido y aceite) permite la automatización de procesos industriales y la transmisión de grandes fuerzas con precisión.",
     "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
+      "Introducción"
     ]
   },
   {
-    "objectID": "apendice_PAU.html#section",
-    "href": "apendice_PAU.html#section",
-    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
-    "section": "B.1 2014-2015",
-    "text": "B.1 2014-2015\n\nPor una tubería horizontal circula un líquido de \\(900 \\text{ kg/m}^3\\) de densidad a una velocidad de \\(1,40 \\text{ m/s}\\). La sección transversal de la tubería es de \\(10 \\text{ cm}^2\\) y la presión es de \\(0,12 \\text{ MPa}\\). En la tubería existe un estrechamiento en el que la presión desciende a \\(0,10 \\text{ MPa}\\). Se pide:\n\nEl caudal de circulación del fluido.\nLa velocidad del fluido en el estrechamiento y el diámetro del mismo.\n\nPor una tubería de \\(2 \\text{ cm}\\) de diámetro circula agua con una velocidad de \\(60 \\text{ m/min}\\). Se pide:\n\nEl caudal de agua que circula por dicha tubería en unidades del S.I.\nEl régimen de circulación si la viscosidad dinámica y la densidad del agua son \\(0,087 \\text{ Pa}\\cdot\\text{s}\\) y \\(1000 \\text{ kg/m}^3\\), respectivamente.\n\nEn una estación de tratamiento de agua potable se bombea agua por una tubería de \\(30 \\text{ mm}\\) de diámetro a una velocidad de \\(4 \\text{ m/s}\\). Se pide:\n\nEl caudal de agua en \\(\\text{l/min}\\).\nDeterminar la velocidad en otra sección de la tubería de \\(20 \\text{ mm}\\) de diámetro.\n\nPor una tubería de \\(0,95 \\text{ cm}\\) de diámetro circula aceite con un caudal de \\(0,177 \\text{ l/s}\\) y una presión de \\(500 \\text{ MPa}\\). Se pide:\n\nLa velocidad de circulación del aceite.\nLa potencia de la bomba de la instalación suponiendo un rendimiento del \\(80\\%\\).\n\nPor una tubería horizontal de \\(5 \\text{ cm}\\) de diámetro circula un líquido de densidad \\(1,15 \\text{ g/cm}^3\\) a una velocidad de \\(8 \\text{ cm/s}\\), registrándose una presión manométrica de \\(1,5 \\text{ kp/cm}^2\\). La tubería se estrecha hasta tener \\(2 \\text{ cm}\\) de diámetro. Se pide:\n\nHacer un dibujo representativo de la situación considerada y calcular el caudal en unidades del S.I.\nDeterminar la velocidad y la presión absoluta en la sección estrecha de la tubería en unidades del S.I. si la presión atmosférica es de \\(10^5 \\text{ Pa}\\).\n\nEn una fábrica de lubricantes para automoción, un aceite mineral es transportado para su almacenamiento por una conducción de \\(4 \\text{ cm}\\) de diámetro, a una velocidad de \\(0,3 \\text{ m/s}\\) y una presión de trabajo de \\(9 \\text{ MPa}\\). La densidad y viscosidad cinemática del aceite son \\(0,85 \\text{ kg/dm}^3\\) y \\(2 \\text{ cm}^2/\\text{s}\\), respectivamente. Se pide:\n\nEl caudal que circula por la tubería expresado en \\(\\text{dm}^3/\\text{min}\\) y la potencia total de la bomba, suponiendo un rendimiento del \\(87\\%\\).\nDeterminar el régimen de circulación del aceite.",
+    "objectID": "index.html#objetivos-de-la-unidad",
+    "href": "index.html#objetivos-de-la-unidad",
+    "title": "Unidad 8: Neumática e hidráulica",
+    "section": "Objetivos de la Unidad",
+    "text": "Objetivos de la Unidad\n\nComprender las propiedades físicas de los fluidos neumáticos e hidráulicos.\nIdentificar y simbolizar correctamente los componentes según la normativa.\nAnalizar el funcionamiento de automatismos y diseñar soluciones mediante lógica de fluidos.\nDiferenciar las aplicaciones industriales de la neumática frente a la oleohidráulica.\n\n\n\n\n\n\n\nNota📚 Material de estudio\n\n\n\nPuedes descargar esta unidad completa en formato PDF para estudiar sin conexión o imprimirla:\nDescargar Apuntes en PDF",
     "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
+      "Introducción"
     ]
   },
   {
-    "objectID": "apendice_PAU.html#section-1",
-    "href": "apendice_PAU.html#section-1",
-    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
-    "section": "B.2 2015-2016",
-    "text": "B.2 2015-2016\n\nPor una tubería horizontal de \\(4 \\text{ cm}\\) de diámetro circula un caudal de \\(200 \\text{ dm}^3/\\text{min}\\) de un fluido hidráulico cuya densidad es \\(925 \\text{ kg/m}^3\\). La tubería tiene un estrechamiento con un diámetro de \\(25 \\text{ mm}\\). Se pide:\n\nLa velocidad del fluido en los dos tramos de la tubería en \\(\\text{m/s}\\).\nEl régimen de circulación sabiendo que la viscosidad dinámica es \\(0,006 \\text{ N}\\cdot\\text{s/m}^2\\).\n\nLa bomba de un circuito hidráulico aporta un caudal de \\(30 \\text{ dm}^3/\\text{min}\\) de aceite por una tubería de \\(2,5 \\text{ cm}\\) de diámetro a una presión de \\(50 \\text{ kp/cm}^2\\). El aceite utilizado tiene, a la temperatura de trabajo, una densidad de \\(0,85 \\text{ g/cm}^3\\) y una viscosidad dinámica de \\(0,55 \\cdot 10^{-3} \\text{ Pa}\\cdot\\text{s}\\). El rendimiento de la bomba es del \\(75\\%\\). Se pide:\n\nEl régimen de circulación del líquido por la tubería.\nLa potencia de la bomba en vatios.\n\nUn camión cisterna transporta \\(20 \\text{ m}^3\\) de gasoil. Posee una bomba de vaciado que funciona a \\(12 \\text{ MPa}\\) de presión con un caudal de \\(15 \\text{ dm}^3/\\text{s}\\). La manguera que se utiliza tiene un diámetro de \\(20 \\text{ cm}\\). Se pide:\n\nEl tiempo de vaciado y la velocidad a la que circula el gasoil dentro de la manguera.\nLa potencia absorbida por la bomba si tiene un rendimiento del \\(85\\%\\).\n\nEn una prensa hidráulica la fuerza ejercida en el émbolo menor es \\(5 \\text{ N}\\). Se sabe que el radio del émbolo mayor es tres veces el radio del menor. Se pide:\n\nLa fuerza obtenida en el émbolo mayor.\nEl desplazamiento del émbolo mayor si el pequeño se ha desplazado un metro.",
+    "objectID": "index.html#ventajas-de-la-tecnología-neumática",
+    "href": "index.html#ventajas-de-la-tecnología-neumática",
+    "title": "Unidad 8: Neumática e hidráulica",
+    "section": "Ventajas de la tecnología neumática",
+    "text": "Ventajas de la tecnología neumática\nLa elección de la neumática en la industria se basa en factores estratégicos:\n\nDisponibilidad: La materia prima (el aire) es gratuita y abundante.\nSeguridad: Las fugas no son tóxicas ni inflamables; no hay riesgo de explosión.\nRobustez: Los componentes trabajan bien en ambientes con polvo, vibraciones o temperaturas extremas.\nSimplicidad: Permite generar movimientos lineales directos sin transmisiones complejas.",
     "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
+      "Introducción"
     ]
   },
   {
-    "objectID": "apendice_PAU.html#section-2",
-    "href": "apendice_PAU.html#section-2",
-    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
-    "section": "B.3 2016-2017",
-    "text": "B.3 2016-2017\n\nPor una tubería horizontal de \\(2\\) pulgadas de diámetro (\\(1 \\text{ pulgada} = 2,54 \\text{ cm}\\)) circula agua con un caudal de \\(60 \\text{ litros por minuto}\\). A la temperatura de operación, la viscosidad del agua es \\(0,087 \\text{ N}\\cdot\\text{s/m}^2\\) y la densidad \\(1 \\text{ g/cm}^3\\). El agua se destina a llenar un depósito de sección circular de \\(10 \\text{ m}\\) de diámetro.\n\nDetermine el régimen de circulación del líquido por la tubería.\nCalcule el tiempo que ha de transcurrir para que el nivel del depósito se eleve \\(2 \\text{ m}\\).\n\nSobre la compuerta de desagüe de una prensa el agua embalsada ejerce una fuerza de \\(1250 \\text{ N}\\). La compuerta tiene \\(2 \\text{ m}\\) de diámetro y al abrirla, el caudal de desagüe es \\(15 \\text{ m}^3/\\text{s}\\).\n\nCalcule la velocidad de salida del agua por el desagüe.\nCalcule la presión sobre la compuerta cuando está cerrada.\n\nUn grupo de presión bombea agua por una tubería horizontal de \\(30 \\text{ mm}\\) de diámetro con una velocidad de \\(4 \\text{ m/s}\\).\n\nCalcule el caudal de agua en litros por minuto.\nDetermine la velocidad en un estrechamiento de la tubería cuyo diámetro es \\(20 \\text{ mm}\\).\n\nUna tubería horizontal de \\(180 \\text{ mm}\\) de diámetro conduce agua con una velocidad de \\(10 \\text{ m/s}\\) a una presión de \\(60 \\text{ kPa}\\). En un punto de la tubería existe un estrechamiento donde la presión se reduce a \\(12 \\text{ kPa}\\). La densidad del agua es \\(1000 \\text{ kg/m}^3\\).\n\nCalcule la velocidad del agua en el estrechamiento.\nCalcule el diámetro del estrechamiento.\n\nUna prensa hidráulica consta de dos émbolos cuyos diámetros son \\(8 \\text{ cm}\\) y \\(25 \\text{ cm}\\). Sobre el émbolo de menor diámetro se aplica una carga de \\(100 \\text{ kp}\\).\n\nCalcule el peso, expresado en \\(\\text{N}\\), que se puede elevar en el émbolo de mayor diámetro.\nSi se quiere elevar \\(50 \\text{ cm}\\) la carga situada en el émbolo de mayor diámetro, determine el recorrido total del émbolo pequeño.",
+    "objectID": "index.html#diagrama-de-transformaciones-del-aire",
+    "href": "index.html#diagrama-de-transformaciones-del-aire",
+    "title": "Unidad 8: Neumática e hidráulica",
+    "section": "Diagrama de transformaciones del aire",
+    "text": "Diagrama de transformaciones del aire\nEl siguiente esquema resume el ciclo de vida del fluido en un sistema industrial:\n\n\n\nTransformaciones del aire en un sistema neumático\n\n\n\nÚltima actualización: 01/03/2026",
     "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
-    ]
-  },
-  {
-    "objectID": "apendice_PAU.html#section-3",
-    "href": "apendice_PAU.html#section-3",
-    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
-    "section": "B.4 2017-2018",
-    "text": "B.4 2017-2018\n\nLos dos pistones de una prensa hidráulica tienen por sección: \\(A_1 = 5 \\text{ cm}^2\\) y \\(A_2 = 200 \\text{ cm}^2\\). La fuerza aplicada perpendicularmente a la sección menor es \\(98 \\text{ N}\\). Se pide:\n\nDibuje un esquema de la prensa y calcule el peso que podrá levantar.\nObtenga el desplazamiento del pistón mayor cuando el pistón pequeño baja \\(0,1 \\text{ m}\\).\n\nLos émbolos de una prensa hidráulica tienen \\(2 \\text{ cm}\\) y \\(16 \\text{ cm}\\) de diámetro. Con esta máquina un operario desea elevar a una altura de un metro una carga de \\(2 \\cdot 10^4 \\text{ N}\\).\n\nCalcule la fuerza que será necesario aplicar en el émbolo pequeño.\nDetermine el desplazamiento total que se ha producido en el émbolo pequeño. Si la carrera del cilindro es de \\(8 \\text{ cm}\\), determine el número de emboladas necesarias para conseguir el desplazamiento total.\n\nPor una tubería horizontal de \\(5 \\text{ cm}\\) de diámetro circula un líquido con densidad \\(0,96 \\text{ g/cm}^3\\) y con un caudal de \\(30 \\text{ l/min}\\). La tubería tiene un estrechamiento y la diferencia de las presiones medidas en ambas secciones es \\(2 \\cdot 10^4 \\text{ Pa}\\).\n\nCalcule en la parte ancha de la tubería, la sección y la velocidad a la que circula el líquido.\nDetermine en la parte estrecha de la tubería, la velocidad a la que circula el líquido y el diámetro que tiene este tramo.\n\nUn líquido circula por una tubería horizontal de \\(20 \\text{ mm}\\) de diámetro a una velocidad de \\(3 \\text{ m/s}\\). La tubería cambia de sección en un punto dado de la instalación a un diámetro de \\(10 \\text{ mm}\\).\n\nCalcule el caudal en la tubería expresándolo en \\(\\text{dm}^3/\\text{min}\\).\nDetermine la velocidad del fluido en la sección menor.\n\nEn una fábrica de reciclaje industrial se desea bombear aceite por una tubería a una velocidad de \\(15 \\text{ m/s}\\) y a una presión de trabajo de \\(10 \\text{ MPa}\\). El diámetro de la tubería es \\(1,2 \\text{ cm}\\). Considere que la densidad y viscosidad cinemática del aceite son \\(0,95 \\text{ kg/l}\\) y \\(1,85 \\text{ cm}^2/\\text{s}\\), respectivamente.\n\nDetermine el caudal por la tubería, expresado en \\(\\text{l/min}\\), y la potencia absorbida, si el rendimiento es del \\(78\\%\\).\nCalcule e indique el régimen de circulación del aceite.\n\nUn coche de una tonelada de masa se apoya en sus cuatro ruedas con una superficie de \\(50 \\text{ cm}^2\\) por cada rueda. El coche se eleva en un taller con un gato hidráulico donde los diámetros del émbolo menor y mayor de la prensa hidráulica son \\(10\\) y \\(50 \\text{ cm}\\), respectivamente.\n\nCalcule la fuerza que hay que ejercer sobre el émbolo menor para levantar el coche.\nCalcule la presión que ejerce el coche sobre el suelo.",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
-    ]
-  },
-  {
-    "objectID": "apendice_PAU.html#section-4",
-    "href": "apendice_PAU.html#section-4",
-    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
-    "section": "B.5 2018-2019",
-    "text": "B.5 2018-2019\n\nSe observa que un grifo de agua de una casa tarda \\(50 \\text{ s}\\) en llenar una garrafa de \\(5 \\text{ l}\\) de capacidad. Las tuberías de la casa tienen un diámetro de \\(18 \\text{ mm}\\) y la boca del grifo tiene un diámetro de \\(1 \\text{ cm}\\) (densidad del agua \\(1000 \\text{ kg/m}^3\\)).\n\nCalcule la velocidad del agua dentro de la tubería y en la boca del grifo.\nObtenga la presión manométrica dentro de la tubería, teniendo en cuenta que la presión en la boca del grifo es la atmosférica.\n\nPor la parte ancha de un tubo de Venturi circula un líquido a una velocidad de \\(4 \\text{ m/s}\\). La diferencia de presión entre la parte ancha y estrecha del tubo es \\(7,2 \\cdot 10^4 \\text{ Pa}\\). La sección de la parte estrecha es \\(5 \\text{ cm}^2\\) y la densidad del líquido es \\(0,81 \\text{ g/cm}^3\\).\n\nDetermine la velocidad del líquido en el estrechamiento.\nObtenga el caudal del líquido que circula por el tubo y la sección de la parte ancha del mismo.\n\nEn una prensa hidráulica como la de la figura los émbolos A, B y C tienen una superficie de \\(500 \\text{ mm}^2\\), \\(60 \\text{ cm}^2\\) y \\(70 \\text{ cm}^2\\), respectivamente. La fuerza ejercida en el émbolo menor es \\(50 \\text{ N}\\). {align=“center”}\n\nCalcule las cargas que se pueden elevar en cada émbolo.\nA continuación se cambian las secciones de los émbolos B y C, manteniendo igual la sección y la fuerza ejercida sobre el émbolo A. Calcule las fuerzas resultantes en B y C, sabiendo que la fuerza en B es tres veces superior a la de C, y la suma de ambas vale \\(2000 \\text{ N}\\). Determine también cuáles deben ser las nuevas secciones de los émbolos B y C.\n\nEl grifo de llenado de la piscina de una casa aporta un caudal de agua de \\(3 \\text{ l/s}\\). La piscina es cuadrada de \\(5 \\text{ metros}\\) de lado y tiene una profundidad de \\(1,5 \\text{ m}\\).\n\nCalcule el tiempo que tarda en llenarse la piscina con el grifo.\nPara acelerar el llenado de la piscina, se aporta también agua a \\(150 \\text{ kPa}\\) de presión mediante una bomba de \\(1,1 \\text{ kW}\\) (que funciona con un rendimiento del \\(100\\%\\)). Determine el caudal que aporta la bomba y el nuevo tiempo de llenado con los dos suministros funcionando desde el principio.\n\nUn sistema oleohidráulico consta de una bomba que proporciona una presión de trabajo de \\(8 \\text{ MPa}\\) al circuito. El diámetro de la tubería es \\(10 \\text{ mm}\\) y la velocidad del fluido \\(2,85 \\text{ m/s}\\). La densidad del aceite es \\(0,9 \\text{ kg/l}\\) y su viscosidad cinemática \\(1,72 \\text{ cm}^2/\\text{s}\\).\n\nObtenga el caudal y la potencia absorbida por la bomba si tiene un rendimiento del \\(80\\%\\).\nDetermine el régimen de circulación del fluido.\n\nUna tubería horizontal consta de dos tramos de diferente sección. Por el tramo ancho de \\(15 \\text{ cm}\\) de diámetro circula agua a una velocidad de \\(5,5 \\text{ m/s}\\). El tramo estrecho tiene un diámetro de \\(6 \\text{ cm}\\). La densidad del agua es \\(1 \\text{ g/cm}^3\\).\n\nCalcule el caudal y la velocidad a la que circula el líquido por el tramo estrecho de la conducción.\nObtenga la diferencia de presión entre ambos tramos. Exprese el valor en \\(\\text{N/m}^2\\).",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
-    ]
-  },
-  {
-    "objectID": "apendice_PAU.html#section-5",
-    "href": "apendice_PAU.html#section-5",
-    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
-    "section": "C.1 2014-2015",
-    "text": "C.1 2014-2015\n\nUn cilindro de doble efecto tiene un émbolo de \\(90 \\text{ mm}\\) de diámetro y un vástago de \\(20 \\text{ mm}\\) de diámetro. Se conecta a una red de aire comprimido y ejerce una fuerza en el avance de \\(10000 \\text{ N}\\). Se pide:\n\nPresión de la red de aire comprimido.\nFuerza que ejerce en el retroceso.\n\nUn cilindro de doble efecto ejerce una fuerza máxima de \\(10000 \\text{ N}\\) y tiene una carrera de \\(20 \\text{ cm}\\). Se pide:\n\nEl diámetro que debe tener el vástago para que la tensión en el mismo no supere los \\(8 \\text{ MPa}\\) al ejercer la fuerza máxima.\nEl diámetro del émbolo teniendo en cuenta que el consumo de aire, medido a la presión de trabajo, es de \\(3 \\text{ litros}\\) por ciclo.\n\nUna instalación neumática dispone de tres cilindros idénticos de doble efecto de \\(12 \\text{ cm}\\) de diámetro de émbolo, \\(2 \\text{ cm}\\) de diámetro de vástago y \\(25 \\text{ cm}\\) de carrera. Los cilindros realizan cada hora \\(60\\), \\(30\\) y \\(15\\) ciclos, respectivamente. Las pérdidas por rozamiento son nulas y la presión de trabajo es de \\(6 \\text{ bares}\\). Se pide:\n\nFuerza de avance y retroceso de cada cilindro.\nCaudal de aire en condiciones normales que necesita la instalación para su funcionamiento.\n\nUn cilindro neumático de doble efecto tiene las siguientes características: diámetro del émbolo \\(50 \\text{ mm}\\), diámetro del vástago \\(10 \\text{ mm}\\), presión de trabajo \\(6 \\text{ bares}\\), pérdidas por rozamiento \\(10\\%\\) de la fuerza teórica. Se pide:\n\nLa fuerza que ejerce en el avance.\nLa fuerza que ejerce en el retroceso.\n\nUn cilindro neumático de doble efecto tiene las siguientes características: presión de trabajo \\(8 \\cdot 10^5 \\text{ N/m}^2\\), diámetro del cilindro \\(60 \\text{ mm}\\), diámetro del vástago \\(20 \\text{ mm}\\) y pérdidas por rozamiento \\(4\\%\\) de la fuerza teórica. Se pide:\n\nCalcular la fuerza que ejerce el vástago en el avance.\nCalcular la fuerza que ejerce el vástago en el retroceso.\n\nUn cilindro de simple efecto consume en cada ciclo de funcionamiento un volumen de aire de \\(500 \\text{ cm}^3\\) medidos a la presión de trabajo. La carrera del émbolo es de \\(20 \\text{ cm}\\). La presión de trabajo es de \\(9 \\text{ kp/cm}^2\\) y la presión atmosférica es \\(1 \\text{ kp/cm}^2\\). El cilindro completa \\(20\\) ciclos cada minuto. Se pide:\n\nEl diámetro del cilindro en \\(\\text{cm}\\) y la fuerza de avance en \\(\\text{kp}\\).\nEl volumen de aire en \\(\\text{m}^3\\) consumidos en condiciones normales en un minuto de funcionamiento.",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
-    ]
-  },
-  {
-    "objectID": "apendice_PAU.html#section-6",
-    "href": "apendice_PAU.html#section-6",
-    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
-    "section": "C.2 2015-2016",
-    "text": "C.2 2015-2016\n\nSe dispone de un cilindro hidráulico de doble efecto de \\(500 \\text{ mm}\\) de carrera, \\(100 \\text{ mm}\\) de diámetro del émbolo y \\(45 \\text{ mm}\\) de diámetro del vástago alimentado por una bomba que proporciona una presión de \\(60 \\text{ bares}\\) y un caudal de \\(10 \\text{ dm}^3/\\text{min}\\). Se pide:\n\nLa fuerza de avance y de retroceso del vástago.\nLas velocidades de avance y retroceso del émbolo.\n\nEn un cilindro de simple efecto se conocen los siguientes datos: diámetro del émbolo \\(40 \\text{ mm}\\), diámetro del vástago \\(12 \\text{ mm}\\), presión de trabajo \\(600 \\text{ kPa}\\), pérdidas por rozamiento \\(12\\%\\) y fuerza de recuperación del muelle \\(6\\%\\). Se pide:\n\nLa fuerza teórica y la fuerza neta en el avance.\nLa fuerza de retroceso si el muelle se comprime \\(102,8 \\text{ mm}\\) y su constante elástica es \\(500 \\text{ N/m}\\).\n\nUn cilindro neumático de doble efecto, con un émbolo de \\(20 \\text{ mm}\\) de diámetro y un vástago de \\(12 \\text{ mm}\\) de diámetro, realiza una carrera de \\(45 \\text{ mm}\\) a un régimen de trabajo de \\(15 \\text{ ciclos/min}\\). Se pide:\n\nEl caudal de aire consumido en condiciones de trabajo, expresado en \\(\\text{m}^3/\\text{min}\\).\nEl caudal si el cilindro fuese de simple efecto y su comparación con el caudal anterior. ¿A qué se debe la diferencia?\n\nUn cilindro neumático de simple efecto tiene un émbolo de \\(50 \\text{ mm}\\) de diámetro y proporciona una fuerza de empuje de \\(1000 \\text{ N}\\) para elevar una carga. Las pérdidas por rozamiento y las debidas al muelle recuperador son el \\(10\\%\\) y el \\(6\\%\\), respectivamente, de la fuerza de empuje. Se pide:\n\nEl valor de las pérdidas totales del cilindro.\nLa presión del aire comprimido que alimenta este cilindro.\n\nSe dispone de un cilindro neumático de simple efecto que tiene un émbolo de \\(63 \\text{ mm}\\) de diámetro. La presión de trabajo es \\(6 \\text{ bares}\\) y la carrera del pistón \\(10 \\text{ cm}\\). La fuerza neta ejercida por el vástago del cilindro es el \\(90\\%\\) de la fuerza teórica. Se pide:\n\nLa fuerza neta ejercida por el cilindro en su movimiento de avance.\nEl consumo de aire medido en condiciones normales en una hora si este cilindro completa \\(6\\) ciclos de trabajo cada minuto.\n\nUna máquina neumática dispone de dos cilindros iguales de simple efecto de \\(7 \\text{ cm}\\) de diámetro y una carrera de \\(100 \\text{ mm}\\), realizando los siguientes ciclos de trabajo: el cilindro A, un ciclo cada \\(2\\) segundos y el cilindro B, un ciclo cada segundo. Se pide:\n\nEl caudal de aire en \\(\\text{dm}^3/\\text{min}\\) de cada cilindro a la presión de trabajo.\nLa potencia desarrollada por cada cilindro si la presión de trabajo es \\(6 \\text{ bares}\\).",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
-    ]
-  },
-  {
-    "objectID": "apendice_PAU.html#section-7",
-    "href": "apendice_PAU.html#section-7",
-    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
-    "section": "C.3 2016-2017",
-    "text": "C.3 2016-2017\n\nUn cilindro neumático de simple efecto es accionado con aire comprimido. El diámetro del émbolo es \\(25 \\text{ mm}\\), la carrera del pistón \\(50 \\text{ mm}\\) y la presión de trabajo \\(6 \\text{ bares}\\). Las fuerzas de rozamiento y de retorno del muelle representan el \\(4\\%\\) y el \\(8\\%\\), respectivamente, de la fuerza teórica de avance del émbolo.\n\nCalcule la fuerza neta ejercida por el vástago en el movimiento de avance.\nSi este cilindro completa \\(10\\) ciclos de trabajo cada minuto, calcule el consumo de aire en condiciones normales expresado en litros por hora.\n\nEl volumen de aire desplazado por el émbolo de un cilindro de doble efecto, en un ciclo completo, es \\(2 \\text{ litros}\\) medido a la presión de trabajo. La fuerza teórica en la carrera de avance es \\(16000 \\text{ N}\\) y la presión de trabajo \\(0,5 \\text{ MPa}\\). La fuerza de rozamiento es el \\(10\\%\\) de la fuerza teórica. El diámetro del vástago es \\(25 \\text{ mm}\\).\n\nCalcule el diámetro del émbolo.\nDetermine la carrera del émbolo.\n\nUn cilindro de simple efecto que trabaja a una presión de \\(250 \\text{ kg/cm}^2\\) con un rendimiento del \\(85\\%\\), tiene las siguientes características: diámetro \\(6 \\text{ cm}\\), diámetro del vástago \\(3 \\text{ cm}\\) y carrera \\(18 \\text{ cm}\\). El vástago se mueve a razón de \\(5\\) ciclos por minuto y la fuerza del muelle es un \\(6\\%\\) de la fuerza teórica.\n\nCalcule la fuerza efectiva de avance del vástago.\nCalcule el consumo de aire en las condiciones de trabajo expresado en \\(\\text{m}^3/\\text{s}\\).\n\nUn cilindro de simple efecto de retorno por muelle realiza trabajo por compresión en una prensa. El cilindro está conectado a una red de aire de \\(2 \\text{ MPa}\\) de presión, siendo el diámetro del émbolo \\(14 \\text{ cm}\\) y su carrera \\(6 \\text{ cm}\\). La constante del muelle es \\(120 \\text{ N/cm}\\) y la fuerza de rozamiento el \\(10\\%\\) de la teórica.\n\nCalcule la fuerza de avance al final de la carrera.\nDetermine el consumo de aire en las condiciones de trabajo si efectúa \\(10\\) ciclos por minuto. Exprese el resultado en litros por minuto.\n\nPara la apertura o cierre de una puerta se utiliza un cilindro ideal de doble efecto. Se conocen los siguientes datos: diámetro del émbolo \\(10 \\text{ cm}\\), diámetro del vástago \\(3 \\text{ cm}\\) y carrera \\(12 \\text{ cm}\\). Este cilindro se conecta a una red de aire comprimido de \\(2 \\text{ MPa}\\) de presión.\n\nCalcule la fuerza que ejerce el vástago en la carrera de avance y en la de retorno.\nCalcule el consumo de aire en condiciones normales en un ciclo.\n\nUn cilindro neumático vertical de simple efecto con retroceso por gravedad (sin muelle), debe elevar una carga total de \\(50 \\text{ kp}\\) (incluida la necesaria para vencer el rozamiento), realizando \\(12\\) maniobras por minuto a una presión de trabajo de \\(0,7 \\text{ MPa}\\).\n\nCalcule el diámetro del cilindro.\nDetermine el consumo de aire a la presión de trabajo si la carrera es \\(500 \\text{ mm}\\).\n\nUn cilindro de doble efecto tiene un émbolo de \\(90 \\text{ mm}\\) de diámetro, un vástago de \\(28 \\text{ mm}\\) de diámetro y una carrera de \\(420 \\text{ mm}\\). El cilindro realiza \\(20\\) ciclos cada minuto a una presión de trabajo de \\(5 \\text{ bares}\\).\n\nCalcule las fuerzas de avance y retroceso.\nDetermine el consumo de aire del cilindro en condiciones normales expresado en litros por minuto.",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
-    ]
-  },
-  {
-    "objectID": "apendice_PAU.html#section-8",
-    "href": "apendice_PAU.html#section-8",
-    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
-    "section": "C.4 2017-2018",
-    "text": "C.4 2017-2018\n\nUn cilindro de simple efecto de retorno por muelle se encuentra conectado a una red de aire de \\(1,1 \\text{ MPa}\\) de presión. La constante del muelle es \\(120 \\text{ N/cm}\\), el diámetro del émbolo es \\(12 \\text{ cm}\\), su carrera \\(4 \\text{ cm}\\) y la fuerza de rozamiento el \\(15\\%\\) de la teórica.\n\nCalcule la fuerza ejercida por el vástago al final de su recorrido.\nDetermine el consumo de aire en condiciones normales, expresado en \\(\\text{l/min}\\), si efectúa \\(10\\) ciclos por minuto.\n\nUn cilindro de doble efecto tiene un émbolo de \\(10 \\text{ cm}\\) de diámetro. La relación entre los diámetros del émbolo y del vástago es \\(5\\). Este cilindro está conectado a una red de aire comprimido a la presión de \\(2 \\text{ MPa}\\) y efectúa \\(15\\) ciclos por minuto. La fuerza de rozamiento es igual a un \\(10\\%\\) de la teórica.\n\nCalcule la fuerza efectiva que ejerce el vástago en la carrera de avance y la que ejerce en la de retorno.\nObtenga la carrera si el caudal de aire, medido en condiciones normales, es \\(583 \\text{ l/min}\\).\n\nUn cilindro de doble efecto tiene las siguientes características: diámetro del émbolo \\(20 \\text{ mm}\\), diámetro del vástago \\(8 \\text{ mm}\\), carrera \\(40 \\text{ mm}\\), presión \\(0,9 \\text{ MPa}\\) y realiza \\(12\\) ciclos por minuto. Las pérdidas por rozamiento son el \\(10\\%\\) de la teórica.\n\nCalcule la fuerza efectiva ejercida en el avance y en el retroceso del vástago.\nDetermine el consumo de aire en una hora en condiciones normales.\n\nUn cilindro neumático de doble efecto utiliza para su funcionamiento aire a una presión de \\(600 \\text{ kPa}\\). El émbolo tiene un diámetro de \\(80 \\text{ mm}\\) y una carrera de \\(320 \\text{ mm}\\). El diámetro del vástago es \\(16 \\text{ mm}\\). La fuerza de rozamiento del émbolo al desplazarse, tanto en el avance como en el retroceso, es igual al \\(10\\%\\) de la fuerza total ejercida por el aire comprimido.\n\nCalcule la fuerza neta en el avance y en el retroceso del cilindro.\nCalcule el consumo de aire en un ciclo medido en condiciones normales expresado en litros.\n\nSe desea diseñar un cilindro de simple efecto de \\(20 \\text{ cm}\\) de carrera y que utilice en su funcionamiento un volumen de aire en condiciones normales de \\(900 \\text{ cm}^3\\) cada ciclo. La presión de trabajo es \\(8 \\cdot 10^5 \\text{ Pa}\\). Se estima que las pérdidas por rozamiento y las producidas en el muelle ascienden al \\(16\\%\\).\n\nCalcule el volumen del aire en condiciones de trabajo expresado en \\(\\text{cm}^3\\) y el diámetro del émbolo.\nObtenga la fuerza neta o efectiva del cilindro.\n\nUna máquina selladora utiliza un cilindro de simple efecto cuyo émbolo tiene \\(50 \\text{ mm}\\) de diámetro y una carrera de \\(20 \\text{ cm}\\). La presión de trabajo es \\(800 \\text{ kPa}\\). El muelle desarrolla una fuerza recuperadora igual al \\(6\\%\\) de la teórica. La fuerza de rozamiento es el \\(12\\%\\) de la aplicada sobre el émbolo. El consumo de aire durante una hora, en las condiciones de trabajo, ha sido de \\(10 \\text{ litros}\\).\n\nCalcule la fuerza efectiva ejercida en el avance y en el retroceso del vástago.\nDetermine el número de ciclos completados durante una hora.",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
-    ]
-  },
-  {
-    "objectID": "apendice_PAU.html#section-9",
-    "href": "apendice_PAU.html#section-9",
-    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
-    "section": "C.5 2018-2019",
-    "text": "C.5 2018-2019\n\nUna máquina remachadora utiliza un cilindro de simple efecto para colocar los remaches. La carrera del cilindro es \\(250 \\text{ mm}\\) y en su funcionamiento consume un volumen de aire de \\(420 \\text{ cm}^3\\) cada ciclo, medido a la presión de trabajo de \\(200 \\text{ kPa}\\).\n\nCalcule el diámetro del émbolo del cilindro.\nDetermine la fuerza efectiva de avance, teniendo en cuenta que las fuerzas de rozamiento suponen el \\(10\\%\\) de la fuerza teórica y el resorte realiza una fuerza equivalente al \\(5\\%\\) de la fuerza teórica de avance.\n\nUn cilindro neumático de doble efecto usado en una máquina tiene las siguientes características: diámetro del émbolo \\(20 \\text{ mm}\\), diámetro del vástago \\(8 \\text{ mm}\\) y carrera \\(60 \\text{ mm}\\). Este cilindro se alimenta con aire comprimido a la presión de \\(9 \\cdot 10^5 \\text{ Pa}\\) y completa \\(12\\) ciclos por minuto. La fuerza de rozamiento es el \\(10\\%\\) de la teórica.\n\nDetermine la fuerza efectiva ejercida en el avance y en el retroceso del vástago.\nCalcule el caudal de aire utilizado en condiciones normales. Exprese el resultado en \\(\\text{l/h}\\).\n\nUn cilindro neumático de simple efecto ha de proporcionar una fuerza de \\(820 \\text{ N}\\). Las fuerzas de rozamiento y la fuerza recuperadora del muelle se consideran despreciables. El émbolo de este cilindro tiene un diámetro de \\(40 \\text{ mm}\\) y una carrera de \\(20 \\text{ cm}\\). El cilindro completa \\(8\\) ciclos cada minuto.\n\nCalcule la presión del aire comprimido que es necesario suministrar al cilindro en estas condiciones.\nDetermine el volumen de aire comprimido y de aire medido en condiciones normales, que consume el cilindro cada hora de funcionamiento.\n\nEl movimiento de un martillo neumático se realiza mediante un cilindro de doble efecto. El desplazamiento del vástago es \\(60 \\text{ mm}\\), el diámetro del émbolo es \\(5 \\text{ cm}\\) y el diámetro del vástago \\(1 \\text{ cm}\\). La presión del aire suministrado es \\(7 \\cdot 10^5 \\text{ Pa}\\).\n\nObtenga la fuerza de avance y la fuerza de retroceso del vástago.\nDetermine el caudal de aire a la presión de trabajo, expresado en \\(\\text{l/min}\\), sabiendo que el martillo golpea el suelo \\(25\\) veces por segundo.\n\nUna plegadora de chapa utiliza para su funcionamiento un cilindro neumático de simple efecto, desarrollando una fuerza neta de \\(8000 \\text{ N}\\), con unas pérdidas por rozamiento del \\(10\\%\\) de la fuerza teórica. Las pérdidas causadas por el muelle se consideran despreciables. El compresor proporciona al circuito una presión de \\(6 \\cdot 10^5 \\text{ Pa}\\).\n\nCalcule el diámetro que debe tener el émbolo.\nObtenga el caudal de aire a la presión de trabajo, en \\(\\text{l/min}\\), que debe suministrar el compresor si se hacen \\(20\\) pliegues por minuto y la carrera del vástago es \\(50 \\text{ cm}\\).\n\nUn cilindro neumático de doble efecto es accionado con aire comprimido con una presión de \\(8 \\cdot 10^5 \\text{ Pa}\\). La carrera es \\(25 \\text{ cm}\\), el diámetro del émbolo es \\(60 \\text{ mm}\\) y el del vástago \\(20 \\text{ mm}\\). Se produce una pérdida de fuerza por fricción, tanto en el movimiento de avance como en el de retroceso del émbolo, del \\(4\\%\\) de la fuerza total ejercida en cada caso por el aire comprimido. El cilindro trabaja a un ritmo de \\(8\\) ciclos por minuto.\n\nCalcule la fuerza ejercida por el cilindro en el movimiento de avance y en el de retroceso.\nObtenga el volumen de aire comprimido que se consume durante una hora de funcionamiento, medido en las condiciones de trabajo.",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
+      "Introducción"
     ]
   },
   {
@@ -131,11 +50,11 @@
     ]
   },
   {
-    "objectID": "01_principios.html#densidad-ρ",
-    "href": "01_principios.html#densidad-ρ",
+    "objectID": "01_principios.html#densidad-rho",
+    "href": "01_principios.html#densidad-rho",
     "title": "1  Principios de neumática e hidráulica",
-    "section": "2.1 Densidad (ρ)",
-    "text": "2.1 Densidad (ρ)\nSuponiendo el fluido homogéneo, la densidad se define como:\n\n\n\n\n\n\n\\[\\rho =\\frac{m}{V}\\]\n\n\n\nDonde:\n\nρ: densidad, en kilogramos por metro cúbico (kg/m³)\nm: masa, en kilogramos (kg)\nV: volumen, en metros cúbicos (m³)\n\nEn los fluidos gaseosos, como el aire utilizado en las instalaciones neumáticas, la densidad podrá variar mucho dependiendo de las condiciones de trabajo del gas (en particular, de su presión), ya que los gases son compresibles (al aumentar la presión, disminuyen su volumen)\nEn los fluidos líquidos, como los aceites de las instalaciones oleohidráulicas, para las condiciones de trabajo la densidad no sufrirá variaciones medibles, por lo que se considerará constante en toda la instalación. Los fluidos líquidos son incompresibles en nuestro análisis.",
+    "section": "2.1 Densidad (\\(\\rho\\))",
+    "text": "2.1 Densidad (\\(\\rho\\))\nSuponiendo el fluido homogéneo, la densidad se define como:\n\n\n\n\n\n\n\\[\\rho =\\frac{m}{V}\\]\n\n\n\nDonde:\n\n\\(\\rho\\): densidad, en kilogramos por metro cúbico (\\(kg/m^3\\))\n\\(m\\): masa, en kilogramos (\\(kg\\))\n\\(V\\): volumen, en metros cúbicos (\\(m^3\\))\n\nEn los fluidos gaseosos, como el aire utilizado en las instalaciones neumáticas, la densidad podrá variar mucho dependiendo de las condiciones de trabajo del gas (en particular, de su presión), ya que los gases son compresibles (al aumentar la presión, disminuyen su volumen).\nEn los fluidos líquidos, como los aceites de las instalaciones oleohidráulicas, para las condiciones de trabajo la densidad no sufrirá variaciones medibles, por lo que se considerará constante en toda la instalación. Los fluidos líquidos son incompresibles en nuestro análisis.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Principios de neumática e hidráulica</span>"
     ]
@@ -271,749 +190,6 @@
     ]
   },
   {
-    "objectID": "01_principios.html#licencia",
-    "href": "01_principios.html#licencia",
-    "title": "1  1. Principios de neumática e hidráulica",
-    "section": "Licencia",
-    "text": "Licencia\nEste documento está publicado bajo Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>1. Principios de neumática e hidráulica</span>"
-    ]
-  },
-  {
-    "objectID": "02_produccion.html",
-    "href": "02_produccion.html",
-    "title": "2  2.1. Producción y acondicionamiento del aire comprimido",
-    "section": "",
-    "text": "2.1 Compresor\nPara que funcione un circuito neumático, el aire es tomado de la atmósfera, sometido a un aumento de presión (es decir, comprimido) y confinado en un espacio reducido como es un depósito.\nEse aumento de presión produce la condensación del agua presente en la atmósfera, que podría estropear los elementos metálicos del circuito. Asimismo, el aire debe ser filtrado para eliminar las impurezas y, por último, lubricado y regulado para que tenga la presión exacta y necesaria en el circuito.\nTodo este proceso constituye la producción y tratamiento del aire comprimido. Los elementos necesarios para llevarlo a cabo son los siguientes:\nEs el elemento encargado de elevar la presión del aire (presión atmosférica) hasta la presión de trabajo necesaria.\nSegún las exigencias referentes a la presión de trabajo y al caudal de suministro, se pueden emplear diversos tipos de construcción. Se distinguen dos tipos básicos de compresores:",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>2.1. Producción y acondicionamiento del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "02_produccion.html#compresor",
-    "href": "02_produccion.html#compresor",
-    "title": "2  2.1. Producción y acondicionamiento del aire comprimido",
-    "section": "",
-    "text": "2.1.1 De desplazamiento positivo\nEl principio de funcionamiento de estos compresores se basa en la disminución del volumen del aire en la cámara de compresión donde se encuentra confinado, produciéndose el incremento de la presión interna hasta llegar al valor de diseño previsto, momento en el cual el aire es liberado al sistema.\nDentro de esta categoría encontramos compresores alternativos o rotativos:\n\n2.1.1.1 Alternativos\nUtilizan un pistón que se mueve alternativamente gracias a un mecanismo de biela-manivela y va comprimiendo el aire.\n\n\n\nCompresor de pistón\n\n\n\n\n2.1.1.2 Rotativos\nTienen piezas que se mueven de forma rotativa y fuerzan al aire a estar en un recinto con un volumen cada vez menor, con lo que se comprime. Los más utilizados son:\n\n2.1.1.2.1 De paletas\n\n\n\nCompresor de paletas\n\n\n\n\n2.1.1.2.2 De tornillo\n\n\n\nCompresor de tornillo\n\n\n\n\n2.1.1.2.3 De scroll\n\n\n\nCompresor de scroll\n\n\n\n\n\n\n2.1.2 Compresores dinámicos\nEl principio de funcionamiento de estos compresores se basa en la aceleración molecular. El aire es aspirado por el rodete a través de su campana de entrada y acelerado a gran velocidad. Después es descargado directamente a unos difusores situados junto al rodete, donde toda la energía cinética del aire se transforma en presión estática. A partir de este punto es liberado al sistema.\n\n\n\nCompresor radial",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>2.1. Producción y acondicionamiento del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "02_produccion.html#depósito",
-    "href": "02_produccion.html#depósito",
-    "title": "2  2.1. Producción y acondicionamiento del aire comprimido",
-    "section": "2.2 Depósito",
-    "text": "2.2 Depósito\nEstos depósitos están concebidos para acumular aire en su interior y regular el funcionamiento del compresor estabilizando la red de aire comprimido.\n\n\n\nDepósito de aire\n\n\nEl aire se mantiene en su interior a la presión de trabajo y se va aportando al sistema cuando sea necesario. En el momento en que la presión en el depósito baja de un valor prefijado, se conecta el compresor y se repone el aire necesario hasta recuperar la presión del depósito.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>2.1. Producción y acondicionamiento del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "02_produccion.html#secador",
-    "href": "02_produccion.html#secador",
-    "title": "2  2.1. Producción y acondicionamiento del aire comprimido",
-    "section": "2.3 Secador",
-    "text": "2.3 Secador\nSirve para reducir el contenido de vapor de agua existente en el aire. El aire comprimido seco reduce el riesgo de daños por corrosión del sistema de aire comprimido y mejora el presupuesto operativo de la maquinaria y las herramientas conectadas.\nExisten diferentes tipos de secado de aire comprimido:\n\n2.3.1 Secadores de aire refrigerados o secadores frigoríficos\nEnfrían el aire comprimido hasta su punto de rocío (aproximadamente unos 5°C), temperatura a la que la humedad del aire se condensa después de lo cual se drena. El aire enfriado se recalienta a temperatura ambiente al salir del secador y antes de utilizarlo.\n\n\n2.3.2 Secadores de adsorción con desecante\nUtilizan un medio higroscópico poroso como la alúmina activada y el gel de sílice para extraer la humedad del aire y secarla. Los secadores de aire de adsorción son más adecuados para el secado en una segunda etapa, de lo contrario, el medio higroscópico se saturaría rápidamente. Esto significa que suelen ser el segundo paso después de un secado con otro sistema como un secador frigorífico.\n\n\n2.3.3 Secadores de adsorción delicuescentes\nAl igual que otros secadores de adsorción, pasan el aire a través de un medio higroscópico para secarlo, pero, a diferencia de los secadores de aire con desecante, los secadores de aire delicuescentes utilizan tabletas de sal solubles en lugar de un medio sólido que necesita regeneración. La salmuera resultante necesita ser drenada y las tabletas reemplazadas cada cierto tiempo.\n\n\n2.3.4 Secadores de membrana\nComo su nombre indica, pasa aire entrante sobre una membrana higroscópica para eliminar la humedad. El aire se acumula en la membrana hasta que migra a través del otro lado, que es de baja presión. Un gas seco es entonces atravesado, llevando la humedad lejos para la expulsión. A menudo son secadoras de segunda o incluso tercera etapa.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>2.1. Producción y acondicionamiento del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "02_produccion.html#filtro",
-    "href": "02_produccion.html#filtro",
-    "title": "2  2.1. Producción y acondicionamiento del aire comprimido",
-    "section": "2.4 Filtro",
-    "text": "2.4 Filtro\nSe utiliza para filtrar las impurezas del aire atmosférico, como el polvo, el aceite y la humedad, a fin de que el aire comprimido sea viable para su uso.\nAl igual que los secadores de aire, son una parte crucial del proceso de tratamiento del aire para asegurarse de que el aire comprimido está limpio y es seguro de usar, y para aumentar la vida útil del equipo.\nLos filtros de línea de aire más comunes y sus principios básicos de funcionamiento son:\n\n2.4.1 Filtros de partículas\nEliminan el polvo y otras partículas del aire después de la compresión, atrapándolas y reteniéndolas dentro del compresor de aire. A menudo se combinan con el secador de aire de adsorción.\n\n\n2.4.2 Filtros de aire de carbón activo\nEliminan los gases y olores del aire con un medio de carbono compuesto. Estos filtros se utilizan a menudo en la industria alimentaria y para respirar gas.\n\n\n2.4.3 Filtros de aire coalescentes\nFiltran el aceite y las partículas de agua del aire y las condensan en una masa que se puede limpiar fácilmente. A diferencia de los separadores de Aceite-Agua, los filtros de aire coalescentes sólo eliminan la humedad y los aerosoles de aceite, no el líquido real.\n\n\n2.4.4 Filtros de admisión de aire comprimido\nEliminan los contaminantes microscópicos del aire, así como las posibles partículas químicas.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>2.1. Producción y acondicionamiento del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "02_produccion.html#regulador-de-presión",
-    "href": "02_produccion.html#regulador-de-presión",
-    "title": "2  2.1. Producción y acondicionamiento del aire comprimido",
-    "section": "2.5 Regulador de presión",
-    "text": "2.5 Regulador de presión\nTiene por objeto mantener el aire a una presión constante, que se determine como necesaria, evitando las variaciones que pueda ocasionar el consumo de aire de la instalación. Los reguladores de presión suelen incorporar un manómetro.\nSe usan cuando el aire comprimido entrante debe regularse a un valor deseado y preestablecido, independiente de las condiciones externas y del funcionamiento de otros equipos.\nAlgunos ejemplos de activos industriales que necesitan regulación de aire son:\n\nPistolas de soplado\nEquipo de medición de aire\nCilindros de aire\nMotores de aire\nDispositivos de pulverización\nSistemas de lubricación en aerosol",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>2.1. Producción y acondicionamiento del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "02_produccion.html#lubricador",
-    "href": "02_produccion.html#lubricador",
-    "title": "2  2.1. Producción y acondicionamiento del aire comprimido",
-    "section": "2.6 Lubricador",
-    "text": "2.6 Lubricador\nEn su interior se mezcla el aire con aceite, para intentar aumentar la vida útil y el rendimiento de los circuitos neumáticos. Evita la corrosión y detiene el desgaste de piezas.\nLos aceites se utilizan cuando las herramientas neumáticas, los controles neumáticos, etc. deben operar con una cantidad determinada de aceite para evitar el desgaste prematuro por exceso de fricción.\nLa mayoría de las herramientas neumáticas y otros equipos impulsados por aire necesitan de lubricación periódica para extender su durabilidad.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>2.1. Producción y acondicionamiento del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "02_produccion.html#simbología",
-    "href": "02_produccion.html#simbología",
-    "title": "2  2.1. Producción y acondicionamiento del aire comprimido",
-    "section": "2.7 Simbología",
-    "text": "2.7 Simbología\nEn los circuitos neumáticos, cada uno de estos elementos tiene un símbolo que puedes ver a continuación:\n\n\n\nSímbolos de elementos de acondicionamiento de aire\n\n\nComo ves, al conjunto del filtro, el regulador de presión y el lubricador se le conoce con el nombre de Unidad de mantenimiento FRL (filtro, regulador, lubricador), ya que se suele instalar como una unidad compacta que se encarga de realizar esas funciones. Esta unidad de mantenimiento tiene su propio símbolo para representarla como un único elemento en los circuitos neumáticos:\n\n\n\nSímbolo de la unidad de mantenimiento\n\n\nComo los elementos de acondicionamiento de aire aparecen en todos los circuitos y siempre son los mismos, el conjunto de todos ellos se suele representar mediante un símbolo simplificado que se conoce como fuente de presión:\n\n\n\nSímbolo de fuente de presión\n\n\n\n\n\n\n\n\nImportante\n\n\n\nCuando veas este símbolo en un circuito, ¡recuerda que tiene mucho más detrás que “simplemente” aportar aire a presión!",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>2.1. Producción y acondicionamiento del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "02_produccion.html#licencia",
-    "href": "02_produccion.html#licencia",
-    "title": "2  2.1. Producción y acondicionamiento del aire comprimido",
-    "section": "2.8 Licencia",
-    "text": "2.8 Licencia\nEste documento está publicado bajo Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>2.1. Producción y acondicionamiento del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "03_distribucion.html",
-    "href": "03_distribucion.html",
-    "title": "3  2.2. Distribución del aire comprimido",
-    "section": "",
-    "text": "3.1 Red principal\nUn sistema de distribución de aire está diseñado para proporcionar un suministro ininterrumpido de aire comprimido justo donde se necesita. Normalmente, un sistema de red de aire comprimido consta de tuberías, racores y accesorios de punto de uso. Una buena red de tuberías de distribución de aire transporta el aire comprimido desde la fuente hasta el punto de uso en condiciones óptimas:\nNormalmente la red de distribución de aire comprimido se divide en dos zonas: la red principal y la red secundaria.\nEs la que proviene directamente del sistema de acondicionamiento del aire comprimido. Sus características principales son:",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>2.2. Distribución del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "03_distribucion.html#red-principal",
-    "href": "03_distribucion.html#red-principal",
-    "title": "3  2.2. Distribución del aire comprimido",
-    "section": "",
-    "text": "Tubos de mayor diámetro: puesto que todo el aire comprimido del sistema pasa por esta primera zona de la instalación. Además, suele sobredimensionarse por si hay que ampliar en el futuro la instalación.\nForma de parrilla: normalmente se adopta esa forma de red para garantizar que el aire llegue por diferentes caminos a los puntos de utilización. Así se garantiza el funcionamiento aunque haya alguna avería o mantenimiento en otro punto de la instalación.\nPendiente del 1% al 3%: por si aparece alguna condensación, que no se quede atrapada en los tubos y se deslice para ser purgada del sistema.\nEvitar cambios bruscos de sección y dirección: las tuberías deben ser lo más rectas y uniformes posible, para evitar pérdidas de presión.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>2.2. Distribución del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "03_distribucion.html#red-secundaria",
-    "href": "03_distribucion.html#red-secundaria",
-    "title": "3  2.2. Distribución del aire comprimido",
-    "section": "3.2 Red secundaria",
-    "text": "3.2 Red secundaria\nEs la parte de la instalación donde se encuentran las tuberías finales que llevan el aire comprimido a los actuadores. Tendremos en cuenta algunas consideraciones a la hora de diseñarla:\n\nPara evitar detener el suministro de aire comprimido en la red cuando se hagan reparaciones de fugas, nuevas instalaciones y operaciones de mantenimiento es esencial que se ubiquen llaves de paso frecuentemente en la red.\nLas tomas de aire para los actuadores no deben de hacerse nunca en la parte inferior de la tubería sino en la parte superior, para evitar que el agua condensada que circula por defecto de la gravedad pueda ser recogida y llevada a los distintos equipos neumáticos conectados a la red.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>2.2. Distribución del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "03_distribucion.html#pérdidas-de-presión",
-    "href": "03_distribucion.html#pérdidas-de-presión",
-    "title": "3  2.2. Distribución del aire comprimido",
-    "section": "3.3 Pérdidas de presión",
-    "text": "3.3 Pérdidas de presión\nEn general, debe intentarse que la pérdida de presión que experimente el aire debido a la fricción en los tubos, codos, válvulas, etc., no supere el 5% de la presión nominal de trabajo.\nEn general, a mayor diámetro de las tuberías, menos pérdida de carga. Pero, dado que hay que mantener una velocidad del aire de entre 6 a 10 m/s en los tubos, mayor diámetro implica mayor caudal, lo que encarece todo el sistema (compresor, unidad de mantenimiento, depósitos, etc).\nHay que intentar diseñar la instalación de manera óptima, aunque es un cálculo complicado y, en la práctica, suele sobredimensionarse un poco por si acaso.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>2.2. Distribución del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "03_distribucion.html#licencia",
-    "href": "03_distribucion.html#licencia",
-    "title": "3  2.2. Distribución del aire comprimido",
-    "section": "3.4 Licencia",
-    "text": "3.4 Licencia\nEste documento está publicado bajo Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>2.2. Distribución del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "04_actuadores.html",
-    "href": "04_actuadores.html",
-    "title": "4  2.3. Actuadores. Cilindros neumáticos",
-    "section": "",
-    "text": "5 Motores\nLos actuadores neumáticos son los encargados de transformar la presión del aire comprimido en un trabajo útil. Existen múltiples dispositivos capaces de realizar esta tarea, pero los más utilizados son básicamente de dos tipos:\nSe utilizan cuando es necesario lograr giros continuos. Las ventajas de estos motores son su buena relación potencia-peso, así como la ausencia de problemas de sobrecalentamiento ante sobrecargas. La mayoría de los motores neumáticos son de paletas, aunque también existen aquellos que basan su funcionamiento en el uso de pistones o en una turbina.\nEn el siguiente vídeo se muestra un ejemplo de motores neumáticos aplicados a un brazo robótico:",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>2.3. Actuadores. Cilindros neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "04_actuadores.html#de-simple-efecto",
-    "href": "04_actuadores.html#de-simple-efecto",
-    "title": "4  2.3. Actuadores. Cilindros neumáticos",
-    "section": "6.1 De simple efecto",
-    "text": "6.1 De simple efecto\nTienen una sola conexión para entrada de aire. Solo se aprovecha la fuerza a la salida del vástago. Su símbolo es el siguiente:\n\n\n\n\n\nCuando introducimos aire por la tubería de la izquierda, sale el émbolo. Cuando dejamos de introducir aire el vástago retorna por el efecto de un muelle.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>2.3. Actuadores. Cilindros neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "04_actuadores.html#de-doble-efecto",
-    "href": "04_actuadores.html#de-doble-efecto",
-    "title": "4  2.3. Actuadores. Cilindros neumáticos",
-    "section": "6.2 De doble efecto",
-    "text": "6.2 De doble efecto\nLlevan dos tomas de aire (una a cada lado del émbolo). Pueden realizar trabajo en ambos sentidos, porque se les aplica la presión en ambas caras del émbolo. Su símbolo es el siguiente:\n\n\n\n\n\nCuando introducimos aire por la tubería de la izquierda, sale el émbolo. Cuando introducimos aire por la tubería de la derecha, el émbolo entra.\n\n\n\n\n\nAquí tienes un vídeo donde puedes ver con más detalle tanto el funcionamiento como la construcción de los cilindros neumáticos:",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>2.3. Actuadores. Cilindros neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "04_actuadores.html#parámetros-geométricos",
-    "href": "04_actuadores.html#parámetros-geométricos",
-    "title": "4  2.3. Actuadores. Cilindros neumáticos",
-    "section": "7.1 Parámetros geométricos",
-    "text": "7.1 Parámetros geométricos\nLos parámetros geométricos principales de un cilindro son los siguientes:\n\nDiámetro del pistón (D)\nDiámetro del vástago (d)\nCarrera (L)\n\nLos puedes ver indicados en la siguiente imagen sobre un cilindro de simple efecto y uno de doble efecto:",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>2.3. Actuadores. Cilindros neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "04_actuadores.html#presión-de-trabajo",
-    "href": "04_actuadores.html#presión-de-trabajo",
-    "title": "4  2.3. Actuadores. Cilindros neumáticos",
-    "section": "7.2 Presión de trabajo",
-    "text": "7.2 Presión de trabajo\nNormalmente la presión de trabajo del cilindro será un dato conocido que nos vendrá dado en bares, en atmósferas o en pascales. Las presiones más habituales de los cilindros neumáticos suelen estar entre los 6 y, como máximo, los 10 bar.\nAl analizar los cilindros hablaremos siempre de presiones relativas (manométricas), para no tener que estar restando siempre las fuerzas producidas por la presión del ambiente sobre las diferentes piezas del cilindro.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>2.3. Actuadores. Cilindros neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "04_actuadores.html#volumen-de-aire-en-el-cilindro",
-    "href": "04_actuadores.html#volumen-de-aire-en-el-cilindro",
-    "title": "4  2.3. Actuadores. Cilindros neumáticos",
-    "section": "7.3 Volumen de aire en el cilindro",
-    "text": "7.3 Volumen de aire en el cilindro\nEl volumen de aire que entra en un cilindro viene determinado por el volumen disponible dentro del mismo. Este volumen no es el mismo en la carrera de avance y en la de retroceso en un cilindro de doble efecto.\nEn la carrera de avance de un cilindro (tanto de simple como de doble efecto), el volumen máximo disponible es el que queda entre el pistón y las paredes del cilindro cuando se ha avanzado toda la carrera. Es decir:\n\n\n\n\n\n\n\\[V_{avance}=\\frac{\\pi·D^{2}}{4}·L\\]\n\n\n\n\n\n\n\n\nEn la carrera de retroceso de un cilindro de doble efecto, la cantidad de aire que entra para empujar el émbolo hacia dentro es ligeramente menor que en la carrera de avance, porque el vástago ocupa un volumen que no puede ocupar el aire. Por lo tanto:\n\n\n\n\n\n\n\\[V_{retroceso}=V_{cilindro}-V_{vástago}=\\frac{\\pi·D^{2}}{4}·L-\\frac{\\pi·d^{2}}{4}·L=\\frac{\\pi·(D^{2}-d^{2})}{4}·L\\]\n\n\n\n\n\n\n\n\nEn un cilindro de doble efecto, el aire consumido en una embolada completa (una carrera de avance más otra retroceso) será, por lo tanto:\n\n\n\n\n\n\n\\[V_{embolada}=V_{avance}+V_{retroceso}=\\frac{\\pi·D^{2}}{4}·L+\\frac{\\pi·(D^{2}-d^{2})}{4}·L=\\frac{\\pi·(2D^{2}-d^{2})}{4}·L\\]\n\n\n\nEn un cilindro de simple efecto, el aire consumido en una embolada completa será simplemente el consumido en el avance:\n\n\n\n\n\n\n\\[V_{embolada}=V_{avance}=\\frac{\\pi·D^{2}}{4}·L\\]\n\n\n\nHay que tener en cuenta que, como el aire es compresible, este volumen es la cantidad de aire que entra a la presión de trabajo. Si queremos calcular a cuánto volumen de aire equivale medido en condiciones normales (una atmósfera de presión), tenemos que utilizar la ley de Boyle-Mariotte:\n\\[p_{cn}·V_{cn}=p_{trabajo}·V_{trabajo}\\]\nComo la presión en condiciones normales es 1 atm por definición, el volumen de aire, medido en condiciones normales será:\n\n\n\n\n\n\n\\[V_{cn}=V_{trabajo}·\\frac{p_{trabajo}}{1\\ atm}\\]",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>2.3. Actuadores. Cilindros neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "04_actuadores.html#caudal-de-aire-necesario",
-    "href": "04_actuadores.html#caudal-de-aire-necesario",
-    "title": "4  2.3. Actuadores. Cilindros neumáticos",
-    "section": "7.4 Caudal de aire necesario",
-    "text": "7.4 Caudal de aire necesario\nEl caudal de aire sabemos que es el volumen que entra en el cilindro dividido entre el tiempo que tarda en entrar. Conociendo el tiempo en que debe actuar el cilindro y sus dimensiones, podemos calcular el caudal de aire que necesitaremos aportarle.\nEn general, para el avance necesitaremos un caudal de aire y para el retroceso (en el caso de cilindro de doble efecto) otro:\n\\[Q_{avance}=\\frac{V_{avance}}{t_{avance}}; \\ \\ Q_{retroceso}=\\frac{V_{retroceso}}{t_{retroceso}}\\]\nNormalmente no tendremos como dato directamente el tiempo sino la frecuencia de funcionamiento del cilindro (f), en emboladas por minuto. En este caso, el caudal de aire consumido en una embolada será el siguiente:\nCilindro de simple efecto: \\(Q_{embolada}=V_{avance}·f\\)\nCilindro de doble efecto: \\(Q_{embolada}=(V_{avance}+V_{retroceso})·f\\)\nRecuerda que estos caudales son siempre medidos en las condiciones de trabajo del cilindro. Para calcularlos en condiciones normales, hay que multiplicarlos por la presión de trabajo en atmósferas (ley de Boyle-Mariott).",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>2.3. Actuadores. Cilindros neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "04_actuadores.html#fuerza-ejercida-por-el-cilindro",
-    "href": "04_actuadores.html#fuerza-ejercida-por-el-cilindro",
-    "title": "4  2.3. Actuadores. Cilindros neumáticos",
-    "section": "7.5 Fuerza ejercida por el cilindro",
-    "text": "7.5 Fuerza ejercida por el cilindro\nDistinguiremos entre cilindros de doble efecto y cilindros de simple efecto:\n\n7.5.1 Cilindro de doble efecto\nConsiderando que \\(p=\\frac{F}{S}\\), y teniendo en cuenta que habrá una fuerza de rozamiento (\\(F_R\\)) del pistón contra las paredes del cilindro, podemos deducir la expresión de la fuerza neta ejercida por el cilindro, distinguiendo entre avance y retroceso.\n\n7.5.1.1 Fuerza en el avance\nEn el avance, el aire ejerce presión sobre toda la superficie del pistón, por lo tanto:\n\n\n\n\n\n\n\\[F_{avance}=p·\\frac{\\pi·D^{2}}{4}-F_{R}\\]\n\n\n\n\n\n7.5.1.2 Fuerza en el retroceso\nA la hora de realizar el retroceso, la superficie disponible para empujar es menor, pues hay una zona ocupada por el vástago cuya superficie hay que restar. La expresión de la fuerza queda así:\n\n\n\n\n\n\n\\[F_{retroceso}=p·\\frac{\\pi·(D^{2}-d^{2})}{4}-F_{R}\\]\n\n\n\nLa fuerza de rozamiento depende de la velocidad del pistón, la presión de funcionamiento y los materiales del cilindro. Puede venir dada por un valor en newtons, pero, normalmente, nos la darán como porcentaje de la fuerza teórica (la que se daría de no haber rozamiento). Así, por ejemplo, si nos dicen que la fuerza de rozamiento es el 15 % de la fuerza teórica de avance, tendríamos que:\n\\[F_{avance}=F_{T avance}-F_{R}=F_{Tavance}-0,15·F_{Tavance}=0,85·F_{Tavance}=0,85·p·\\frac{\\pi·D^{2}}{4}\\]\n\n\n\n7.5.2 Cilindro de simple efecto\nEn este caso, además de la fuerza de rozamiento, tenemos que tener en cuenta la fuerza que produce el muelle (\\(F_M\\)) que tiene el cilindro para retroceder al cesar la presión de avance. La expresión de la fuerza será:\n\n7.5.2.1 Fuerza en el avance\nSerá como la del cilindro de doble efecto, pero añadiendo la fuerza del muelle (restando porque, como ocurre con el rozamiento, es una fuerza que se opone al movimiento):\n\n\n\n\n\n\n\\[F_{avance}=p·\\frac{\\pi·D^{2}}{4}-F_{R}-F_{M}\\]\n\n\n\n\n\n7.5.2.2 Fuerza en el retroceso\nAl producirse el retroceso por efecto del muelle, la presión del aire no solo no contribuye al movimiento sino que se opondría a él si es mayor que la presión atmosférica. Como, normalmente, al retroceder se abrirá la válvula totalmente y la presión pasará a ser la atmosférica (presión manométrica igual a cero), no influirá en el movimiento. Por tanto, la fuerza en el retroceso será la que proporcione el muelle (ahora positiva porque va según el movimiento), menos la fuerza de rozamiento (que siempre se opone al movimiento):\n\n\n\n\n\n\n\\[F_{retroceso}=F_{M}-F_{R}\\]\n\n\n\nLa fuerza del muelle puede calcularse conociendo su constante elástica y aplicando la ley de Hooke, aunque es posible que sea variable durante la carrera de avance. Se consideraría la máxima, que sería cuando el muelle estuviera comprimido al máximo (al final de la carrera, es decir: \\(F_{M}=k·L\\)). De todas formas, también será muy habitual que nos la den como porcentaje de la fuerza teórica de avance, al igual que la fuerza de rozamiento.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>2.3. Actuadores. Cilindros neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "04_actuadores.html#licencia",
-    "href": "04_actuadores.html#licencia",
-    "title": "4  2.3. Actuadores. Cilindros neumáticos",
-    "section": "Licencia",
-    "text": "Licencia\nEste documento está publicado bajo Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>2.3. Actuadores. Cilindros neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "05_valvulas.html",
-    "href": "05_valvulas.html",
-    "title": "5  2.4. Regulación y control del aire comprimido",
-    "section": "",
-    "text": "6 Válvulas distribuidoras\nPara regular y controlar el caudal y la presión con la que el aire llega a los diferentes puntos de consumo, se utilizan unos dispositivos denominados válvulas.\nLas válvulas pueden ser de varios tipos según su finalidad:\nSon los componentes que determinan el camino que ha de tomar la corriente de aire. Todas estas válvulas se definen por tres características funcionales:\nTodas estas características se reflejan en el símbolo de la válvula como veremos a continuación:",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.4. Regulación y control del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "05_valvulas.html#vías",
-    "href": "05_valvulas.html#vías",
-    "title": "5  2.4. Regulación y control del aire comprimido",
-    "section": "6.1 Vías",
-    "text": "6.1 Vías\nLas vías (o agujeros) tienen una serie de líneas internas y externas al símbolo de la válvula que indican lo siguiente:\n\n\n\n6.1.1 Líneas internas\n\n\n\nTubería\n\n\nLas líneas indican tuberías. La flecha indica el sentido de paso del aire comprimido.\n\n\n\nBloqueo\n\n\nEste símbolo indica un bloqueo. El aire no puede pasar por ese orificio de la válvula.\n\n\n\n6.1.2 Líneas externas\n\n\n\nToma de presión\n\n\nToma de presión\n\n\n\nEscape directo\n\n\nAire evacuado a la atmósfera (escape directo)\n\n\n\nEscape indirecto\n\n\nAire evacuado a la atmósfera (escape indirecto)",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.4. Regulación y control del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "05_valvulas.html#posiciones",
-    "href": "05_valvulas.html#posiciones",
-    "title": "5  2.4. Regulación y control del aire comprimido",
-    "section": "6.2 Posiciones",
-    "text": "6.2 Posiciones\nCada posición se representa mediante un cuadrado:\n\n\n\n\n\nLo normal son 2 posiciones (reposo y trabajo). Pero hay válvulas con otra posición neutra central.\nLa posición inicial es la que se obtiene al dar presión y es en la que se dibujan conectadas las vías exteriores de la válvula. Es la posición a partir de la cual empieza el programa establecido. La segunda posición se obtendría desplazando lateralmente los cuadrados.\nAquí tienes algunos ejemplos de válvulas distribuidoras muy usadas:",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.4. Regulación y control del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "05_valvulas.html#tipo-de-accionamiento-retorno",
-    "href": "05_valvulas.html#tipo-de-accionamiento-retorno",
-    "title": "5  2.4. Regulación y control del aire comprimido",
-    "section": "6.3 Tipo de accionamiento-retorno",
-    "text": "6.3 Tipo de accionamiento-retorno\nEn general, las válvulas pueden tener cuatro tipos distintos de accionamiento: manual, mecánico, neumático o eléctrico. Aquí tienes los tipos de accionamientos o retornos de válvulas más comunes y sus símbolos correspondientes:\n\n6.3.1 Accionamientos manuales\nEstán pensados para ser accionados directamente por un operario. Los más básicos son estos:\n\n\n\n\n\n\n\n6.3.2 Accionamientos mecánicos\nEstán pensados para accionarse automáticamente cuando ocurra algo (normalmente, cuando se detecte una pieza en algún punto del sistema). También se incluye aquí el retorno mediante un muelle o resorte de la válvula a una posición inicial cuando cese la fuerza que la ha accionado.\n\n\n\n\n\n\n\n6.3.3 Accionamientos neumáticos\nLa válvula se mueve mediante la acción de la misma presión de aire comprimido del sistema. Si la válvula no es muy grande puede moverse directamente utilizando un flujo de aire de control de menor presión, pero si es pesada necesita aire a alta presión, que le será proporcionado en el momento oportuno por una pequeña válvula auxiliar. Es el llamado servopilotaje.\n\n\n\n\n\nEl servopilotaje se utiliza en válvulas distribuidoras de gran tamaño, para evitar un esfuerzo grande en el accionamiento. Es un pilotaje neumático indirecto. Consiste en actuar en realidad sobre una pequeña válvula, que se comunica y deja pasar el aire comprimido para accionar la válvula principal. Todo el conjunto va montado sobre la misma válvula.\n\n\n6.3.4 Accionamientos eléctricos\nFuncionan mediante una bobina solenoide que, al recibir una corriente eléctrica, genera un campo magnético que atrae un componente metálico, accionando la válvula.\n\n\n\n\n\nLas electroválvulas son las más utilizadas en la actualidad en los sistemas neumáticos porque se pueden controlar directamente desde un PLC (Programmable Logic Controller) que emite las señales eléctricas que accionan las válvulas automáticamente.\n\n\n\n\n\n\nNotaPLC\n\n\n\nEl “PLC” (Programmable Logic Controller, por sus siglas en inglés) es un dispositivo electrónico que se programa para realizar acciones de control automáticamente. Un PLC es un cerebro que activa componentes de maquinarias para ejecuten tareas que pudieran ser peligrosas para el ser humano o muy lentas o imperfectas.\n\n\n\n\n6.3.5 Accionamientos combinados\nEs posible combinar varios accionamientos en una misma válvula, como puedes ver en este ejemplo:\n\n\n\n\n\n\n\n6.3.6 Válvulas biestables y monoestables\nLas válvulas pueden ser de dos tipos según permanezcan o no en la posición en que se han colocado:\n\nBiestables: la válvula se mantiene en cualquier posición en que la coloquemos y no cambiará hasta que volvamos a accionarla.\nMonoestables: la válvula sólo tiene una posición estable (la inicial). Si la accionamos y cambia de posición, volverá automáticamente a la posición inicial en cuanto cese el accionamiento. Normalmente será un resorte o muelle el encargado de retornar la válvula a su estado estable.\n\nEn general, en las válvulas biestables hay que tener un sistema de accionamiento para cada posición a la que queramos mover la válvula, pero es posible tener una válvula biestable con un solo accionamiento, utilizando un retorno por muelle y lo que se conoce como un enclavamiento.\nAl accionar una vez la válvula, esta cambiará de posición y se quedará sujeta por el enclavamiento. Al volver a accionar la válvula, el enclavamiento se soltará y el muelle hará retornar a la válvula al estado inicial.\nEl símbolo del enclavamiento son unas hendiduras en forma de “V” que pueden combinarse con diferentes accionamientos. Por ejemplo, todas estas válvulas tendrían enclavamiento, independientemente de su accionamiento:",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.4. Regulación y control del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "05_valvulas.html#identificación-de-una-válvula-distribuidora",
-    "href": "05_valvulas.html#identificación-de-una-válvula-distribuidora",
-    "title": "5  2.4. Regulación y control del aire comprimido",
-    "section": "6.4 Identificación de una válvula distribuidora",
-    "text": "6.4 Identificación de una válvula distribuidora\nLa identificación de la válvula se define indicando los siguientes elementos:\n\nDos cifras separadas por una barra (/), la primera indicando el número de vías y la segunda el número de posiciones.\nTipo de accionamiento\nTipo de retorno\n\nPor ejemplo:\n\n\n\n\n\n\n\nSímbolo\nIdentificación\n\n\n\n\n\nVálvula 3/2 monoestable con accionamiento manual y retorno automático por resorte\n\n\n\nVálvula 4/2 monoestable con accionamiento por palanca y retorno automático por resorte\n\n\n\nVálvula 3/2 monoestable con accionamiento manual servopilotado y retorno automático por resorte\n\n\n\nVálvula 3/2 biestable con accionamiento neumático mediante presión directa\n\n\n\nVálvula 5/3 monoestable con accionamiento neumático mediante presión directa y centrado automático mediante resorte (posición central de bloqueo)",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.4. Regulación y control del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "05_valvulas.html#válvula-antirretorno",
-    "href": "05_valvulas.html#válvula-antirretorno",
-    "title": "5  2.4. Regulación y control del aire comprimido",
-    "section": "7.1 Válvula antirretorno",
-    "text": "7.1 Válvula antirretorno\nPermite la circulación de aire comprimido en un solo sentido. En el dibujo permite el paso del aire izquierda a derecha.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.4. Regulación y control del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "05_valvulas.html#válvula-selectora-o-válvula-or",
-    "href": "05_valvulas.html#válvula-selectora-o-válvula-or",
-    "title": "5  2.4. Regulación y control del aire comprimido",
-    "section": "7.2 Válvula selectora o válvula “OR”",
-    "text": "7.2 Válvula selectora o válvula “OR”\nPermite la salida de aire cuando al menos una de las dos entradas tiene presión. No hay circulación de aire cuando en ninguna entrada hay presión.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.4. Regulación y control del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "05_valvulas.html#válvula-de-simultaneidad-o-válvula-and",
-    "href": "05_valvulas.html#válvula-de-simultaneidad-o-válvula-and",
-    "title": "5  2.4. Regulación y control del aire comprimido",
-    "section": "7.3 Válvula de simultaneidad o válvula “AND”",
-    "text": "7.3 Válvula de simultaneidad o válvula “AND”\nPermite la salida de aire cuando las dos entradas disponen de presión. No hay circulación si no hay presión en alguna entrada o en ambas.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.4. Regulación y control del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "05_valvulas.html#válvula-de-escape-rápido",
-    "href": "05_valvulas.html#válvula-de-escape-rápido",
-    "title": "5  2.4. Regulación y control del aire comprimido",
-    "section": "7.4 Válvula de escape rápido",
-    "text": "7.4 Válvula de escape rápido\nLas válvulas de escape rápido (o liberación rápida) son válvulas que abren automáticamente el camino de salida a la atmósfera cuando cae la presión del aire en el camino de salida.\nLa tarea de estas válvulas es vaciar rápidamente las cámaras de los receptores neumáticos, por ejemplo, actuadores. Gracias a su uso, es posible aumentar significativamente la velocidad de movimiento del pistón actuador, especialmente de simple efecto.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.4. Regulación y control del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "05_valvulas.html#válvula-estranguladora-unidireccional",
-    "href": "05_valvulas.html#válvula-estranguladora-unidireccional",
-    "title": "5  2.4. Regulación y control del aire comprimido",
-    "section": "8.1 Válvula estranguladora unidireccional",
-    "text": "8.1 Válvula estranguladora unidireccional\nRegula el caudal de aire en una sola dirección (mediante la apertura y cierre de un tornillo desde el valor 0 hasta el máximo). En el otro sentido el aire circula libremente.\n\n\n\n\n\nLa válvula del dibujo permite el paso libre del aire de derecha a izquierda y lo estrangula en sentido contrario.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.4. Regulación y control del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "05_valvulas.html#válvula-estranguladora-bidireccional",
-    "href": "05_valvulas.html#válvula-estranguladora-bidireccional",
-    "title": "5  2.4. Regulación y control del aire comprimido",
-    "section": "8.2 Válvula estranguladora bidireccional",
-    "text": "8.2 Válvula estranguladora bidireccional\nRegula el caudal de aire en ambos sentidos.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.4. Regulación y control del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "05_valvulas.html#temporizador",
-    "href": "05_valvulas.html#temporizador",
-    "title": "5  2.4. Regulación y control del aire comprimido",
-    "section": "8.3 Temporizador",
-    "text": "8.3 Temporizador\nSe utiliza para retardar la llegada de aire y el accionamiento del cilindro. Combinan una válvula estranguladora unidireccional y un depósito de aire cuyo tiempo de llenado establece el retardo.\n\n\n\n\n\nAquí puedes ver un ejemplo de uso de un temporizador:\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nEl aire pasa por el estrangulamiento y va llenando el depósito lentamente. Hasta que el depósito no se llena por completo, la presión que llega a la válvula no es suficiente para accionarla, por lo que hay un retardo. Regulando el estrangulamiento podemos variar el tiempo de llenado del depósito y, por tanto, el retardo de la válvula 3/2.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.4. Regulación y control del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "05_valvulas.html#licencia",
-    "href": "05_valvulas.html#licencia",
-    "title": "5  2.4. Regulación y control del aire comprimido",
-    "section": "Licencia",
-    "text": "Licencia\nEste documento está publicado bajo Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.4. Regulación y control del aire comprimido</span>"
-    ]
-  },
-  {
-    "objectID": "06_diseno.html",
-    "href": "06_diseno.html",
-    "title": "6  2.5. Análisis y diseño de circuitos neumáticos",
-    "section": "",
-    "text": "7 Normalización en circuitos neumáticos\nEn este vídeo tienes un resumen de todos los componentes básicos de un circuito neumático. Nos servirá para recapitular y repasar todo lo estudiado. El circuito en sí consiste en controlar un cilindro de doble efecto con una válvula 5/2, pero es interesante por la explicación detallada que da de cada componente:\nCuando diseñamos un circuito neumático tenemos que pensar cómo conectar los diferentes elementos del circuito entre sí y dibujar el esquema del mismo. Los circuitos neumáticos se esquematizan utilizando la simbología que hemos ido viendo al estudiar los componentes por separado. Sin embargo, además de los símbolos, es muy importante la correcta identificación de los diferentes elementos en el circuito, así como su distribución dentro del esquema.\nEn este vídeo tienes las normas más importantes que hay que seguir a la hora de diseñar un circuito neumático:",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>2.5. Análisis y diseño de circuitos neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "06_diseno.html#identificar-los-elementos-del-circuito",
-    "href": "06_diseno.html#identificar-los-elementos-del-circuito",
-    "title": "6  2.5. Análisis y diseño de circuitos neumáticos",
-    "section": "8.1 1. Identificar los elementos del circuito",
-    "text": "8.1 1. Identificar los elementos del circuito\nLo primero siempre es identificar los componentes del circuito, empezando por los receptores o actuadores. Hay que ser claro, escueto y sencillo a la hora de describir los elementos:\n\n1.0. Cilindro de doble efecto en la posición inicial con el vástago replegado.\n1.1. Válvula distribuidora 5/2, de pilotaje neumático.\n1.2. y 1.4. Válvulas de mando 3/2, monoestables, normalmente cerradas (NC), con pilotaje manual mediante pulsador y recuperación por resorte.\n1.3. y 1.6. Válvulas de mando 3/2, monoestables, normalmente cerradas (NC), con pilotaje mecánico por rodillo y recuperación por resorte.\n1.8. Válvula selectora (OR)\n1.10. Válvula de simultaneidad (AND)\n0.1. Equipo acondicionador de aire comprimido, formado por tres elementos, un filtro, un regulador y un lubricador (unidad FRL)",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>2.5. Análisis y diseño de circuitos neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "06_diseno.html#describir-el-estado-inicial-del-circuito",
-    "href": "06_diseno.html#describir-el-estado-inicial-del-circuito",
-    "title": "6  2.5. Análisis y diseño de circuitos neumáticos",
-    "section": "8.2 2. Describir el estado inicial del circuito",
-    "text": "8.2 2. Describir el estado inicial del circuito\nLa válvula AND 1.10 está bloqueada porque solo le llega presión por uno de sus lados (desde la válvula 1.6, que se encuentra accionada en el instante inicial, ya que las demás válvulas de mando están bloqueadas).\nLa válvula 1.3. se encuentra en su posición de reposo NC, por lo que también está bloqueada.\nPor lo tanto, la válvula 5/2 permanece en reposo (no le llega presión a ninguno de sus accionamientos) y el cilindro se encuentra retraído al recibir presión por su lado derecho.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>2.5. Análisis y diseño de circuitos neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "06_diseno.html#explicar-lo-que-sucede-a-partir-de-la-señal-que-desencadena-el-funcionamiento-del-circuito",
-    "href": "06_diseno.html#explicar-lo-que-sucede-a-partir-de-la-señal-que-desencadena-el-funcionamiento-del-circuito",
-    "title": "6  2.5. Análisis y diseño de circuitos neumáticos",
-    "section": "8.3 3. Explicar lo que sucede a partir de la señal que desencadena el funcionamiento del circuito",
-    "text": "8.3 3. Explicar lo que sucede a partir de la señal que desencadena el funcionamiento del circuito\nEl circuito inicia su funcionamiento cuando se acciona cualquiera de las válvulas 1.2 o 1.4.\nAl accionar una de ellas, la válvula OR se activa y deja pasar presión hacia la válvula 1.10.\nComo la válvula 1.10 ya tenía presión en su otra entrada, se activa (ahora tiene las dos entradas presurizadas a la vez) y deja pasar presión para accionar la válvula 1.1\nLa válvula 1.1. se acciona al llegarle presión por su lado izquierdo y cambia de estado, haciendo que el aire a presión entre en el cilindro por la parte izquierda y la parte derecha quede abierta a la atmósfera. Por lo tanto, el cilindro 1.0 realiza su carrera de avance.\nCuando el cilindro 1.1 sale del todo, activa el rodillo de la válvula 1.3, lo que provoca el accionamiento de esta y que llegue aire a presión por la derecha a la válvula 1.1, provocando su accionamiento.\nAl accionarse la válvula 1.1 desde la derecha, vuelve a su posición inicial, haciendo que el aire a presión entre por la derecha del cilindro y comience la retracción de éste.\nAl retraerse el cilindro, se activa el rodillo de la válvula 1.6 y el circuito queda de nuevo en su estado inicial de reposo hasta que se vuelva a accionar manualmente alguna de las válvulas 1.2 o 1.4.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>2.5. Análisis y diseño de circuitos neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "06_diseno.html#dibujar-los-cronogramas-de-los-elementos-principales-del-circuito",
-    "href": "06_diseno.html#dibujar-los-cronogramas-de-los-elementos-principales-del-circuito",
-    "title": "6  2.5. Análisis y diseño de circuitos neumáticos",
-    "section": "8.4 4. Dibujar los cronogramas de los elementos principales del circuito",
-    "text": "8.4 4. Dibujar los cronogramas de los elementos principales del circuito\nDibujamos los cronogramas para los casos en que se pulse 1.2 o se pulse 1.4:",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>2.5. Análisis y diseño de circuitos neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "06_diseno.html#circuito-1",
-    "href": "06_diseno.html#circuito-1",
-    "title": "6  2.5. Análisis y diseño de circuitos neumáticos",
-    "section": "9.1 Circuito 1",
-    "text": "9.1 Circuito 1",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>2.5. Análisis y diseño de circuitos neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "06_diseno.html#circuito-2",
-    "href": "06_diseno.html#circuito-2",
-    "title": "6  2.5. Análisis y diseño de circuitos neumáticos",
-    "section": "9.2 Circuito 2",
-    "text": "9.2 Circuito 2",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>2.5. Análisis y diseño de circuitos neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "06_diseno.html#circuito-3",
-    "href": "06_diseno.html#circuito-3",
-    "title": "6  2.5. Análisis y diseño de circuitos neumáticos",
-    "section": "9.3 Circuito 3",
-    "text": "9.3 Circuito 3",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>2.5. Análisis y diseño de circuitos neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "06_diseno.html#licencia",
-    "href": "06_diseno.html#licencia",
-    "title": "6  2.5. Análisis y diseño de circuitos neumáticos",
-    "section": "Licencia",
-    "text": "Licencia\nEste documento está publicado bajo Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>2.5. Análisis y diseño de circuitos neumáticos</span>"
-    ]
-  },
-  {
-    "objectID": "07_ejemplos.html",
-    "href": "07_ejemplos.html",
-    "title": "7  2.6. Ejemplos de circuitos",
-    "section": "",
-    "text": "8 Mando manual de cilindros con pulsadores\nA continuación veremos una serie de circuitos básicos en neumática para entender su funcionamiento, lo que nos permitirá tener una idea clara de cómo diseñar circuitos neumáticos más complejos combinando estas técnicas básicas.\nVemos algunos ejemplos de control básico de cilindros mediante pulsadores:",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.6. Ejemplos de circuitos</span>"
-    ]
-  },
-  {
-    "objectID": "07_ejemplos.html#cilindro-de-simple-efecto-con-válvula-32",
-    "href": "07_ejemplos.html#cilindro-de-simple-efecto-con-válvula-32",
-    "title": "7  2.6. Ejemplos de circuitos",
-    "section": "8.1 Cilindro de simple efecto con válvula 3/2",
-    "text": "8.1 Cilindro de simple efecto con válvula 3/2\nEste circuito básico consiste en controlar manualmente, mediante un pulsador, el funcionamiento de un cilindro de simple efecto. Al pulsar, el cilindro sale y, al soltar, el cilindro se retrae.\n\n8.1.1 Circuito con componentes\n\n\n\n8.1.2 Circuito con símbolos",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.6. Ejemplos de circuitos</span>"
-    ]
-  },
-  {
-    "objectID": "07_ejemplos.html#cilindro-de-doble-efecto-con-válvula-52",
-    "href": "07_ejemplos.html#cilindro-de-doble-efecto-con-válvula-52",
-    "title": "7  2.6. Ejemplos de circuitos",
-    "section": "8.2 Cilindro de doble efecto con válvula 5/2",
-    "text": "8.2 Cilindro de doble efecto con válvula 5/2\nEn este caso, al igual que en el anterior, se quiere que el cilindro salga al pulsar el botón y se retraiga al soltarlo. La diferencia es que, en esta ocasión, utilizamos un cilindro de doble efecto porque se necesitará realizar un trabajo importante también en el retroceso.\n\n8.2.1 Circuito con componentes\n\n\n\n8.2.2 Circuito con símbolos",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.6. Ejemplos de circuitos</span>"
-    ]
-  },
-  {
-    "objectID": "07_ejemplos.html#control-de-un-cilindro-con-dos-pulsadores-a-la-vez-válvula-and",
-    "href": "07_ejemplos.html#control-de-un-cilindro-con-dos-pulsadores-a-la-vez-válvula-and",
-    "title": "7  2.6. Ejemplos de circuitos",
-    "section": "8.3 Control de un cilindro con dos pulsadores a la vez (válvula AND)",
-    "text": "8.3 Control de un cilindro con dos pulsadores a la vez (válvula AND)\nEn este caso queremos controlar el funcionamiento de un cilindro desde dos pulsadores. El cilindro sólo debe salir si pulsamos los dos botones a la vez. En cualquier otro caso, debe retraerse (o permanecer retraído).\n\n8.3.1 Circuito con componentes\n\n\n\n8.3.2 Circuito con símbolos",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.6. Ejemplos de circuitos</span>"
-    ]
-  },
-  {
-    "objectID": "07_ejemplos.html#simulaciones-interactivas",
-    "href": "07_ejemplos.html#simulaciones-interactivas",
-    "title": "7  2.6. Ejemplos de circuitos",
-    "section": "8.4 Simulaciones interactivas",
-    "text": "8.4 Simulaciones interactivas\nAquí tienes algunos circuitos simples de ejemplo en un simulador online en el que puedes comprobar el funcionamiento de cada elemento:\n\nCilindro de simple efecto:\n\nControl directo\nControl indirecto\n\nCilindro de doble efecto:\n\nControl directo\nControl indirecto\n\nLógica de control simple:\n\nAND mediante válvulas en serie\nMediante válvula AND\nMediante válvula OR",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.6. Ejemplos de circuitos</span>"
-    ]
-  },
-  {
-    "objectID": "07_ejemplos.html#para-un-cilindro-de-doble-efecto",
-    "href": "07_ejemplos.html#para-un-cilindro-de-doble-efecto",
-    "title": "7  2.6. Ejemplos de circuitos",
-    "section": "9.1 Para un cilindro de doble efecto",
-    "text": "9.1 Para un cilindro de doble efecto",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.6. Ejemplos de circuitos</span>"
-    ]
-  },
-  {
-    "objectID": "07_ejemplos.html#para-un-cilindro-de-simple-efecto",
-    "href": "07_ejemplos.html#para-un-cilindro-de-simple-efecto",
-    "title": "7  2.6. Ejemplos de circuitos",
-    "section": "9.2 Para un cilindro de simple efecto",
-    "text": "9.2 Para un cilindro de simple efecto",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.6. Ejemplos de circuitos</span>"
-    ]
-  },
-  {
-    "objectID": "07_ejemplos.html#movimiento-intermitente-de-cilindro-de-doble-efecto",
-    "href": "07_ejemplos.html#movimiento-intermitente-de-cilindro-de-doble-efecto",
-    "title": "7  2.6. Ejemplos de circuitos",
-    "section": "10.1 Movimiento intermitente de cilindro de doble efecto",
-    "text": "10.1 Movimiento intermitente de cilindro de doble efecto\nEn este circuito tenemos una válvula que se acciona mediante pedal y que es la que inicia el funcionamiento. La válvula queda enclavada y, mientras está en ese estado, el cilindro va saliendo y entrando alternativamente, modificando su comportamiento él mismo al activar los rodillos A1 y A2 de las válvulas.\nEn el vídeo se puede ver el funcionamiento del circuito:",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.6. Ejemplos de circuitos</span>"
-    ]
-  },
-  {
-    "objectID": "07_ejemplos.html#movimiento-alternado-de-dos-cilindros-de-doble-efecto",
-    "href": "07_ejemplos.html#movimiento-alternado-de-dos-cilindros-de-doble-efecto",
-    "title": "7  2.6. Ejemplos de circuitos",
-    "section": "10.2 Movimiento alternado de dos cilindros de doble efecto",
-    "text": "10.2 Movimiento alternado de dos cilindros de doble efecto\nEste circuito se activa mediante una válvula de accionamiento por palanca y enclavamiento.\n\nCuando se activa la palanca, el cilindro 1 avanza y luego se retrae automáticamente al activar el rodillo A1.\nCuando acaba la retracción, activa A0 lo que provoca que el cilindro 2 avance.\nEl cilindro 2 funciona de forma análoga al 1: se retrae automáticamente al activar el rodillo B1 y, al acabar la carrera de retroceso, activa B0, lo que provoca que avance el cilindro 1.\nEl proceso se mantiene repitiéndose indefinidamente hasta que volvamos a accionar la palanca (la soltamos del enclavamiento) y se bloquea el paso de aire al cilindro 1.\n\nEn este vídeo puedes ver el funcionamiento:",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.6. Ejemplos de circuitos</span>"
-    ]
-  },
-  {
-    "objectID": "07_ejemplos.html#avance-por-pulsador-y-retroceso-automático",
-    "href": "07_ejemplos.html#avance-por-pulsador-y-retroceso-automático",
-    "title": "7  2.6. Ejemplos de circuitos",
-    "section": "11.1 Avance por pulsador y retroceso automático",
-    "text": "11.1 Avance por pulsador y retroceso automático\nEn el circuito neumático de la siguiente figura, utilizamos una válvula de accionamiento y retorno eléctrico, que gobierna un cilindro de doble efecto. Éste avanza su émbolo por medio del accionamiento del pulsador de la válvula de la izquierda. Una vez alcanza su posición final, retrocede por medio de un final de carrera colocado en el recorrido del vástago, que acciona a su vez la válvula de la derecha.",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.6. Ejemplos de circuitos</span>"
-    ]
-  },
-  {
-    "objectID": "07_ejemplos.html#cilindro-de-doble-efecto-controlado-por-dos-pulsadores-eléctricos",
-    "href": "07_ejemplos.html#cilindro-de-doble-efecto-controlado-por-dos-pulsadores-eléctricos",
-    "title": "7  2.6. Ejemplos de circuitos",
-    "section": "11.2 Cilindro de doble efecto controlado por dos pulsadores eléctricos",
-    "text": "11.2 Cilindro de doble efecto controlado por dos pulsadores eléctricos\nQueremos que, al accionar el primer pulsador P1, se produzca completamente la salida del vástago. El retroceso del vástago se producirá al accionar el segundo pulsador eléctrico P2.\nLa solución es plantea mediante el mando indirecto, con dos pulsadores que activan dos relés eléctricos. El funcionamiento es el siguiente:\n\nAl accionar el pulsador P1, el circuito eléctrico se cierra y se activa el relé K1. Un contacto abierto del relé K1 hace que la bobina Y1 de la electroválvula se active y esto provoca que el vástago del cilindro salga.\nTras llegar el cilindro al final de su recorrido, permanecerá en esa posición hasta que actuemos sobre el pulsador P2;\nAl accionar P2, se activará el relé K2 y un contacto abierto de éste se cerrará, con lo que se activará la bobina Y2 de la electroválvula y esto producirá que el cilindro efectúe su movimiento de recogida.\n\n\n11.2.1 Circuito eléctrico\n\n\n\n\n\n\n\n11.2.2 Circuito neumático",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.6. Ejemplos de circuitos</span>"
-    ]
-  },
-  {
-    "objectID": "07_ejemplos.html#licencia",
-    "href": "07_ejemplos.html#licencia",
-    "title": "7  2.6. Ejemplos de circuitos",
-    "section": "Licencia",
-    "text": "Licencia\nEste documento está publicado bajo Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0",
-    "crumbs": [
-      "Neumática",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.6. Ejemplos de circuitos</span>"
-    ]
-  },
-  {
-    "objectID": "08_hidraulica.html",
-    "href": "08_hidraulica.html",
-    "title": "8  3. Circuitos oleohidráulicos",
-    "section": "",
-    "text": "8.1 Introducción\nLos sistemas hidráulicos emplean como fluido un líquido, lo que permite intensificar las fuerzas de trabajo. Como hemos visto, emplean aceite mineral, por eso también se llaman oleohidráulicos.\nA grandes rasgos, podemos decir que la hidráulica se usa allí donde se requiere alguna de estas tres cosas:\nPor ejemplo, en la maquinaria de gran potencia, como es el caso de los brazos hidráulicos de las grúas, el accionamiento del tren de aterrizaje de los aviones o el freno y el embrague de los vehículos.",
-    "crumbs": [
-      "Hidráulica",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>3. Circuitos oleohidráulicos</span>"
-    ]
-  },
-  {
-    "objectID": "08_hidraulica.html#introducción",
-    "href": "08_hidraulica.html#introducción",
-    "title": "8  3. Circuitos oleohidráulicos",
-    "section": "",
-    "text": "Transmisión de grandes fuerzas.\nVelocidades lentas.\nDetención de cilindros en un punto intermedio del recorrido, con precisión.",
-    "crumbs": [
-      "Hidráulica",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>3. Circuitos oleohidráulicos</span>"
-    ]
-  },
-  {
-    "objectID": "08_hidraulica.html#diferencias-fundamentales-entre-neumática-e-hidráulica",
-    "href": "08_hidraulica.html#diferencias-fundamentales-entre-neumática-e-hidráulica",
-    "title": "8  3. Circuitos oleohidráulicos",
-    "section": "8.2 Diferencias fundamentales entre neumática e hidráulica",
-    "text": "8.2 Diferencias fundamentales entre neumática e hidráulica\nLa simbología de los diferentes elementos de un circuito hidráulico es prácticamente la misma que la que hemos visto para los elementos neumáticos. Aun así, los circuitos hidráulicos son muy diferentes de los neumáticos.\nEn esta tabla resumimos las diferencias fundamentales entre ambas tecnologías:\n\n\n\n\n\n\n\nNEUMÁTICA\nHIDRÁULICA\n\n\n\n\nMayor velocidad de respuesta y operación\nMenor velocidad de respuesta y operación\n\n\nMás económicos para usos de poca fuerza\nMás costosos\n\n\nMás versátiles\nMenos versátiles\n\n\nMenos contaminantes\nMás contaminantes\n\n\nMuy utilizados en automatización de procesos productivos\nPrácticamente no se utilizan en automatización de procesos productivos\n\n\nNo se pueden usar en aplicaciones de alta fuerza (cargas por debajo de los 3000 kg)\nManejan cargas elevadas tanto en actuadores lineales como en motores de par elevado.\n\n\nNo necesitan sistemas especiales de refrigeración\nRequiere de sistemas de enfriamiento de aceite adicionales.\n\n\nDesplazamientos rápidos y motores de alta velocidad\nControl exacto de la velocidad y parada\n\n\nProducen mucho ruido y vibraciones\nFuncionamiento suave y silencioso\n\n\nUtiliza como fluido aire a presión, 6-10 bares.\nUtiliza como fluido aceite “oleohidráulico” a presiones de hasta más de 200 bares.",
-    "crumbs": [
-      "Hidráulica",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>3. Circuitos oleohidráulicos</span>"
-    ]
-  },
-  {
-    "objectID": "08_hidraulica.html#movimiento-del-fluido.-bombas-hidráulicas",
-    "href": "08_hidraulica.html#movimiento-del-fluido.-bombas-hidráulicas",
-    "title": "8  3. Circuitos oleohidráulicos",
-    "section": "8.3 Movimiento del fluido. Bombas hidráulicas",
-    "text": "8.3 Movimiento del fluido. Bombas hidráulicas\nLos componentes de los circuitos hidráulicos son similares a los de los circuitos neumáticos; se diferencian principalmente en que la función del compresor la realiza una bomba.\nTambién difieren en que hay un circuito de retorno del aceite al depósito desde los puntos de escape y en que se trata de circuitos cerrados.\n\n\n\n\nEsquema de circuito hidráulico\n\n\n\n\n8.3.1 Grupo de accionamiento\nAl conjunto de elementos que generan la presión en el fluido se le conoce como “Grupo de accionamiento”. Se suele representar dentro de un marco de línea discontinua:\n\n\n\n\nGrupo de accionamiento\n\n\n\nLos elementos del grupo son:\n\nBomba hidráulica\nMotor eléctrico\nEje\nVálvula limitadora de presión\nDepósito\nTuberías\n\n\n\n8.3.2 Bomba hidráulica\nLas bombas hidráulicas tienen la función de tomar aceite a una determinada presión y elevarla hasta la presión de trabajo.\nEn la figura se representa una bomba hidráulica de engranajes:\n\n\n\n\nBomba hidráulica de engranajes\n\n\n\nConsta de dos ruedas dentadas idénticas, una de las cuales, movida por un motor, hace que gire la otra. El movimiento genera una depresión en la cámara unida al depósito que aspira el fluido. Entonces éste es transportado a través de los dientes del engranaje hasta llegar al orificio de salida de la bomba, donde es impulsado.",
-    "crumbs": [
-      "Hidráulica",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>3. Circuitos oleohidráulicos</span>"
-    ]
-  },
-  {
-    "objectID": "08_hidraulica.html#ejemplos-de-circuitos-hidráulicos",
-    "href": "08_hidraulica.html#ejemplos-de-circuitos-hidráulicos",
-    "title": "8  3. Circuitos oleohidráulicos",
-    "section": "8.4 Ejemplos de circuitos hidráulicos",
-    "text": "8.4 Ejemplos de circuitos hidráulicos\nLas diferencias fundamentales entre el esquema de un circuito hidráulico respecto de un circuito neumático son:\n\nEn un circuito hidráulico tendremos el símbolo de una bomba y un filtro (o del grupo de accionamiento completo) en vez del punto de presión o compresor y unidad FRL.\nEn un circuito neumático los escapes van directamente hacia el exterior, mientras que en el hidráulico van siempre al depósito de aceite.\n\nPor lo demás, son prácticamente iguales, por lo que este par de ejemplos serán muy sencillos de entender después de todo lo aprendido en circuitos neumáticos:\n\n8.4.1 Plataforma elevadora hidráulica\nPodemos elevar una plataforma mediante la acción de un cilindro si utilizamos un mecanismo como este:\n\n\n\n\nPlataforma elevadora hidráulica\n\n\n\nEl circuito para manejar ese cilindro es fácil después de lo que ya hemos visto en neumática. Aquí puedes ver su esquema:\n\n\n\n\nEsquema de plataforma elevadora hidráulica\n\n\n\nEl pulsador de la izquierda impulsa la bajada de la plataforma. La válvula 3/2 de la izquierda cambia de posición respecto a la situación de reposo y permite el paso del aceite desde al bomba hasta la válvula 4/2. La válvula 4/2, accionada por el fluido a presión, permite el paso a la cámara izquierda del cilindro, que desplazará el vástago hacia al derecha, lo cual producirá que el mecanismo articulado baje al plataforma.\nDe forma análoga, al accionar el pulsador de subida, la válvula de la derecha cambia de posición y permite el paso del fluido hasta la válvula 4/2. Al cambiar esta válvula, llena de fluido la cámara derecha del cilindro, lo cual produce el movimiento del vástago hacia la izquierda, la elevación de al plataforma y, por último, el paso del fluido hasta el depósito.\n\n\n8.4.2 Avance mediante electroválvula y retroceso retardado mediante pedal\nEl esquema del circuito es el siguiente:\n\n\n\n\nAvance con electroválvula y retroceso retardado\n\n\n\nEl funcionamiento del circuito es así:\n\nAl accionar la válvula 1.2 (electroválvula), el fluido llega a la válvula 1.1, que cambia de posición, con lo que entra líquido en el cilindro y se produce el avance del vástago.\nCuando accionamos mediante el pedal la válvula 1.3 (mantenemos el pedal pulsado), y tras un tiempo establecido en la válvula temporizadora, la válvula 1.5 provoca que la válvula 1.1 cambie de posición y el vástago del cilindro retroceda.\n\n\nObra publicada con Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0",
-    "crumbs": [
-      "Hidráulica",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>3. Circuitos oleohidráulicos</span>"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Unidad 8: Neumática e hidráulica",
-    "section": "",
-    "text": "Introducción\nBienvenido a la unidad de Neumática e Hidráulica de la asignatura de Tecnología e Ingeniería II. En este bloque estudiaremos cómo el uso de fluidos a presión (aire comprimido y aceite) permite la automatización de procesos industriales y la transmisión de grandes fuerzas con precisión.",
-    "crumbs": [
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "index.html#contenidos-de-la-unidad",
-    "href": "index.html#contenidos-de-la-unidad",
-    "title": "Unidad 8: Neumática e hidráulica",
-    "section": "Contenidos de la unidad",
-    "text": "Contenidos de la unidad\n\nPrincipios físicos: Estudio de la presión, caudal y leyes fundamentales (Pascal, Boyle-Mariotte).\nGeneración y tratamiento: Compresores, depósitos y unidades de mantenimiento (FRL).\nElementos de trabajo: Cilindros de simple y doble efecto.\nControl y mando: Simbología y funcionamiento de válvulas distribuidoras y de regulación.\nDiseño de circuitos: Metodologías para crear automatismos lógicos.\nHidráulica: Particularidades de los sistemas de aceite a alta presión.\n\n\n\n\n\n\n\nNota📚 Material de estudio\n\n\n\nPuedes descargar esta unidad completa en formato PDF para estudiar sin conexión o imprimirla:\nDescargar PDF\n\n\nÚltima actualización: 01/03/2026",
-    "crumbs": [
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "index.html#objetivos-de-la-unidad",
-    "href": "index.html#objetivos-de-la-unidad",
-    "title": "Unidad 8: Neumática e hidráulica",
-    "section": "Objetivos de la Unidad",
-    "text": "Objetivos de la Unidad\n\nComprender las propiedades físicas de los fluidos neumáticos e hidráulicos.\nIdentificar y simbolizar correctamente los componentes según la normativa.\nAnalizar el funcionamiento de automatismos y diseñar soluciones mediante lógica de fluidos.\nDiferenciar las aplicaciones industriales de la neumática frente a la oleohidráulica.\n\n\n\n\n\n\n\nNota📚 Material de estudio\n\n\n\nPuedes descargar esta unidad completa en formato PDF para estudiar sin conexión o imprimirla:\nDescargar Apuntes en PDF",
-    "crumbs": [
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "index.html#ventajas-de-la-tecnología-neumática",
-    "href": "index.html#ventajas-de-la-tecnología-neumática",
-    "title": "Unidad 8: Neumática e hidráulica",
-    "section": "Ventajas de la tecnología neumática",
-    "text": "Ventajas de la tecnología neumática\nLa elección de la neumática en la industria se basa en factores estratégicos:\n\nDisponibilidad: La materia prima (el aire) es gratuita y abundante.\nSeguridad: Las fugas no son tóxicas ni inflamables; no hay riesgo de explosión.\nRobustez: Los componentes trabajan bien en ambientes con polvo, vibraciones o temperaturas extremas.\nSimplicidad: Permite generar movimientos lineales directos sin transmisiones complejas.",
-    "crumbs": [
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "index.html#diagrama-de-transformaciones-del-aire",
-    "href": "index.html#diagrama-de-transformaciones-del-aire",
-    "title": "Unidad 8: Neumática e hidráulica",
-    "section": "Diagrama de transformaciones del aire",
-    "text": "Diagrama de transformaciones del aire\nEl siguiente esquema resume el ciclo de vida del fluido en un sistema industrial:\n\n\n\nTransformaciones del aire en un sistema neumático\n\n\n\nÚltima actualización: 01/03/2026",
-    "crumbs": [
-      "Introducción"
-    ]
-  },
-  {
     "objectID": "02_produccion_distribucion.html",
     "href": "02_produccion_distribucion.html",
     "title": "2  Producción y acondicionamiento del aire comprimido",
@@ -1029,7 +205,7 @@
     "href": "02_produccion_distribucion.html#compresor",
     "title": "2  Producción y acondicionamiento del aire comprimido",
     "section": "",
-    "text": "2.1.1 De desplazamiento positivo\nEl principio de funcionamiento de estos compresores se basa en la disminución del volumen del aire en la cámara de compresión donde se encuentra confinado, produciéndose el incremento de la presión interna hasta llegar al valor de diseño previsto, momento en el cual el aire es liberado al sistema.\nDentro de esta categoría encontramos compresores alternativos o rotativos:\n\n2.1.1.1 Alternativos\nUtilizan un pistón que se mueve alternativamente gracias a un mecanismo de biela-manivela y va comprimiendo el aire.\n\n\n\nCompresor de pistón\n\n\n\n\n2.1.1.2 Rotativos\nTienen piezas que se mueven de forma rotativa y fuerzan al aire a estar en un recinto con un volumen cada vez menor, con lo que se comprime. Los más utilizados son:\n\n2.1.1.2.1 De paletas\n\n\n\nCompresor de paletas\n\n\n\n\n2.1.1.2.2 De tornillo\n\n\n\nCompresor de tornillo\n\n\n\n\n2.1.1.2.3 De scroll\n\n\n\nCompresor de scroll\n\n\n\n\n\n\n2.1.2 Compresores dinámicos\nEl principio de funcionamiento de estos compresores se basa en la aceleración molecular. El aire es aspirado por el rodete a través de su campana de entrada y acelerado a gran velocidad. Después es descargado directamente a unos difusores situados junto al rodete, donde toda la energía cinética del aire se transforma en presión estática. A partir de este punto es liberado al sistema.\n\n\n\nCompresor radial",
+    "text": "2.1.1 De desplazamiento positivo\nEl principio de funcionamiento de estos compresores se basa en la disminución del volumen del aire en la cámara de compresión donde se encuentra confinado, produciéndose el incremento de la presión interna hasta llegar al valor de diseño previsto, momento en el cual el aire es liberado al sistema.\nDentro de esta categoría encontramos compresores alternativos o rotativos:\n\n2.1.1.1 Alternativos\nUtilizan un pistón que se mueve alternativamente gracias a un mecanismo de biela-manivela y va comprimiendo el aire.\n ::: {.content-hidden when-format=“pdf”}\n\n\n2.1.1.2 Rotativos\nTienen piezas que se mueven de forma rotativa y fuerzan al aire a estar en un recinto con un volumen cada vez menor, con lo que se comprime. Los más utilizados son:\n\n2.1.1.2.1 De paletas\n\n\n\nCompresor de paletas\n\n\n\n\n2.1.1.2.2 De tornillo\n\n\n\nCompresor de tornillo\n\n\n\n\n2.1.1.2.3 De scroll\n\n\n\nCompresor de scroll\n\n\n\n\n\n\n2.1.2 Compresores dinámicos\nEl principio de funcionamiento de estos compresores se basa en la aceleración molecular. El aire es aspirado por el rodete a través de su campana de entrada y acelerado a gran velocidad. Después es descargado directamente a unos difusores situados junto al rodete, donde toda la energía cinética del aire se transforma en presión estática. A partir de este punto es liberado al sistema.\n\n\n\nCompresor radial",
     "crumbs": [
       "Neumática",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Producción y acondicionamiento del aire comprimido</span>"
@@ -1597,23 +773,124 @@
     ]
   },
   {
-    "objectID": "01_principios.html#densidad-rho",
-    "href": "01_principios.html#densidad-rho",
-    "title": "1  Principios de neumática e hidráulica",
-    "section": "2.1 Densidad (\\(\\rho\\))",
-    "text": "2.1 Densidad (\\(\\rho\\))\nSuponiendo el fluido homogéneo, la densidad se define como:\n\n\n\n\n\n\n\\[\\rho =\\frac{m}{V}\\]\n\n\n\nDonde:\n\n\\(\\rho\\): densidad, en kilogramos por metro cúbico (\\(kg/m^3\\))\n\\(m\\): masa, en kilogramos (\\(kg\\))\n\\(V\\): volumen, en metros cúbicos (\\(m^3\\))\n\nEn los fluidos gaseosos, como el aire utilizado en las instalaciones neumáticas, la densidad podrá variar mucho dependiendo de las condiciones de trabajo del gas (en particular, de su presión), ya que los gases son compresibles (al aumentar la presión, disminuyen su volumen).\nEn los fluidos líquidos, como los aceites de las instalaciones oleohidráulicas, para las condiciones de trabajo la densidad no sufrirá variaciones medibles, por lo que se considerará constante en toda la instalación. Los fluidos líquidos son incompresibles en nuestro análisis.",
+    "objectID": "apendice_PAU.html",
+    "href": "apendice_PAU.html",
+    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
+    "section": "",
+    "text": "B Bloque 1: Hidráulica",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Principios de neumática e hidráulica</span>"
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
     ]
   },
   {
-    "objectID": "01_principios.html#ley-de-boyle-mariotte",
-    "href": "01_principios.html#ley-de-boyle-mariotte",
-    "title": "1  Principios de neumática e hidráulica",
-    "section": "3.1 Ley de Boyle-Mariotte",
-    "text": "3.1 Ley de Boyle-Mariotte\n[cite_start]Si consideramos un gas perfecto encerrado en un cilindro en el que provocamos una expansión isotérmica, es decir, a temperatura constante, se cumple: [cite: 4]\n\n\n\n\n\n\n\\[p_{1} \\cdot V_{1}=p_{2} \\cdot V_{2}=k\\]",
+    "objectID": "apendice_PAU.html#section",
+    "href": "apendice_PAU.html#section",
+    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
+    "section": "B.1 2014-2015",
+    "text": "B.1 2014-2015\n\nPor una tubería horizontal circula un líquido de \\(900 \\text{ kg/m}^3\\) de densidad a una velocidad de \\(1,40 \\text{ m/s}\\). La sección transversal de la tubería es de \\(10 \\text{ cm}^2\\) y la presión es de \\(0,12 \\text{ MPa}\\). En la tubería existe un estrechamiento en el que la presión desciende a \\(0,10 \\text{ MPa}\\). Se pide:\n\nEl caudal de circulación del fluido.\nLa velocidad del fluido en el estrechamiento y el diámetro del mismo.\n\nPor una tubería de \\(2 \\text{ cm}\\) de diámetro circula agua con una velocidad de \\(60 \\text{ m/min}\\). Se pide:\n\nEl caudal de agua que circula por dicha tubería en unidades del S.I.\nEl régimen de circulación si la viscosidad dinámica y la densidad del agua son \\(0,087 \\text{ Pa}\\cdot\\text{s}\\) y \\(1000 \\text{ kg/m}^3\\), respectivamente.\n\nEn una estación de tratamiento de agua potable se bombea agua por una tubería de \\(30 \\text{ mm}\\) de diámetro a una velocidad de \\(4 \\text{ m/s}\\). Se pide:\n\nEl caudal de agua en \\(\\text{l/min}\\).\nDeterminar la velocidad en otra sección de la tubería de \\(20 \\text{ mm}\\) de diámetro.\n\nPor una tubería de \\(0,95 \\text{ cm}\\) de diámetro circula aceite con un caudal de \\(0,177 \\text{ l/s}\\) y una presión de \\(500 \\text{ MPa}\\). Se pide:\n\nLa velocidad de circulación del aceite.\nLa potencia de la bomba de la instalación suponiendo un rendimiento del \\(80\\%\\).\n\nPor una tubería horizontal de \\(5 \\text{ cm}\\) de diámetro circula un líquido de densidad \\(1,15 \\text{ g/cm}^3\\) a una velocidad de \\(8 \\text{ cm/s}\\), registrándose una presión manométrica de \\(1,5 \\text{ kp/cm}^2\\). La tubería se estrecha hasta tener \\(2 \\text{ cm}\\) de diámetro. Se pide:\n\nHacer un dibujo representativo de la situación considerada y calcular el caudal en unidades del S.I.\nDeterminar la velocidad y la presión absoluta en la sección estrecha de la tubería en unidades del S.I. si la presión atmosférica es de \\(10^5 \\text{ Pa}\\).\n\nEn una fábrica de lubricantes para automoción, un aceite mineral es transportado para su almacenamiento por una conducción de \\(4 \\text{ cm}\\) de diámetro, a una velocidad de \\(0,3 \\text{ m/s}\\) y una presión de trabajo de \\(9 \\text{ MPa}\\). La densidad y viscosidad cinemática del aceite son \\(0,85 \\text{ kg/dm}^3\\) y \\(2 \\text{ cm}^2/\\text{s}\\), respectivamente. Se pide:\n\nEl caudal que circula por la tubería expresado en \\(\\text{dm}^3/\\text{min}\\) y la potencia total de la bomba, suponiendo un rendimiento del \\(87\\%\\).\nDeterminar el régimen de circulación del aceite.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Principios de neumática e hidráulica</span>"
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
+    ]
+  },
+  {
+    "objectID": "apendice_PAU.html#section-1",
+    "href": "apendice_PAU.html#section-1",
+    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
+    "section": "B.2 2015-2016",
+    "text": "B.2 2015-2016\n\nPor una tubería horizontal de \\(4 \\text{ cm}\\) de diámetro circula un caudal de \\(200 \\text{ dm}^3/\\text{min}\\) de un fluido hidráulico cuya densidad es \\(925 \\text{ kg/m}^3\\). La tubería tiene un estrechamiento con un diámetro de \\(25 \\text{ mm}\\). Se pide:\n\nLa velocidad del fluido en los dos tramos de la tubería en \\(\\text{m/s}\\).\nEl régimen de circulación sabiendo que la viscosidad dinámica es \\(0,006 \\text{ N}\\cdot\\text{s/m}^2\\).\n\nLa bomba de un circuito hidráulico aporta un caudal de \\(30 \\text{ dm}^3/\\text{min}\\) de aceite por una tubería de \\(2,5 \\text{ cm}\\) de diámetro a una presión de \\(50 \\text{ kp/cm}^2\\). El aceite utilizado tiene, a la temperatura de trabajo, una densidad de \\(0,85 \\text{ g/cm}^3\\) y una viscosidad dinámica de \\(0,55 \\cdot 10^{-3} \\text{ Pa}\\cdot\\text{s}\\). El rendimiento de la bomba es del \\(75\\%\\). Se pide:\n\nEl régimen de circulación del líquido por la tubería.\nLa potencia de la bomba en vatios.\n\nUn camión cisterna transporta \\(20 \\text{ m}^3\\) de gasoil. Posee una bomba de vaciado que funciona a \\(12 \\text{ MPa}\\) de presión con un caudal de \\(15 \\text{ dm}^3/\\text{s}\\). La manguera que se utiliza tiene un diámetro de \\(20 \\text{ cm}\\). Se pide:\n\nEl tiempo de vaciado y la velocidad a la que circula el gasoil dentro de la manguera.\nLa potencia absorbida por la bomba si tiene un rendimiento del \\(85\\%\\).\n\nEn una prensa hidráulica la fuerza ejercida en el émbolo menor es \\(5 \\text{ N}\\). Se sabe que el radio del émbolo mayor es tres veces el radio del menor. Se pide:\n\nLa fuerza obtenida en el émbolo mayor.\nEl desplazamiento del émbolo mayor si el pequeño se ha desplazado un metro.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
+    ]
+  },
+  {
+    "objectID": "apendice_PAU.html#section-2",
+    "href": "apendice_PAU.html#section-2",
+    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
+    "section": "B.3 2016-2017",
+    "text": "B.3 2016-2017\n\nPor una tubería horizontal de \\(2\\) pulgadas de diámetro (\\(1 \\text{ pulgada} = 2,54 \\text{ cm}\\)) circula agua con un caudal de \\(60 \\text{ litros por minuto}\\). A la temperatura de operación, la viscosidad del agua es \\(0,087 \\text{ N}\\cdot\\text{s/m}^2\\) y la densidad \\(1 \\text{ g/cm}^3\\). El agua se destina a llenar un depósito de sección circular de \\(10 \\text{ m}\\) de diámetro.\n\nDetermine el régimen de circulación del líquido por la tubería.\nCalcule el tiempo que ha de transcurrir para que el nivel del depósito se eleve \\(2 \\text{ m}\\).\n\nSobre la compuerta de desagüe de una prensa el agua embalsada ejerce una fuerza de \\(1250 \\text{ N}\\). La compuerta tiene \\(2 \\text{ m}\\) de diámetro y al abrirla, el caudal de desagüe es \\(15 \\text{ m}^3/\\text{s}\\).\n\nCalcule la velocidad de salida del agua por el desagüe.\nCalcule la presión sobre la compuerta cuando está cerrada.\n\nUn grupo de presión bombea agua por una tubería horizontal de \\(30 \\text{ mm}\\) de diámetro con una velocidad de \\(4 \\text{ m/s}\\).\n\nCalcule el caudal de agua en litros por minuto.\nDetermine la velocidad en un estrechamiento de la tubería cuyo diámetro es \\(20 \\text{ mm}\\).\n\nUna tubería horizontal de \\(180 \\text{ mm}\\) de diámetro conduce agua con una velocidad de \\(10 \\text{ m/s}\\) a una presión de \\(60 \\text{ kPa}\\). En un punto de la tubería existe un estrechamiento donde la presión se reduce a \\(12 \\text{ kPa}\\). La densidad del agua es \\(1000 \\text{ kg/m}^3\\).\n\nCalcule la velocidad del agua en el estrechamiento.\nCalcule el diámetro del estrechamiento.\n\nUna prensa hidráulica consta de dos émbolos cuyos diámetros son \\(8 \\text{ cm}\\) y \\(25 \\text{ cm}\\). Sobre el émbolo de menor diámetro se aplica una carga de \\(100 \\text{ kp}\\).\n\nCalcule el peso, expresado en \\(\\text{N}\\), que se puede elevar en el émbolo de mayor diámetro.\nSi se quiere elevar \\(50 \\text{ cm}\\) la carga situada en el émbolo de mayor diámetro, determine el recorrido total del émbolo pequeño.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
+    ]
+  },
+  {
+    "objectID": "apendice_PAU.html#section-3",
+    "href": "apendice_PAU.html#section-3",
+    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
+    "section": "B.4 2017-2018",
+    "text": "B.4 2017-2018\n\nLos dos pistones de una prensa hidráulica tienen por sección: \\(A_1 = 5 \\text{ cm}^2\\) y \\(A_2 = 200 \\text{ cm}^2\\). La fuerza aplicada perpendicularmente a la sección menor es \\(98 \\text{ N}\\). Se pide:\n\nDibuje un esquema de la prensa y calcule el peso que podrá levantar.\nObtenga el desplazamiento del pistón mayor cuando el pistón pequeño baja \\(0,1 \\text{ m}\\).\n\nLos émbolos de una prensa hidráulica tienen \\(2 \\text{ cm}\\) y \\(16 \\text{ cm}\\) de diámetro. Con esta máquina un operario desea elevar a una altura de un metro una carga de \\(2 \\cdot 10^4 \\text{ N}\\).\n\nCalcule la fuerza que será necesario aplicar en el émbolo pequeño.\nDetermine el desplazamiento total que se ha producido en el émbolo pequeño. Si la carrera del cilindro es de \\(8 \\text{ cm}\\), determine el número de emboladas necesarias para conseguir el desplazamiento total.\n\nPor una tubería horizontal de \\(5 \\text{ cm}\\) de diámetro circula un líquido con densidad \\(0,96 \\text{ g/cm}^3\\) y con un caudal de \\(30 \\text{ l/min}\\). La tubería tiene un estrechamiento y la diferencia de las presiones medidas en ambas secciones es \\(2 \\cdot 10^4 \\text{ Pa}\\).\n\nCalcule en la parte ancha de la tubería, la sección y la velocidad a la que circula el líquido.\nDetermine en la parte estrecha de la tubería, la velocidad a la que circula el líquido y el diámetro que tiene este tramo.\n\nUn líquido circula por una tubería horizontal de \\(20 \\text{ mm}\\) de diámetro a una velocidad de \\(3 \\text{ m/s}\\). La tubería cambia de sección en un punto dado de la instalación a un diámetro de \\(10 \\text{ mm}\\).\n\nCalcule el caudal en la tubería expresándolo en \\(\\text{dm}^3/\\text{min}\\).\nDetermine la velocidad del fluido en la sección menor.\n\nEn una fábrica de reciclaje industrial se desea bombear aceite por una tubería a una velocidad de \\(15 \\text{ m/s}\\) y a una presión de trabajo de \\(10 \\text{ MPa}\\). El diámetro de la tubería es \\(1,2 \\text{ cm}\\). Considere que la densidad y viscosidad cinemática del aceite son \\(0,95 \\text{ kg/l}\\) y \\(1,85 \\text{ cm}^2/\\text{s}\\), respectivamente.\n\nDetermine el caudal por la tubería, expresado en \\(\\text{l/min}\\), y la potencia absorbida, si el rendimiento es del \\(78\\%\\).\nCalcule e indique el régimen de circulación del aceite.\n\nUn coche de una tonelada de masa se apoya en sus cuatro ruedas con una superficie de \\(50 \\text{ cm}^2\\) por cada rueda. El coche se eleva en un taller con un gato hidráulico donde los diámetros del émbolo menor y mayor de la prensa hidráulica son \\(10\\) y \\(50 \\text{ cm}\\), respectivamente.\n\nCalcule la fuerza que hay que ejercer sobre el émbolo menor para levantar el coche.\nCalcule la presión que ejerce el coche sobre el suelo.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
+    ]
+  },
+  {
+    "objectID": "apendice_PAU.html#section-4",
+    "href": "apendice_PAU.html#section-4",
+    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
+    "section": "B.5 2018-2019",
+    "text": "B.5 2018-2019\n\nSe observa que un grifo de agua de una casa tarda \\(50 \\text{ s}\\) en llenar una garrafa de \\(5 \\text{ l}\\) de capacidad. Las tuberías de la casa tienen un diámetro de \\(18 \\text{ mm}\\) y la boca del grifo tiene un diámetro de \\(1 \\text{ cm}\\) (densidad del agua \\(1000 \\text{ kg/m}^3\\)).\n\nCalcule la velocidad del agua dentro de la tubería y en la boca del grifo.\nObtenga la presión manométrica dentro de la tubería, teniendo en cuenta que la presión en la boca del grifo es la atmosférica.\n\nPor la parte ancha de un tubo de Venturi circula un líquido a una velocidad de \\(4 \\text{ m/s}\\). La diferencia de presión entre la parte ancha y estrecha del tubo es \\(7,2 \\cdot 10^4 \\text{ Pa}\\). La sección de la parte estrecha es \\(5 \\text{ cm}^2\\) y la densidad del líquido es \\(0,81 \\text{ g/cm}^3\\).\n\nDetermine la velocidad del líquido en el estrechamiento.\nObtenga el caudal del líquido que circula por el tubo y la sección de la parte ancha del mismo.\n\nEn una prensa hidráulica como la de la figura los émbolos A, B y C tienen una superficie de \\(500 \\text{ mm}^2\\), \\(60 \\text{ cm}^2\\) y \\(70 \\text{ cm}^2\\), respectivamente. La fuerza ejercida en el émbolo menor es \\(50 \\text{ N}\\). {align=“center”}\n\nCalcule las cargas que se pueden elevar en cada émbolo.\nA continuación se cambian las secciones de los émbolos B y C, manteniendo igual la sección y la fuerza ejercida sobre el émbolo A. Calcule las fuerzas resultantes en B y C, sabiendo que la fuerza en B es tres veces superior a la de C, y la suma de ambas vale \\(2000 \\text{ N}\\). Determine también cuáles deben ser las nuevas secciones de los émbolos B y C.\n\nEl grifo de llenado de la piscina de una casa aporta un caudal de agua de \\(3 \\text{ l/s}\\). La piscina es cuadrada de \\(5 \\text{ metros}\\) de lado y tiene una profundidad de \\(1,5 \\text{ m}\\).\n\nCalcule el tiempo que tarda en llenarse la piscina con el grifo.\nPara acelerar el llenado de la piscina, se aporta también agua a \\(150 \\text{ kPa}\\) de presión mediante una bomba de \\(1,1 \\text{ kW}\\) (que funciona con un rendimiento del \\(100\\%\\)). Determine el caudal que aporta la bomba y el nuevo tiempo de llenado con los dos suministros funcionando desde el principio.\n\nUn sistema oleohidráulico consta de una bomba que proporciona una presión de trabajo de \\(8 \\text{ MPa}\\) al circuito. El diámetro de la tubería es \\(10 \\text{ mm}\\) y la velocidad del fluido \\(2,85 \\text{ m/s}\\). La densidad del aceite es \\(0,9 \\text{ kg/l}\\) y su viscosidad cinemática \\(1,72 \\text{ cm}^2/\\text{s}\\).\n\nObtenga el caudal y la potencia absorbida por la bomba si tiene un rendimiento del \\(80\\%\\).\nDetermine el régimen de circulación del fluido.\n\nUna tubería horizontal consta de dos tramos de diferente sección. Por el tramo ancho de \\(15 \\text{ cm}\\) de diámetro circula agua a una velocidad de \\(5,5 \\text{ m/s}\\). El tramo estrecho tiene un diámetro de \\(6 \\text{ cm}\\). La densidad del agua es \\(1 \\text{ g/cm}^3\\).\n\nCalcule el caudal y la velocidad a la que circula el líquido por el tramo estrecho de la conducción.\nObtenga la diferencia de presión entre ambos tramos. Exprese el valor en \\(\\text{N/m}^2\\).",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
+    ]
+  },
+  {
+    "objectID": "apendice_PAU.html#section-5",
+    "href": "apendice_PAU.html#section-5",
+    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
+    "section": "C.1 2014-2015",
+    "text": "C.1 2014-2015\n\nUn cilindro de doble efecto tiene un émbolo de \\(90 \\text{ mm}\\) de diámetro y un vástago de \\(20 \\text{ mm}\\) de diámetro. Se conecta a una red de aire comprimido y ejerce una fuerza en el avance de \\(10000 \\text{ N}\\). Se pide:\n\nPresión de la red de aire comprimido.\nFuerza que ejerce en el retroceso.\n\nUn cilindro de doble efecto ejerce una fuerza máxima de \\(10000 \\text{ N}\\) y tiene una carrera de \\(20 \\text{ cm}\\). Se pide:\n\nEl diámetro que debe tener el vástago para que la tensión en el mismo no supere los \\(8 \\text{ MPa}\\) al ejercer la fuerza máxima.\nEl diámetro del émbolo teniendo en cuenta que el consumo de aire, medido a la presión de trabajo, es de \\(3 \\text{ litros}\\) por ciclo.\n\nUna instalación neumática dispone de tres cilindros idénticos de doble efecto de \\(12 \\text{ cm}\\) de diámetro de émbolo, \\(2 \\text{ cm}\\) de diámetro de vástago y \\(25 \\text{ cm}\\) de carrera. Los cilindros realizan cada hora \\(60\\), \\(30\\) y \\(15\\) ciclos, respectivamente. Las pérdidas por rozamiento son nulas y la presión de trabajo es de \\(6 \\text{ bares}\\). Se pide:\n\nFuerza de avance y retroceso de cada cilindro.\nCaudal de aire en condiciones normales que necesita la instalación para su funcionamiento.\n\nUn cilindro neumático de doble efecto tiene las siguientes características: diámetro del émbolo \\(50 \\text{ mm}\\), diámetro del vástago \\(10 \\text{ mm}\\), presión de trabajo \\(6 \\text{ bares}\\), pérdidas por rozamiento \\(10\\%\\) de la fuerza teórica. Se pide:\n\nLa fuerza que ejerce en el avance.\nLa fuerza que ejerce en el retroceso.\n\nUn cilindro neumático de doble efecto tiene las siguientes características: presión de trabajo \\(8 \\cdot 10^5 \\text{ N/m}^2\\), diámetro del cilindro \\(60 \\text{ mm}\\), diámetro del vástago \\(20 \\text{ mm}\\) y pérdidas por rozamiento \\(4\\%\\) de la fuerza teórica. Se pide:\n\nCalcular la fuerza que ejerce el vástago en el avance.\nCalcular la fuerza que ejerce el vástago en el retroceso.\n\nUn cilindro de simple efecto consume en cada ciclo de funcionamiento un volumen de aire de \\(500 \\text{ cm}^3\\) medidos a la presión de trabajo. La carrera del émbolo es de \\(20 \\text{ cm}\\). La presión de trabajo es de \\(9 \\text{ kp/cm}^2\\) y la presión atmosférica es \\(1 \\text{ kp/cm}^2\\). El cilindro completa \\(20\\) ciclos cada minuto. Se pide:\n\nEl diámetro del cilindro en \\(\\text{cm}\\) y la fuerza de avance en \\(\\text{kp}\\).\nEl volumen de aire en \\(\\text{m}^3\\) consumidos en condiciones normales en un minuto de funcionamiento.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
+    ]
+  },
+  {
+    "objectID": "apendice_PAU.html#section-6",
+    "href": "apendice_PAU.html#section-6",
+    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
+    "section": "C.2 2015-2016",
+    "text": "C.2 2015-2016\n\nSe dispone de un cilindro hidráulico de doble efecto de \\(500 \\text{ mm}\\) de carrera, \\(100 \\text{ mm}\\) de diámetro del émbolo y \\(45 \\text{ mm}\\) de diámetro del vástago alimentado por una bomba que proporciona una presión de \\(60 \\text{ bares}\\) y un caudal de \\(10 \\text{ dm}^3/\\text{min}\\). Se pide:\n\nLa fuerza de avance y de retroceso del vástago.\nLas velocidades de avance y retroceso del émbolo.\n\nEn un cilindro de simple efecto se conocen los siguientes datos: diámetro del émbolo \\(40 \\text{ mm}\\), diámetro del vástago \\(12 \\text{ mm}\\), presión de trabajo \\(600 \\text{ kPa}\\), pérdidas por rozamiento \\(12\\%\\) y fuerza de recuperación del muelle \\(6\\%\\). Se pide:\n\nLa fuerza teórica y la fuerza neta en el avance.\nLa fuerza de retroceso si el muelle se comprime \\(102,8 \\text{ mm}\\) y su constante elástica es \\(500 \\text{ N/m}\\).\n\nUn cilindro neumático de doble efecto, con un émbolo de \\(20 \\text{ mm}\\) de diámetro y un vástago de \\(12 \\text{ mm}\\) de diámetro, realiza una carrera de \\(45 \\text{ mm}\\) a un régimen de trabajo de \\(15 \\text{ ciclos/min}\\). Se pide:\n\nEl caudal de aire consumido en condiciones de trabajo, expresado en \\(\\text{m}^3/\\text{min}\\).\nEl caudal si el cilindro fuese de simple efecto y su comparación con el caudal anterior. ¿A qué se debe la diferencia?\n\nUn cilindro neumático de simple efecto tiene un émbolo de \\(50 \\text{ mm}\\) de diámetro y proporciona una fuerza de empuje de \\(1000 \\text{ N}\\) para elevar una carga. Las pérdidas por rozamiento y las debidas al muelle recuperador son el \\(10\\%\\) y el \\(6\\%\\), respectivamente, de la fuerza de empuje. Se pide:\n\nEl valor de las pérdidas totales del cilindro.\nLa presión del aire comprimido que alimenta este cilindro.\n\nSe dispone de un cilindro neumático de simple efecto que tiene un émbolo de \\(63 \\text{ mm}\\) de diámetro. La presión de trabajo es \\(6 \\text{ bares}\\) y la carrera del pistón \\(10 \\text{ cm}\\). La fuerza neta ejercida por el vástago del cilindro es el \\(90\\%\\) de la fuerza teórica. Se pide:\n\nLa fuerza neta ejercida por el cilindro en su movimiento de avance.\nEl consumo de aire medido en condiciones normales en una hora si este cilindro completa \\(6\\) ciclos de trabajo cada minuto.\n\nUna máquina neumática dispone de dos cilindros iguales de simple efecto de \\(7 \\text{ cm}\\) de diámetro y una carrera de \\(100 \\text{ mm}\\), realizando los siguientes ciclos de trabajo: el cilindro A, un ciclo cada \\(2\\) segundos y el cilindro B, un ciclo cada segundo. Se pide:\n\nEl caudal de aire en \\(\\text{dm}^3/\\text{min}\\) de cada cilindro a la presión de trabajo.\nLa potencia desarrollada por cada cilindro si la presión de trabajo es \\(6 \\text{ bares}\\).",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
+    ]
+  },
+  {
+    "objectID": "apendice_PAU.html#section-7",
+    "href": "apendice_PAU.html#section-7",
+    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
+    "section": "C.3 2016-2017",
+    "text": "C.3 2016-2017\n\nUn cilindro neumático de simple efecto es accionado con aire comprimido. El diámetro del émbolo es \\(25 \\text{ mm}\\), la carrera del pistón \\(50 \\text{ mm}\\) y la presión de trabajo \\(6 \\text{ bares}\\). Las fuerzas de rozamiento y de retorno del muelle representan el \\(4\\%\\) y el \\(8\\%\\), respectivamente, de la fuerza teórica de avance del émbolo.\n\nCalcule la fuerza neta ejercida por el vástago en el movimiento de avance.\nSi este cilindro completa \\(10\\) ciclos de trabajo cada minuto, calcule el consumo de aire en condiciones normales expresado en litros por hora.\n\nEl volumen de aire desplazado por el émbolo de un cilindro de doble efecto, en un ciclo completo, es \\(2 \\text{ litros}\\) medido a la presión de trabajo. La fuerza teórica en la carrera de avance es \\(16000 \\text{ N}\\) y la presión de trabajo \\(0,5 \\text{ MPa}\\). La fuerza de rozamiento es el \\(10\\%\\) de la fuerza teórica. El diámetro del vástago es \\(25 \\text{ mm}\\).\n\nCalcule el diámetro del émbolo.\nDetermine la carrera del émbolo.\n\nUn cilindro de simple efecto que trabaja a una presión de \\(250 \\text{ kg/cm}^2\\) con un rendimiento del \\(85\\%\\), tiene las siguientes características: diámetro \\(6 \\text{ cm}\\), diámetro del vástago \\(3 \\text{ cm}\\) y carrera \\(18 \\text{ cm}\\). El vástago se mueve a razón de \\(5\\) ciclos por minuto y la fuerza del muelle es un \\(6\\%\\) de la fuerza teórica.\n\nCalcule la fuerza efectiva de avance del vástago.\nCalcule el consumo de aire en las condiciones de trabajo expresado en \\(\\text{m}^3/\\text{s}\\).\n\nUn cilindro de simple efecto de retorno por muelle realiza trabajo por compresión en una prensa. El cilindro está conectado a una red de aire de \\(2 \\text{ MPa}\\) de presión, siendo el diámetro del émbolo \\(14 \\text{ cm}\\) y su carrera \\(6 \\text{ cm}\\). La constante del muelle es \\(120 \\text{ N/cm}\\) y la fuerza de rozamiento el \\(10\\%\\) de la teórica.\n\nCalcule la fuerza de avance al final de la carrera.\nDetermine el consumo de aire en las condiciones de trabajo si efectúa \\(10\\) ciclos por minuto. Exprese el resultado en litros por minuto.\n\nPara la apertura o cierre de una puerta se utiliza un cilindro ideal de doble efecto. Se conocen los siguientes datos: diámetro del émbolo \\(10 \\text{ cm}\\), diámetro del vástago \\(3 \\text{ cm}\\) y carrera \\(12 \\text{ cm}\\). Este cilindro se conecta a una red de aire comprimido de \\(2 \\text{ MPa}\\) de presión.\n\nCalcule la fuerza que ejerce el vástago en la carrera de avance y en la de retorno.\nCalcule el consumo de aire en condiciones normales en un ciclo.\n\nUn cilindro neumático vertical de simple efecto con retroceso por gravedad (sin muelle), debe elevar una carga total de \\(50 \\text{ kp}\\) (incluida la necesaria para vencer el rozamiento), realizando \\(12\\) maniobras por minuto a una presión de trabajo de \\(0,7 \\text{ MPa}\\).\n\nCalcule el diámetro del cilindro.\nDetermine el consumo de aire a la presión de trabajo si la carrera es \\(500 \\text{ mm}\\).\n\nUn cilindro de doble efecto tiene un émbolo de \\(90 \\text{ mm}\\) de diámetro, un vástago de \\(28 \\text{ mm}\\) de diámetro y una carrera de \\(420 \\text{ mm}\\). El cilindro realiza \\(20\\) ciclos cada minuto a una presión de trabajo de \\(5 \\text{ bares}\\).\n\nCalcule las fuerzas de avance y retroceso.\nDetermine el consumo de aire del cilindro en condiciones normales expresado en litros por minuto.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
+    ]
+  },
+  {
+    "objectID": "apendice_PAU.html#section-8",
+    "href": "apendice_PAU.html#section-8",
+    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
+    "section": "C.4 2017-2018",
+    "text": "C.4 2017-2018\n\nUn cilindro de simple efecto de retorno por muelle se encuentra conectado a una red de aire de \\(1,1 \\text{ MPa}\\) de presión. La constante del muelle es \\(120 \\text{ N/cm}\\), el diámetro del émbolo es \\(12 \\text{ cm}\\), su carrera \\(4 \\text{ cm}\\) y la fuerza de rozamiento el \\(15\\%\\) de la teórica.\n\nCalcule la fuerza ejercida por el vástago al final de su recorrido.\nDetermine el consumo de aire en condiciones normales, expresado en \\(\\text{l/min}\\), si efectúa \\(10\\) ciclos por minuto.\n\nUn cilindro de doble efecto tiene un émbolo de \\(10 \\text{ cm}\\) de diámetro. La relación entre los diámetros del émbolo y del vástago es \\(5\\). Este cilindro está conectado a una red de aire comprimido a la presión de \\(2 \\text{ MPa}\\) y efectúa \\(15\\) ciclos por minuto. La fuerza de rozamiento es igual a un \\(10\\%\\) de la teórica.\n\nCalcule la fuerza efectiva que ejerce el vástago en la carrera de avance y la que ejerce en la de retorno.\nObtenga la carrera si el caudal de aire, medido en condiciones normales, es \\(583 \\text{ l/min}\\).\n\nUn cilindro de doble efecto tiene las siguientes características: diámetro del émbolo \\(20 \\text{ mm}\\), diámetro del vástago \\(8 \\text{ mm}\\), carrera \\(40 \\text{ mm}\\), presión \\(0,9 \\text{ MPa}\\) y realiza \\(12\\) ciclos por minuto. Las pérdidas por rozamiento son el \\(10\\%\\) de la teórica.\n\nCalcule la fuerza efectiva ejercida en el avance y en el retroceso del vástago.\nDetermine el consumo de aire en una hora en condiciones normales.\n\nUn cilindro neumático de doble efecto utiliza para su funcionamiento aire a una presión de \\(600 \\text{ kPa}\\). El émbolo tiene un diámetro de \\(80 \\text{ mm}\\) y una carrera de \\(320 \\text{ mm}\\). El diámetro del vástago es \\(16 \\text{ mm}\\). La fuerza de rozamiento del émbolo al desplazarse, tanto en el avance como en el retroceso, es igual al \\(10\\%\\) de la fuerza total ejercida por el aire comprimido.\n\nCalcule la fuerza neta en el avance y en el retroceso del cilindro.\nCalcule el consumo de aire en un ciclo medido en condiciones normales expresado en litros.\n\nSe desea diseñar un cilindro de simple efecto de \\(20 \\text{ cm}\\) de carrera y que utilice en su funcionamiento un volumen de aire en condiciones normales de \\(900 \\text{ cm}^3\\) cada ciclo. La presión de trabajo es \\(8 \\cdot 10^5 \\text{ Pa}\\). Se estima que las pérdidas por rozamiento y las producidas en el muelle ascienden al \\(16\\%\\).\n\nCalcule el volumen del aire en condiciones de trabajo expresado en \\(\\text{cm}^3\\) y el diámetro del émbolo.\nObtenga la fuerza neta o efectiva del cilindro.\n\nUna máquina selladora utiliza un cilindro de simple efecto cuyo émbolo tiene \\(50 \\text{ mm}\\) de diámetro y una carrera de \\(20 \\text{ cm}\\). La presión de trabajo es \\(800 \\text{ kPa}\\). El muelle desarrolla una fuerza recuperadora igual al \\(6\\%\\) de la teórica. La fuerza de rozamiento es el \\(12\\%\\) de la aplicada sobre el émbolo. El consumo de aire durante una hora, en las condiciones de trabajo, ha sido de \\(10 \\text{ litros}\\).\n\nCalcule la fuerza efectiva ejercida en el avance y en el retroceso del vástago.\nDetermine el número de ciclos completados durante una hora.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
+    ]
+  },
+  {
+    "objectID": "apendice_PAU.html#section-9",
+    "href": "apendice_PAU.html#section-9",
+    "title": "Appendix A — Ejercicios PAU de Hidráulica y Neumática - Andalucía",
+    "section": "C.5 2018-2019",
+    "text": "C.5 2018-2019\n\nUna máquina remachadora utiliza un cilindro de simple efecto para colocar los remaches. La carrera del cilindro es \\(250 \\text{ mm}\\) y en su funcionamiento consume un volumen de aire de \\(420 \\text{ cm}^3\\) cada ciclo, medido a la presión de trabajo de \\(200 \\text{ kPa}\\).\n\nCalcule el diámetro del émbolo del cilindro.\nDetermine la fuerza efectiva de avance, teniendo en cuenta que las fuerzas de rozamiento suponen el \\(10\\%\\) de la fuerza teórica y el resorte realiza una fuerza equivalente al \\(5\\%\\) de la fuerza teórica de avance.\n\nUn cilindro neumático de doble efecto usado en una máquina tiene las siguientes características: diámetro del émbolo \\(20 \\text{ mm}\\), diámetro del vástago \\(8 \\text{ mm}\\) y carrera \\(60 \\text{ mm}\\). Este cilindro se alimenta con aire comprimido a la presión de \\(9 \\cdot 10^5 \\text{ Pa}\\) y completa \\(12\\) ciclos por minuto. La fuerza de rozamiento es el \\(10\\%\\) de la teórica.\n\nDetermine la fuerza efectiva ejercida en el avance y en el retroceso del vástago.\nCalcule el caudal de aire utilizado en condiciones normales. Exprese el resultado en \\(\\text{l/h}\\).\n\nUn cilindro neumático de simple efecto ha de proporcionar una fuerza de \\(820 \\text{ N}\\). Las fuerzas de rozamiento y la fuerza recuperadora del muelle se consideran despreciables. El émbolo de este cilindro tiene un diámetro de \\(40 \\text{ mm}\\) y una carrera de \\(20 \\text{ cm}\\). El cilindro completa \\(8\\) ciclos cada minuto.\n\nCalcule la presión del aire comprimido que es necesario suministrar al cilindro en estas condiciones.\nDetermine el volumen de aire comprimido y de aire medido en condiciones normales, que consume el cilindro cada hora de funcionamiento.\n\nEl movimiento de un martillo neumático se realiza mediante un cilindro de doble efecto. El desplazamiento del vástago es \\(60 \\text{ mm}\\), el diámetro del émbolo es \\(5 \\text{ cm}\\) y el diámetro del vástago \\(1 \\text{ cm}\\). La presión del aire suministrado es \\(7 \\cdot 10^5 \\text{ Pa}\\).\n\nObtenga la fuerza de avance y la fuerza de retroceso del vástago.\nDetermine el caudal de aire a la presión de trabajo, expresado en \\(\\text{l/min}\\), sabiendo que el martillo golpea el suelo \\(25\\) veces por segundo.\n\nUna plegadora de chapa utiliza para su funcionamiento un cilindro neumático de simple efecto, desarrollando una fuerza neta de \\(8000 \\text{ N}\\), con unas pérdidas por rozamiento del \\(10\\%\\) de la fuerza teórica. Las pérdidas causadas por el muelle se consideran despreciables. El compresor proporciona al circuito una presión de \\(6 \\cdot 10^5 \\text{ Pa}\\).\n\nCalcule el diámetro que debe tener el émbolo.\nObtenga el caudal de aire a la presión de trabajo, en \\(\\text{l/min}\\), que debe suministrar el compresor si se hacen \\(20\\) pliegues por minuto y la carrera del vástago es \\(50 \\text{ cm}\\).\n\nUn cilindro neumático de doble efecto es accionado con aire comprimido con una presión de \\(8 \\cdot 10^5 \\text{ Pa}\\). La carrera es \\(25 \\text{ cm}\\), el diámetro del émbolo es \\(60 \\text{ mm}\\) y el del vástago \\(20 \\text{ mm}\\). Se produce una pérdida de fuerza por fricción, tanto en el movimiento de avance como en el de retroceso del émbolo, del \\(4\\%\\) de la fuerza total ejercida en cada caso por el aire comprimido. El cilindro trabaja a un ritmo de \\(8\\) ciclos por minuto.\n\nCalcule la fuerza ejercida por el cilindro en el movimiento de avance y en el de retroceso.\nObtenga el volumen de aire comprimido que se consume durante una hora de funcionamiento, medido en las condiciones de trabajo.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Ejercicios PAU de Hidráulica y Neumática - Andalucía</span>"
     ]
   }
 ]
