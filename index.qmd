@@ -20,7 +20,7 @@ Bienvenido a la unidad de **Neumática e Hidráulica** de la asignatura de Tecno
 ## 📚 Material de estudio
 Puedes descargar esta unidad completa en formato PDF para estudiar sin conexión o imprimirla:
 
-[Descargar Apuntes en PDF](Neumatica_y_Hidraulica.pdf){.btn .btn-primary .btn-lg role="button"}
+[Descargar Apuntes en PDF](Unidad_Neumatica_Hidraulica.pdf){.btn .btn-primary .btn-lg role="button"}
 :::
 :::
 
