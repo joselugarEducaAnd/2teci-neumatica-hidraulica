@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="José Luis García Jiménez">
+
+<title>3&nbsp; Actuadores. Cilindros y válvulas neumáticas – Unidad 8: Neumática e hidráulica</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./04_analisis_diseno.html" rel="next">
+<link href="./02_produccion_distribucion.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-4ba85d4b4427d31d840a79ec76a35f2e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: white;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: white;
+background: #453f93;
+      }
+</style>
+<script>
+window.MathJax = {
+  loader: {load: ['[tex]/enclose']},
+  tex: {
+    packages: {'[+]': ['enclose']},
+    macros: {
+      sen: '{\\operatorname{sen}}',
+      phase: ['{\\enclose{phasorangle}{#1}}', 1],
+      dotZ: '{\\dot{Z}}',
+      dotI: '{\\dot{I}}',
+      VA: '{\\text{ VA}}'
+    }
+  }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./02_produccion_distribucion.html">Neumática</a></li><li class="breadcrumb-item"><a href="./03_actuadores_valvulas.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Actuadores. Cilindros y válvulas neumáticas</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./02_produccion_distribucion.html">Neumática</a></li><li class="breadcrumb-item"><a href="./03_actuadores_valvulas.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Actuadores. Cilindros y válvulas neumáticas</span></a></li></ol></nav>
+      <h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Actuadores. Cilindros y válvulas neumáticas</span></h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-body">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>José Luis García Jiménez </p>
+            </div>
+    </div>
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./logoMajuelo.jpeg" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="./logoMajuelo.jpeg" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Unidad 8: Neumática e hidráulica</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01_principios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Principios de neumática e hidráulica</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Neumática</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02_produccion_distribucion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Producción y acondicionamiento del aire comprimido</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03_actuadores_valvulas.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Actuadores. Cilindros y válvulas neumáticas</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04_analisis_diseno.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Análisis y diseño de circuitos neumáticos</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Hidráulica</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05_hidraulica.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Circuitos hidráulicos</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./apendice_PAU.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Ejercicios PAU de Hidráulica y Neumática - Andalucía</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#motores" id="toc-motores" class="nav-link active" data-scroll-target="#motores"><span class="header-section-number">4</span> Motores</a></li>
+  <li><a href="#cilindros" id="toc-cilindros" class="nav-link" data-scroll-target="#cilindros"><span class="header-section-number">5</span> Cilindros</a>
+  <ul class="collapse">
+  <li><a href="#de-simple-efecto" id="toc-de-simple-efecto" class="nav-link" data-scroll-target="#de-simple-efecto"><span class="header-section-number">5.1</span> De simple efecto</a></li>
+  <li><a href="#de-doble-efecto" id="toc-de-doble-efecto" class="nav-link" data-scroll-target="#de-doble-efecto"><span class="header-section-number">5.2</span> De doble efecto</a></li>
+  </ul></li>
+  <li><a href="#cálculos-de-magnitudes-en-cilindros-neumáticos" id="toc-cálculos-de-magnitudes-en-cilindros-neumáticos" class="nav-link" data-scroll-target="#cálculos-de-magnitudes-en-cilindros-neumáticos"><span class="header-section-number">6</span> Cálculos de magnitudes en cilindros neumáticos</a>
+  <ul class="collapse">
+  <li><a href="#parámetros-geométricos" id="toc-parámetros-geométricos" class="nav-link" data-scroll-target="#parámetros-geométricos"><span class="header-section-number">6.1</span> Parámetros geométricos</a></li>
+  <li><a href="#presión-de-trabajo" id="toc-presión-de-trabajo" class="nav-link" data-scroll-target="#presión-de-trabajo"><span class="header-section-number">6.2</span> Presión de trabajo</a></li>
+  <li><a href="#volumen-de-aire-en-el-cilindro" id="toc-volumen-de-aire-en-el-cilindro" class="nav-link" data-scroll-target="#volumen-de-aire-en-el-cilindro"><span class="header-section-number">6.3</span> Volumen de aire en el cilindro</a></li>
+  <li><a href="#caudal-de-aire-necesario" id="toc-caudal-de-aire-necesario" class="nav-link" data-scroll-target="#caudal-de-aire-necesario"><span class="header-section-number">6.4</span> Caudal de aire necesario</a></li>
+  <li><a href="#fuerza-ejercida-por-el-cilindro" id="toc-fuerza-ejercida-por-el-cilindro" class="nav-link" data-scroll-target="#fuerza-ejercida-por-el-cilindro"><span class="header-section-number">6.5</span> Fuerza ejercida por el cilindro</a>
+  <ul class="collapse">
+  <li><a href="#cilindro-de-doble-efecto" id="toc-cilindro-de-doble-efecto" class="nav-link" data-scroll-target="#cilindro-de-doble-efecto"><span class="header-section-number">6.5.1</span> Cilindro de doble efecto</a></li>
+  <li><a href="#cilindro-de-simple-efecto" id="toc-cilindro-de-simple-efecto" class="nav-link" data-scroll-target="#cilindro-de-simple-efecto"><span class="header-section-number">6.5.2</span> Cilindro de simple efecto</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#ejercicios-pau" id="toc-ejercicios-pau" class="nav-link" data-scroll-target="#ejercicios-pau"><span class="header-section-number">7</span> Ejercicios PAU</a></li>
+  <li><a href="#válvulas" id="toc-válvulas" class="nav-link" data-scroll-target="#válvulas"><span class="header-section-number">8</span> Válvulas</a></li>
+  <li><a href="#válvulas-distribuidoras" id="toc-válvulas-distribuidoras" class="nav-link" data-scroll-target="#válvulas-distribuidoras"><span class="header-section-number">9</span> Válvulas distribuidoras</a>
+  <ul class="collapse">
+  <li><a href="#vías" id="toc-vías" class="nav-link" data-scroll-target="#vías"><span class="header-section-number">9.1</span> Vías</a></li>
+  <li><a href="#posiciones" id="toc-posiciones" class="nav-link" data-scroll-target="#posiciones"><span class="header-section-number">9.2</span> Posiciones</a></li>
+  <li><a href="#tipo-de-accionamiento-retorno" id="toc-tipo-de-accionamiento-retorno" class="nav-link" data-scroll-target="#tipo-de-accionamiento-retorno"><span class="header-section-number">9.3</span> Tipo de accionamiento-retorno</a>
+  <ul class="collapse">
+  <li><a href="#accionamientos-manuales" id="toc-accionamientos-manuales" class="nav-link" data-scroll-target="#accionamientos-manuales"><span class="header-section-number">9.3.1</span> Accionamientos manuales</a></li>
+  <li><a href="#accionamientos-mecánicos" id="toc-accionamientos-mecánicos" class="nav-link" data-scroll-target="#accionamientos-mecánicos"><span class="header-section-number">9.3.2</span> Accionamientos mecánicos</a></li>
+  <li><a href="#accionamientos-neumáticos" id="toc-accionamientos-neumáticos" class="nav-link" data-scroll-target="#accionamientos-neumáticos"><span class="header-section-number">9.3.3</span> Accionamientos neumáticos</a></li>
+  <li><a href="#accionamientos-eléctricos" id="toc-accionamientos-eléctricos" class="nav-link" data-scroll-target="#accionamientos-eléctricos"><span class="header-section-number">9.3.4</span> Accionamientos eléctricos</a></li>
+  <li><a href="#accionamientos-combinados" id="toc-accionamientos-combinados" class="nav-link" data-scroll-target="#accionamientos-combinados"><span class="header-section-number">9.3.5</span> Accionamientos combinados</a></li>
+  <li><a href="#válvulas-biestables-y-monoestables" id="toc-válvulas-biestables-y-monoestables" class="nav-link" data-scroll-target="#válvulas-biestables-y-monoestables"><span class="header-section-number">9.3.6</span> Válvulas biestables y monoestables</a></li>
+  </ul></li>
+  <li><a href="#identificación-de-una-válvula-distribuidora" id="toc-identificación-de-una-válvula-distribuidora" class="nav-link" data-scroll-target="#identificación-de-una-válvula-distribuidora"><span class="header-section-number">9.4</span> Identificación de una válvula distribuidora</a></li>
+  </ul></li>
+  <li><a href="#válvulas-de-bloqueo" id="toc-válvulas-de-bloqueo" class="nav-link" data-scroll-target="#válvulas-de-bloqueo"><span class="header-section-number">10</span> Válvulas de bloqueo</a>
+  <ul class="collapse">
+  <li><a href="#válvula-antirretorno" id="toc-válvula-antirretorno" class="nav-link" data-scroll-target="#válvula-antirretorno"><span class="header-section-number">10.1</span> Válvula antirretorno</a></li>
+  <li><a href="#válvula-selectora-o-válvula-or" id="toc-válvula-selectora-o-válvula-or" class="nav-link" data-scroll-target="#válvula-selectora-o-válvula-or"><span class="header-section-number">10.2</span> Válvula selectora o válvula “OR”</a></li>
+  <li><a href="#válvula-de-simultaneidad-o-válvula-and" id="toc-válvula-de-simultaneidad-o-válvula-and" class="nav-link" data-scroll-target="#válvula-de-simultaneidad-o-válvula-and"><span class="header-section-number">10.3</span> Válvula de simultaneidad o válvula “AND”</a></li>
+  <li><a href="#válvula-de-escape-rápido" id="toc-válvula-de-escape-rápido" class="nav-link" data-scroll-target="#válvula-de-escape-rápido"><span class="header-section-number">10.4</span> Válvula de escape rápido</a></li>
+  </ul></li>
+  <li><a href="#válvulas-de-caudal" id="toc-válvulas-de-caudal" class="nav-link" data-scroll-target="#válvulas-de-caudal"><span class="header-section-number">11</span> Válvulas de caudal</a>
+  <ul class="collapse">
+  <li><a href="#válvula-estranguladora-unidireccional" id="toc-válvula-estranguladora-unidireccional" class="nav-link" data-scroll-target="#válvula-estranguladora-unidireccional"><span class="header-section-number">11.1</span> Válvula estranguladora unidireccional</a></li>
+  <li><a href="#válvula-estranguladora-bidireccional" id="toc-válvula-estranguladora-bidireccional" class="nav-link" data-scroll-target="#válvula-estranguladora-bidireccional"><span class="header-section-number">11.2</span> Válvula estranguladora bidireccional</a></li>
+  <li><a href="#temporizador" id="toc-temporizador" class="nav-link" data-scroll-target="#temporizador"><span class="header-section-number">11.3</span> Temporizador</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-body" id="quarto-document-content">
+
+
+
+
+
+<p>Los actuadores neumáticos son los encargados de <strong>transformar la presión</strong> del aire comprimido en un <strong>trabajo útil</strong>. Existen múltiples dispositivos capaces de realizar esta tarea, pero los más utilizados son básicamente de dos tipos:</p>
+<ul>
+<li>Rotativos: como los motores</li>
+<li>Lineales: como los cilindros</li>
+</ul>
+<section id="motores" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Motores</h1>
+<p>Se utilizan cuando es necesario lograr <strong>giros continuos</strong>. Las ventajas de estos motores son su buena relación potencia-peso, así como la ausencia de problemas de sobrecalentamiento ante sobrecargas. La mayoría de los motores neumáticos son de <strong>paletas</strong>, aunque también existen aquellos que basan su funcionamiento en el uso de <strong>pistones</strong> o en una <strong>turbina</strong>.</p>
+<p>En el siguiente vídeo se muestra un ejemplo de motores neumáticos aplicados a un brazo robótico:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/54u3H69tcgM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="cilindros" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Cilindros</h1>
+<p>Transforman la energía del aire comprimido en un movimiento <strong>lineal</strong>. Son tubos cilíndricos cerrados, dentro de ellos existe un émbolo que se desplaza unido a un vástago que lo atraviesa.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/clindro.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="400"></p>
+</figure>
+</div>
+<p>Existen dos tipos distintos de cilindros neumáticos según su forma de accionamiento:</p>
+<section id="de-simple-efecto" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="de-simple-efecto"><span class="header-section-number">5.1</span> De simple efecto</h2>
+<p>Tienen una sola conexión para entrada de aire. Solo se aprovecha la fuerza a la salida del vástago. Su símbolo es el siguiente:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/SIMB-CIL-SE.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="259"></p>
+</figure>
+</div>
+<p>Cuando introducimos aire por la tubería de la izquierda, sale el émbolo. Cuando dejamos de introducir aire el vástago retorna por el efecto de un muelle.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/CIL-SE-EJ.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="449"></p>
+</figure>
+</div>
+</section>
+<section id="de-doble-efecto" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="de-doble-efecto"><span class="header-section-number">5.2</span> De doble efecto</h2>
+<p>Llevan dos tomas de aire (una a cada lado del émbolo). Pueden realizar trabajo en ambos sentidos, porque se les aplica la presión en ambas caras del émbolo. Su símbolo es el siguiente:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/SIMB-CIL-DE.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="261"></p>
+</figure>
+</div>
+<p>Cuando introducimos aire por la tubería de la izquierda, sale el émbolo. Cuando introducimos aire por la tubería de la derecha, el émbolo entra.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/CIL-DE-EJ.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="451"></p>
+</figure>
+</div>
+<p>Aquí tienes un vídeo donde puedes ver con más detalle tanto el funcionamiento como la construcción de los cilindros neumáticos:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/G8dL-VPVhjs" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+</section>
+<section id="cálculos-de-magnitudes-en-cilindros-neumáticos" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Cálculos de magnitudes en cilindros neumáticos</h1>
+<p>Debido a la importancia de los cilindros en los sistemas de aire comprimido (y también porque lo preguntan en la PAU), vamos a analizar cómo se pueden calcular sus magnitudes más importantes.</p>
+<section id="parámetros-geométricos" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="parámetros-geométricos"><span class="header-section-number">6.1</span> Parámetros geométricos</h2>
+<p>Los parámetros geométricos principales de un cilindro son los siguientes:</p>
+<ul>
+<li>Diámetro del pistón (<span class="math inline">\(D\)</span>)</li>
+<li>Diámetro del vástago (<span class="math inline">\(d\)</span>)</li>
+<li>Carrera (<span class="math inline">\(L\)</span>)</li>
+</ul>
+<p>Los puedes ver indicados en la siguiente imagen sobre un cilindro de simple efecto y uno de doble efecto:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/Cilindros-D-d-L.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="799"></p>
+</figure>
+</div>
+</section>
+<section id="presión-de-trabajo" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="presión-de-trabajo"><span class="header-section-number">6.2</span> Presión de trabajo</h2>
+<p>Normalmente la presión de trabajo del cilindro será un dato conocido que nos vendrá dado en bares, en atmósferas o en pascales. Las presiones más habituales de los cilindros neumáticos suelen estar entre los <span class="math inline">\(6 \ \text{bar}\)</span> y, como máximo, los <span class="math inline">\(10 \ \text{bar}\)</span>.</p>
+<p>Al analizar los cilindros <strong>hablaremos siempre de presiones relativas (manométricas),</strong> para no tener que estar restando siempre las fuerzas producidas por la presión del ambiente sobre las diferentes piezas del cilindro.</p>
+</section>
+<section id="volumen-de-aire-en-el-cilindro" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="volumen-de-aire-en-el-cilindro"><span class="header-section-number">6.3</span> Volumen de aire en el cilindro</h2>
+<p>El volumen de aire que entra en un cilindro viene determinado por el volumen disponible dentro del mismo. Este volumen no es el mismo en la carrera de avance y en la de retroceso en un cilindro de doble efecto.</p>
+<p>En la <strong>carrera de avance</strong> de un cilindro (tanto de <strong>simple</strong> como de <strong>doble efecto</strong>), el volumen máximo disponible es el que queda entre el pistón y las paredes del cilindro cuando se ha avanzado toda la carrera. Es decir:</p>
+<div class="callout callout-style-simple callout-warning no-icon" style="width: fit-content; margin: auto; text-align: center;">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[V_{avance}=\frac{\pi \cdot D^{2}}{4} \cdot L\]</span></p>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/v-avance.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+</figure>
+</div>
+<p>En la <strong>carrera de retroceso</strong> de un cilindro de <strong>doble efecto</strong>, la cantidad de aire que entra para empujar el émbolo hacia dentro es ligeramente menor que en la carrera de avance, porque <strong>el vástago ocupa un volumen</strong> que no puede ocupar el aire. Por lo tanto:</p>
+<div class="callout callout-style-simple callout-warning no-icon" style="width: fit-content; margin: auto; text-align: center;">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[V_{retroceso}=V_{cilindro}-V_{vástago}=\frac{\pi \cdot D^{2}}{4} \cdot L-\frac{\pi \cdot d^{2}}{4} \cdot L=\frac{\pi \cdot (D^{2}-d^{2})}{4} \cdot L\]</span></p>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/v-retroceso.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="319"></p>
+</figure>
+</div>
+<p>En un <strong>cilindro de doble efecto</strong>, el aire consumido en una <strong>embolada completa (una carrera de avance más otra retroceso)</strong> será, por lo tanto:</p>
+<div class="callout callout-style-simple callout-warning no-icon" style="width: fit-content; margin: auto; text-align: center;">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[V_{embolada}=V_{avance}+V_{retroceso}=\frac{\pi \cdot D^{2}}{4} \cdot L+\frac{\pi \cdot (D^{2}-d^{2})}{4} \cdot L=\frac{\pi \cdot (2D^{2}-d^{2})}{4} \cdot L\]</span></p>
+</div>
+</div>
+</div>
+<p>En un <strong>cilindro de simple efecto</strong>, el aire consumido en una embolada completa será simplemente el consumido en el avance:</p>
+<div class="callout callout-style-simple callout-warning no-icon" style="width: fit-content; margin: auto; text-align: center;">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[V_{embolada}=V_{avance}=\frac{\pi \cdot D^{2}}{4} \cdot L\]</span></p>
+</div>
+</div>
+</div>
+<p>Hay que tener en cuenta que, como el aire es compresible, este volumen es la <strong>cantidad de aire que entra a la presión de trabajo</strong>. Si queremos calcular a cuánto volumen de aire equivale <strong>medido en condiciones normales (<span class="math inline">\(1 \ \text{atm}\)</span> de presión)</strong>, tenemos que utilizar la <strong>ley de Boyle-Mariotte</strong>:</p>
+<div class="callout callout-style-simple callout-warning no-icon" style="width: fit-content; margin: auto; text-align: center;">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[p_{cn} \cdot V_{cn}=p_{trabajo} \cdot V_{trabajo}\]</span></p>
+</div>
+</div>
+</div>
+<p>Como la presión en condiciones normales es <span class="math inline">\(1 \ \text{atm}\)</span> por definición, el <strong>volumen de aire, medido en condiciones normales</strong> será:</p>
+<div class="callout callout-style-simple callout-warning no-icon" style="width: fit-content; margin: auto; text-align: center;">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[V_{cn}=V_{trabajo} \cdot \frac{p_{trabajo}}{1\ \text{atm}}\]</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="caudal-de-aire-necesario" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="caudal-de-aire-necesario"><span class="header-section-number">6.4</span> Caudal de aire necesario</h2>
+<p>El caudal de aire sabemos que es el volumen que entra en el cilindro dividido entre el tiempo que tarda en entrar. Conociendo el tiempo en que debe actuar el cilindro y sus dimensiones, podemos calcular el caudal de aire que necesitaremos aportarle.</p>
+<p>En general, para el avance necesitaremos un caudal de aire y para el retroceso (en el caso de cilindro de doble efecto) otro:</p>
+<div class="callout callout-style-simple callout-warning no-icon" style="width: fit-content; margin: auto; text-align: center;">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[Q_{avance}=\frac{V_{avance}}{t_{avance}}; \ \ Q_{retroceso}=\frac{V_{retroceso}}{t_{retroceso}}\]</span></p>
+</div>
+</div>
+</div>
+<p>Normalmente no tendremos como dato directamente el tiempo sino la <strong>frecuencia de funcionamiento del cilindro (<span class="math inline">\(f\)</span>), en emboladas por minuto</strong>. En este caso, el caudal de aire consumido en una embolada será el siguiente:</p>
+<p>Cilindro de simple efecto: <span class="math inline">\(Q_{embolada}=V_{avance} \cdot f\)</span></p>
+<p>Cilindro de doble efecto: <span class="math inline">\(Q_{embolada}=(V_{avance}+V_{retroceso}) \cdot f\)</span></p>
+<p>Recuerda que estos caudales son siempre <strong>medidos en las condiciones de trabajo del cilindro</strong>. Para calcularlos <strong>en condiciones normales</strong>, hay que <strong>multiplicarlos por la presión de trabajo en atmósferas</strong> (ley de Boyle-Mariotte).</p>
+</section>
+<section id="fuerza-ejercida-por-el-cilindro" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="fuerza-ejercida-por-el-cilindro"><span class="header-section-number">6.5</span> Fuerza ejercida por el cilindro</h2>
+<p>Distinguiremos entre cilindros de doble efecto y cilindros de simple efecto:</p>
+<section id="cilindro-de-doble-efecto" class="level3" data-number="6.5.1">
+<h3 data-number="6.5.1" class="anchored" data-anchor-id="cilindro-de-doble-efecto"><span class="header-section-number">6.5.1</span> Cilindro de doble efecto</h3>
+<p>Considerando que <strong><span class="math inline">\(p=\frac{F}{S}\)</span></strong>, y teniendo en cuenta que habrá una <strong>fuerza de rozamiento (<span class="math inline">\(F_R\)</span>)</strong> del pistón contra las paredes del cilindro, podemos deducir la expresión de la fuerza neta ejercida por el cilindro, distinguiendo entre avance y retroceso.</p>
+<section id="fuerza-en-el-avance" class="level4" data-number="6.5.1.1">
+<h4 data-number="6.5.1.1" class="anchored" data-anchor-id="fuerza-en-el-avance"><span class="header-section-number">6.5.1.1</span> Fuerza en el avance</h4>
+<p>En el avance, el aire ejerce presión sobre <strong>toda la superficie del pistón</strong>, por lo tanto:</p>
+<div class="callout callout-style-simple callout-warning no-icon" style="width: fit-content; margin: auto; text-align: center;">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[F_{avance}=p \cdot \frac{\pi \cdot D^{2}}{4}-F_{R}\]</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="fuerza-en-el-retroceso" class="level4" data-number="6.5.1.2">
+<h4 data-number="6.5.1.2" class="anchored" data-anchor-id="fuerza-en-el-retroceso"><span class="header-section-number">6.5.1.2</span> Fuerza en el retroceso</h4>
+<p>A la hora de realizar el retroceso, la superficie disponible para empujar es menor, pues <strong>hay una zona ocupada por el vástago cuya superficie hay que restar</strong>. La expresión de la fuerza queda así:</p>
+<div class="callout callout-style-simple callout-warning no-icon" style="width: fit-content; margin: auto; text-align: center;">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[F_{retroceso}=p \cdot \frac{\pi \cdot (D^{2}-d^{2})}{4}-F_{R}\]</span></p>
+</div>
+</div>
+</div>
+<p>La <strong>fuerza de rozamiento</strong> depende de la velocidad del pistón, la presión de funcionamiento y los materiales del cilindro. Puede venir dada por un valor en newtons, pero, normalmente, nos la darán como porcentaje de la fuerza teórica (la que se daría de no haber rozamiento). Así, por ejemplo, si nos dicen que la fuerza de rozamiento es el <span class="math inline">\(15\ \%\)</span> de la fuerza teórica de avance, tendríamos que:</p>
+<div class="callout callout-style-simple callout-warning no-icon" style="width: fit-content; margin: auto; text-align: center;">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[F_{avance}=F_{T avance}-F_{R}=F_{Tavance}-0,15 \cdot F_{Tavance}=0,85 \cdot F_{Tavance}=0,85 \cdot p \cdot \frac{\pi \cdot D^{2}}{4}\]</span></p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="cilindro-de-simple-efecto" class="level3" data-number="6.5.2">
+<h3 data-number="6.5.2" class="anchored" data-anchor-id="cilindro-de-simple-efecto"><span class="header-section-number">6.5.2</span> Cilindro de simple efecto</h3>
+<p>En este caso, además de la fuerza de rozamiento, tenemos que tener en cuenta la <strong>fuerza que produce el muelle (<span class="math inline">\(F_M\)</span>)</strong> que tiene el cilindro para retroceder al cesar la presión de avance. La expresión de la fuerza será:</p>
+<section id="fuerza-en-el-avance-1" class="level4" data-number="6.5.2.1">
+<h4 data-number="6.5.2.1" class="anchored" data-anchor-id="fuerza-en-el-avance-1"><span class="header-section-number">6.5.2.1</span> Fuerza en el avance</h4>
+<p>Será como la del cilindro de doble efecto, pero añadiendo la fuerza del muelle (restando porque, como ocurre con el rozamiento, es una fuerza que se opone al movimiento):</p>
+<div class="callout callout-style-simple callout-warning no-icon" style="width: fit-content; margin: auto; text-align: center;">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[F_{avance}=p \cdot \frac{\pi \cdot D^{2}}{4}-F_{R}-F_{M}\]</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="fuerza-en-el-retroceso-1" class="level4" data-number="6.5.2.2">
+<h4 data-number="6.5.2.2" class="anchored" data-anchor-id="fuerza-en-el-retroceso-1"><span class="header-section-number">6.5.2.2</span> Fuerza en el retroceso</h4>
+<p>Al producirse el retroceso por efecto del muelle, la presión del aire no solo no contribuye al movimiento sino que se opondría a él si es mayor que la presión atmosférica. Como, normalmente, al retroceder se abrirá la válvula totalmente y la presión pasará a ser la atmosférica (<strong>presión manométrica igual a <span class="math inline">\(0\)</span></strong>), no influirá en el movimiento. Por tanto, la fuerza en el retroceso será la que proporcione el muelle (ahora positiva porque va según el movimiento), menos la fuerza de rozamiento (que siempre se opone al movimiento):</p>
+<div class="callout callout-style-simple callout-warning no-icon" style="width: fit-content; margin: auto; text-align: center;">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[F_{retroceso}=F_{M}-F_{R}\]</span></p>
+</div>
+</div>
+</div>
+<p>La <strong>fuerza del muelle</strong> puede calcularse conociendo su constante elástica y aplicando la ley de Hooke, aunque es posible que sea variable durante la carrera de avance. Se consideraría la máxima, que sería cuando el muelle estuviera comprimido al máximo (al final de la carrera, es decir: <span class="math inline">\(F_{M}=k \cdot L\)</span>). De todas formas, también será muy habitual que nos la den como <strong>porcentaje de la fuerza teórica de avance</strong>, al igual que la fuerza de rozamiento.</p>
+</section>
+</section>
+</section>
+</section>
+<section id="ejercicios-pau" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Ejercicios PAU</h1>
+<p>Para practicar estos conceptos, puedes resolver los ejercicios de la colección:</p>
+<p><a href="media/EJERCICIOS_PAU_CILINDROS.pdf">EJERCICIOS PAU CILINDROS.pdf</a></p>
+</section>
+<section id="válvulas" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Válvulas</h1>
+<p>Para regular y controlar el caudal y la presión con la que el aire llega a los diferentes puntos de consumo, se utilizan unos dispositivos denominados <strong>válvulas</strong>.</p>
+<p>Las válvulas pueden ser de varios tipos según su finalidad:</p>
+<ul>
+<li><strong>Válvulas de vías o distribuidoras:</strong> determinan el camino que ha de tomar la corriente de aire.</li>
+<li><strong>Válvulas de bloqueo:</strong> bloquean el paso del caudal de aire o lo dejan pasar, según queramos.</li>
+<li><strong>Válvulas de caudal:</strong> regulan la cantidad de caudal de aire por una zona de la instalación.</li>
+</ul>
+</section>
+<section id="válvulas-distribuidoras" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Válvulas distribuidoras</h1>
+<p>Son los componentes que determinan el camino que ha de tomar la corriente de aire. Todas estas válvulas se definen por tres características funcionales:</p>
+<ul>
+<li>Número de <strong>vías</strong> u orificios que tienen.</li>
+<li>Número de <strong>posiciones</strong> que pueden tomar.</li>
+<li>Tipo de <strong>accionamiento</strong> y de <strong>retorno</strong> que necesitan para pasar de una posición a otra.</li>
+</ul>
+<p>Todas estas características se reflejan en el <strong>símbolo</strong> de la válvula como veremos a continuación:</p>
+<section id="vías" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="vías"><span class="header-section-number">9.1</span> Vías</h2>
+<p>Las vías (o agujeros) tienen una serie de líneas internas y externas al símbolo de la válvula que indican lo siguiente:</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<section id="líneas-internas" class="level3" data-number="9.1.1">
+<h3 data-number="9.1.1" class="anchored" data-anchor-id="líneas-internas"><span class="header-section-number">9.1.1</span> Líneas internas</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/INT-TUB.png" class="img-fluid figure-img" width="70"></p>
+<figcaption>Tubería</figcaption>
+</figure>
+</div>
+<p>Las líneas indican <strong>tuberías</strong>. La flecha indica el sentido de paso del aire comprimido.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/INT-CIERRE.png" class="img-fluid figure-img" width="70"></p>
+<figcaption>Bloqueo</figcaption>
+</figure>
+</div>
+<p>Este símbolo indica un <strong>bloqueo</strong>. El aire no puede pasar por ese orificio de la válvula.</p>
+</section>
+</div><div class="column" style="width:50%;">
+<section id="líneas-externas" class="level3" data-number="9.1.2">
+<h3 data-number="9.1.2" class="anchored" data-anchor-id="líneas-externas"><span class="header-section-number">9.1.2</span> Líneas externas</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/EXT-TOMA.png" class="img-fluid figure-img" width="70"></p>
+<figcaption>Toma de presión</figcaption>
+</figure>
+</div>
+<p>Toma de presión</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/EXT-DIRECTO.png" class="img-fluid figure-img" width="70"></p>
+<figcaption>Escape directo</figcaption>
+</figure>
+</div>
+<p>Aire evacuado a la atmósfera (escape directo)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/EXT-INDIR.png" class="img-fluid figure-img" width="70"></p>
+<figcaption>Escape indirecto</figcaption>
+</figure>
+</div>
+<p>Aire evacuado a la atmósfera (escape indirecto)</p>
+</section>
+</div>
+</div>
+</section>
+<section id="posiciones" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="posiciones"><span class="header-section-number">9.2</span> Posiciones</h2>
+<p>Cada posición se representa mediante un cuadrado:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/pos-valv.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="702"></p>
+</figure>
+</div>
+<p>Lo normal son 2 posiciones (reposo y trabajo). Pero hay válvulas con otra posición <strong>neutra central</strong>.</p>
+<p>La <strong>posición inicial</strong> es la que se obtiene al dar presión y es <strong>en la que se dibujan conectadas las vías exteriores</strong> de la válvula. Es la posición a partir de la cual empieza el programa establecido. La segunda posición se obtendría <strong>desplazando lateralmente los cuadrados</strong>.</p>
+<p>Aquí tienes algunos ejemplos de válvulas distribuidoras muy usadas:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/valvulas-comunes.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="803"></p>
+</figure>
+</div>
+</section>
+<section id="tipo-de-accionamiento-retorno" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="tipo-de-accionamiento-retorno"><span class="header-section-number">9.3</span> Tipo de accionamiento-retorno</h2>
+<p>En general, las válvulas pueden tener cuatro tipos distintos de accionamiento: manual, mecánico, neumático o eléctrico. Aquí tienes los tipos de accionamientos o retornos de válvulas más comunes y sus símbolos correspondientes:</p>
+<section id="accionamientos-manuales" class="level3" data-number="9.3.1">
+<h3 data-number="9.3.1" class="anchored" data-anchor-id="accionamientos-manuales"><span class="header-section-number">9.3.1</span> Accionamientos manuales</h3>
+<p>Están pensados para ser accionados <strong>directamente por un operario</strong>. Los más básicos son estos:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/acc-manual.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="700"></p>
+</figure>
+</div>
+</section>
+<section id="accionamientos-mecánicos" class="level3" data-number="9.3.2">
+<h3 data-number="9.3.2" class="anchored" data-anchor-id="accionamientos-mecánicos"><span class="header-section-number">9.3.2</span> Accionamientos mecánicos</h3>
+<p>Están pensados para accionarse <strong>automáticamente</strong> cuando ocurra algo (normalmente, cuando se detecte una pieza en algún punto del sistema). También se incluye aquí el <strong>retorno</strong> mediante un muelle o resorte de la válvula a una posición inicial cuando cese la fuerza que la ha accionado.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/acc-mec.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="699"></p>
+</figure>
+</div>
+</section>
+<section id="accionamientos-neumáticos" class="level3" data-number="9.3.3">
+<h3 data-number="9.3.3" class="anchored" data-anchor-id="accionamientos-neumáticos"><span class="header-section-number">9.3.3</span> Accionamientos neumáticos</h3>
+<p>La válvula se mueve mediante la acción de la misma presión de aire comprimido del sistema. Si la válvula no es muy grande puede moverse directamente utilizando un flujo de aire de control de menor presión, pero si es pesada necesita aire a alta presión, que le será proporcionado en el momento oportuno por una pequeña válvula auxiliar. Es el llamado <strong>servopilotaje</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/acc-neum.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="400"></p>
+</figure>
+</div>
+<p>El <strong>servopilotaje</strong> se utiliza en válvulas distribuidoras de gran tamaño, para evitar un esfuerzo grande en el accionamiento. Es un pilotaje neumático indirecto. Consiste en actuar en realidad sobre una pequeña válvula, que se comunica y deja pasar el aire comprimido para accionar la válvula principal. Todo el conjunto va montado sobre la misma válvula.</p>
+</section>
+<section id="accionamientos-eléctricos" class="level3" data-number="9.3.4">
+<h3 data-number="9.3.4" class="anchored" data-anchor-id="accionamientos-eléctricos"><span class="header-section-number">9.3.4</span> Accionamientos eléctricos</h3>
+<p>Funcionan mediante una <strong>bobina solenoide</strong> que, al recibir una corriente eléctrica, genera un campo magnético que atrae un componente metálico, accionando la válvula.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/acc-elec.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="180"></p>
+</figure>
+</div>
+<p>Las electroválvulas son <strong>las más utilizadas en la actualidad</strong> en los sistemas neumáticos porque se pueden controlar directamente desde un <strong>PLC (Programmable Logic Controller)</strong> que emite las señales eléctricas que accionan las válvulas automáticamente.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>PLC
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>El “PLC” (Programmable Logic Controller, por sus siglas en inglés) es un dispositivo electrónico que se programa para realizar acciones de control automáticamente. Un PLC es un cerebro que activa componentes de maquinarias para ejecuten tareas que pudieran ser peligrosas para el ser humano o muy lentas o imperfectas.</p>
+</div>
+</div>
+</section>
+<section id="accionamientos-combinados" class="level3" data-number="9.3.5">
+<h3 data-number="9.3.5" class="anchored" data-anchor-id="accionamientos-combinados"><span class="header-section-number">9.3.5</span> Accionamientos combinados</h3>
+<p>Es posible combinar varios accionamientos en una misma válvula, como puedes ver en este ejemplo:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/acc-comb.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="230"></p>
+</figure>
+</div>
+</section>
+<section id="válvulas-biestables-y-monoestables" class="level3" data-number="9.3.6">
+<h3 data-number="9.3.6" class="anchored" data-anchor-id="válvulas-biestables-y-monoestables"><span class="header-section-number">9.3.6</span> Válvulas biestables y monoestables</h3>
+<p>Las válvulas pueden ser de dos tipos según permanezcan o no en la posición en que se han colocado:</p>
+<ul>
+<li><strong>Biestables:</strong> la válvula se mantiene en cualquier posición en que la coloquemos y no cambiará hasta que volvamos a accionarla.</li>
+<li><strong>Monoestables:</strong> la válvula sólo tiene una posición estable (la inicial). Si la accionamos y cambia de posición, volverá automáticamente a la posición inicial en cuanto cese el accionamiento. Normalmente será un <strong>resorte</strong> o <strong>muelle</strong> el encargado de retornar la válvula a su estado estable.</li>
+</ul>
+<p>En general, en las válvulas biestables hay que tener un sistema de accionamiento para cada posición a la que queramos mover la válvula, pero es posible tener una válvula biestable con un solo accionamiento, utilizando un retorno por muelle y lo que se conoce como un <strong>enclavamiento</strong>.</p>
+<p>Al accionar una vez la válvula, esta cambiará de posición y se quedará sujeta por el enclavamiento. Al volver a accionar la válvula, el enclavamiento se soltará y el muelle hará retornar a la válvula al estado inicial.</p>
+<p>El símbolo del enclavamiento son unas hendiduras en forma de “V” que pueden combinarse con diferentes accionamientos. Por ejemplo, todas estas válvulas tendrían enclavamiento, independientemente de su accionamiento:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/acc-enclav.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="509"></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="identificación-de-una-válvula-distribuidora" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="identificación-de-una-válvula-distribuidora"><span class="header-section-number">9.4</span> Identificación de una válvula distribuidora</h2>
+<p>La identificación de la válvula se define indicando los siguientes elementos:</p>
+<ul>
+<li>Dos cifras separadas por una barra (/), la primera indicando el número de vías y la segunda el número de posiciones.</li>
+<li>Tipo de accionamiento</li>
+<li>Tipo de retorno</li>
+</ul>
+<p>Por ejemplo:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 64%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Símbolo</th>
+<th style="text-align: left;">Identificación</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><img src="media/ej-v-1.png" class="img-fluid" width="150"></td>
+<td style="text-align: left;">Válvula <strong>3/2 monoestable</strong> con <strong>accionamiento manual</strong> y <strong>retorno</strong> automático por <strong>resorte</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><img src="media/ej-v-2.png" class="img-fluid" width="151"></td>
+<td style="text-align: left;">Válvula <strong>4/2 monoestable</strong> con <strong>accionamiento por palanca</strong> y <strong>retorno</strong> automático por <strong>resorte</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><img src="media/ej-v-3.png" class="img-fluid" width="151"></td>
+<td style="text-align: left;">Válvula <strong>3/2 monoestable</strong> con <strong>accionamiento manual servopilotado</strong> y <strong>retorno</strong> automático por <strong>resorte</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><img src="media/ej-v-4.png" class="img-fluid" width="150"></td>
+<td style="text-align: left;">Válvula <strong>3/2 biestable</strong> con <strong>accionamiento neumático</strong> mediante <strong>presión directa</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><img src="media/ej-v-5.png" class="img-fluid" width="231"></td>
+<td style="text-align: left;">Válvula <strong>5/3 monoestable</strong> con <strong>accionamiento neumático</strong> mediante <strong>presión directa</strong> y <strong>centrado</strong> automático mediante <strong>resorte</strong> (posición central de bloqueo)</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="válvulas-de-bloqueo" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Válvulas de bloqueo</h1>
+<p>Son los componentes que bloquean o dejan pasar el caudal de aire por donde queramos y cuando queramos. Son las siguientes:</p>
+<section id="válvula-antirretorno" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="válvula-antirretorno"><span class="header-section-number">10.1</span> Válvula antirretorno</h2>
+<p>Permite la circulación de aire comprimido en un solo sentido. En el dibujo permite el paso del aire izquierda a derecha.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/valv-antrret.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="151"></p>
+</figure>
+</div>
+</section>
+<section id="válvula-selectora-o-válvula-or" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="válvula-selectora-o-válvula-or"><span class="header-section-number">10.2</span> Válvula selectora o válvula “OR”</h2>
+<p>Permite la salida de aire cuando <strong>al menos una</strong> de las dos entradas tiene presión. No hay circulación de aire cuando en ninguna entrada hay presión.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/valv-or.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="150"></p>
+</figure>
+</div>
+</section>
+<section id="válvula-de-simultaneidad-o-válvula-and" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="válvula-de-simultaneidad-o-válvula-and"><span class="header-section-number">10.3</span> Válvula de simultaneidad o válvula “AND”</h2>
+<p>Permite la salida de aire <strong>cuando las dos entradas disponen de presión</strong>. No hay circulación si no hay presión en alguna entrada o en ambas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/valv-and.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="150"></p>
+</figure>
+</div>
+</section>
+<section id="válvula-de-escape-rápido" class="level2" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="válvula-de-escape-rápido"><span class="header-section-number">10.4</span> Válvula de escape rápido</h2>
+<p>Las válvulas de escape rápido (o liberación rápida) son válvulas que abren automáticamente el camino de salida a la atmósfera cuando cae la presión del aire en el camino de salida.</p>
+<p>La tarea de estas válvulas es vaciar rápidamente las cámaras de los receptores neumáticos, por ejemplo, actuadores. Gracias a su uso, es posible aumentar significativamente la velocidad de movimiento del pistón actuador, especialmente de simple efecto.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/valv-esc.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="149"></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="válvulas-de-caudal" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> Válvulas de caudal</h1>
+<p>Son los componentes que regulan el caudal de aire que llega a los diferentes elementos del circuito. Los principales son:</p>
+<section id="válvula-estranguladora-unidireccional" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="válvula-estranguladora-unidireccional"><span class="header-section-number">11.1</span> Válvula estranguladora unidireccional</h2>
+<p>Regula el caudal de aire en una sola dirección (mediante la apertura y cierre de un tornillo desde el valor <span class="math inline">\(0\)</span> hasta el máximo). En el otro sentido el aire circula libremente.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/valv-est-uni.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="151"></p>
+</figure>
+</div>
+<p>La válvula del dibujo permite el paso libre del aire de derecha a izquierda y lo estrangula en sentido contrario.</p>
+</section>
+<section id="válvula-estranguladora-bidireccional" class="level2" data-number="11.2">
+<h2 data-number="11.2" class="anchored" data-anchor-id="válvula-estranguladora-bidireccional"><span class="header-section-number">11.2</span> Válvula estranguladora bidireccional</h2>
+<p>Regula el caudal de aire en ambos sentidos.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/valv-est-bi.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="151"></p>
+</figure>
+</div>
+</section>
+<section id="temporizador" class="level2" data-number="11.3">
+<h2 data-number="11.3" class="anchored" data-anchor-id="temporizador"><span class="header-section-number">11.3</span> Temporizador</h2>
+<p>Se utiliza para retardar la llegada de aire y el accionamiento del cilindro. Combinan una válvula estranguladora unidireccional y un depósito de aire cuyo tiempo de llenado establece el retardo.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/temp.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="200"></p>
+</figure>
+</div>
+<p>Aquí puedes ver un ejemplo de uso de un temporizador:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/ejemplo-temp.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="400"></p>
+</figure>
+</div>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>El aire pasa por el estrangulamiento y va llenando el depósito lentamente. Hasta que el depósito no se llena por completo, la presión que llega a la válvula no es suficiente para accionarla, por lo que hay un retardo. Regulando el estrangulamiento podemos variar el tiempo de llenado del depósito y, por tanto, el retardo de la válvula 3/2.</p>
+</div>
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation column-body">
+  <div class="nav-page nav-page-previous">
+      <a href="./02_produccion_distribucion.html" class="pagination-link" aria-label="Producción y acondicionamiento del aire comprimido">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Producción y acondicionamiento del aire comprimido</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./04_analisis_diseno.html" class="pagination-link" aria-label="Análisis y diseño de circuitos neumáticos">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Análisis y diseño de circuitos neumáticos</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
