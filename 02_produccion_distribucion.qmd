@@ -26,7 +26,7 @@ Utilizan un pistón que se mueve alternativamente gracias a un mecanismo de biel
 
 ::: {.content-hidden when-format="pdf"}
 ![Compresor de pistón](media/piston.gif){fig-align="center" width="300"}
-::: {.content-hidden when-format="pdf"}
+::: 
 
 #### Rotativos
 Tienen piezas que se mueven de forma rotativa y fuerzan al aire a estar en un recinto con un volumen cada vez menor, con lo que se comprime. Los más utilizados son:

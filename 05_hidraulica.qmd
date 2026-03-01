@@ -42,7 +42,7 @@ Los componentes de los circuitos hidráulicos son similares a los de los circuit
 También difieren en que hay un **circuito de retorno del aceite al depósito** desde los puntos de escape y en que se trata de **circuitos cerrados**.
 
 ::: {.center}
-![Esquema de circuito hidráulico](esquema-hidr.png)
+![Esquema de circuito hidráulico](media/esquema-hidr.png)
 :::
 
 ### Grupo de accionamiento
@@ -50,7 +50,7 @@ También difieren en que hay un **circuito de retorno del aceite al depósito** 
 Al conjunto de elementos que generan la presión en el fluido se le conoce como "Grupo de accionamiento". Se suele representar dentro de un marco de línea discontinua:
 
 ::: {.center}
-![Grupo de accionamiento](grupo-accionamiento.png)
+![Grupo de accionamiento](media/grupo-accionamiento.png)
 :::
 Los elementos del grupo son:
 
@@ -68,7 +68,7 @@ Las bombas hidráulicas tienen la función de tomar aceite a una determinada pre
 En la figura se representa una bomba hidráulica de engranajes:
 
 ::: {.center}
-![Bomba hidráulica de engranajes](bomba.png)
+![Bomba hidráulica de engranajes](media/bomba.png)
 :::
 
 Consta de dos ruedas dentadas idénticas, una de las cuales, movida por un motor, hace que gire la otra. El movimiento genera una depresión en la cámara unida al depósito que aspira el fluido. Entonces éste es transportado a través de los dientes del engranaje hasta llegar al orificio de salida de la bomba, donde es impulsado.
@@ -87,13 +87,13 @@ Por lo demás, son prácticamente iguales, por lo que este par de ejemplos será
 Podemos elevar una plataforma mediante la acción de un cilindro si utilizamos un mecanismo como este:
 
 ::: {.center}
-![Plataforma elevadora hidráulica](ej-hidr-1a.png)
+![Plataforma elevadora hidráulica](media/ej-hidr-1a.png)
 :::
 
 El circuito para manejar ese cilindro es fácil después de lo que ya hemos visto en neumática. Aquí puedes ver su esquema:
 
 ::: {.center}
-![Esquema de plataforma elevadora hidráulica](ej-hidr-1.png)
+![Esquema de plataforma elevadora hidráulica](media/ej-hidr-1.png)
 :::
 
 El pulsador de la izquierda impulsa la bajada de la plataforma. La válvula 3/2 de la izquierda cambia de posición respecto a la situación de reposo y permite el paso del aceite desde al bomba hasta la válvula 4/2. La válvula 4/2, accionada por el fluido a presión, permite el paso a la cámara izquierda del cilindro, que desplazará el vástago hacia al derecha, lo cual producirá que el mecanismo articulado baje al plataforma.
@@ -105,14 +105,11 @@ De forma análoga, al accionar el pulsador de subida, la válvula de la derecha 
 El esquema del circuito es el siguiente:
 
 ::: {.center}
-![Avance con electroválvula y retroceso retardado](ej-hidr-2.png)
+![Avance con electroválvula y retroceso retardado](media/ej-hidr-2.png)
 :::
 
 El funcionamiento del circuito es así:
 
 *   Al accionar la válvula 1.2 (electroválvula), el fluido llega a la válvula 1.1, que cambia de posición, con lo que entra líquido en el cilindro y se produce el avance del vástago.
 *   Cuando accionamos mediante el pedal la válvula 1.3 (mantenemos el pedal pulsado), y tras un tiempo establecido en la válvula temporizadora, la válvula 1.5 provoca que la válvula 1.1 cambie de posición y el vástago del cilindro retroceda.
-
----
-
-*Obra publicada con Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0*
+*   Si soltamos el pedal antes de que se cumpla el tiempo establecido, la válvula 1.5 no se accionará y el vástago del cilindro se mantendrá en su posición de avance.
