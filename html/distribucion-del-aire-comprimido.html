@@ -9,30 +9,11 @@
 <link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
 <meta name="description" content="Neumática e hidráulica. Tecnología e Ingeniería II.">
 <script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"20260802105839GHSB0K","packageTitle":"Neumática e hidráulica","language":"es"};</script><script src="../libs/xapi/exe_xapi.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
-<script src="../idevices/udl-content/udl-content.js"></script><link rel="stylesheet" href="../idevices/udl-content/udl-content.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
 <script src="../libs/exe_effects/exe_effects.js"> </script>
 <link rel="stylesheet" href="../libs/exe_effects/exe_effects.css">
 <link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css"><link rel="stylesheet" href="../theme/zzz-majuelo.css">
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX", "output/HTML-CSS"],
-    tex2jax: {
- inlineMath: [ ['$','$'], ["\\(","\\)"] ],
- displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
- processEscapes: true
-    },
-    "HTML-CSS": { fonts: ["TeX"] }
-  });
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-</script>
-<script type="text/javascript"
-   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default">
-</script>
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
 </head>
 <body class="exe-export exe-web-site">
 <script>document.body.className+=" js"</script>
@@ -56,6 +37,8 @@ MathJax.Hub.Config({
 </li>
 <li> <a href="../html/ejemplos-de-circuitos.html" class="no-ch">Ejemplos de circuitos</a>
 </li>
+<li> <a href="../html/simulacion-de-circuitos-neumaticos.html" class="no-ch">Simulación de circuitos neumáticos</a>
+</li>
 </ul>
 </li>
 <li> <a href="../html/circuitos-oleohidraulicos.html" class="no-ch">Circuitos oleohidráulicos</a>
@@ -72,9 +55,9 @@ MathJax.Hub.Config({
 <span>Toggle content</span>
 </button></header>
 <div class="box-content">
-<div id="idevice-msbkixks-gorq4jdzv" class="idevice_node udl-content" data-idevice-path="../idevices/udl-content/" data-idevice-type="udl-content">
-<div class="bloque bloque-nota"><p class="bloque-titulo">Sesión 7</p></div>
-<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Un <span style="color: #008000;"><strong>sistema de distribución de aire</strong></span> está diseñado para proporcionar un suministro ininterrumpido de aire comprimido justo donde se necesita.&nbsp;Normalmente, un sistema de red de aire comprimido consta de <span style="color: #008000;"><strong>tuberías</strong></span> y <span style="color: #008000;"><strong>racores</strong></span> y <span style="color: #008000;"><strong>accesorios de punto de uso</strong></span>. Una buena red de <span style="color: #008000;"><strong>tuberías de distribución</strong></span> de aire transporta el aire comprimido desde la fuente hasta el punto de uso en condiciones óptimas:</p>
+<div id="idevice-msbkixks-gorq4jdzv" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-msbkixks-gorq4jdzv&quot;}">
+<style>.exe-content{--chrome:#2c6046;--chrome-osc:#1d4531;--chrome-tinte:#e8f0eb;--chrome-linea:#c6dccd;}</style>
+<p>Un <strong>sistema de distribución de aire</strong> está diseñado para proporcionar un suministro ininterrumpido de aire comprimido justo donde se necesita.&nbsp;Normalmente, un sistema de red de aire comprimido consta de <strong>tuberías</strong> y <strong>racores</strong> y <strong>accesorios de punto de uso</strong>. Una buena red de <strong>tuberías de distribución</strong> de aire transporta el aire comprimido desde la fuente hasta el punto de uso en condiciones óptimas:</p>
 <ul>
 <li>Mínima caída de presión</li>
 <li>Máximo caudal</li>
@@ -86,19 +69,19 @@ MathJax.Hub.Config({
 <h2>Red principal</h2>
 <p>Es la que proviene directamente del sistema de acondicionamiento del aire comprimido. Sus características principales son:</p>
 <ul>
-<li><span style="color: #008000;"><strong>Tubos de mayor diámetro:</strong></span> puesto que todo el aire comprimido del sistema pasa por esta primera zona de la instalación. Además, suele sobredimensionarse por si hay que ampliar en el futuro la instalación.</li>
-<li><span style="color: #008000;"><strong>Forma de parrilla:</strong> </span>normalmente se adopta esa forma de red para garantizar que el aire llegue por diferentes caminos a los puntos de utilización. Así se garantiza el funcionamiento aunque haya alguna avería o mantenimiento en otro punto de la instalación.</li>
-<li><span style="color: #008000;"><strong>Pendiente del 1 % al 3%:</strong></span> por si aparece alguna condensación, que no se quede atrapada en los tubos y se deslice para ser purgada del sistema.</li>
-<li><span style="color: #008000;"><strong>Evitar cambios bruscos de sección y dirección:</strong> </span>las tuberías deben ser lo más rectas y uniformes posible, para evitar pérdidas de presión.</li>
+<li><strong>Tubos de mayor diámetro:</strong> puesto que todo el aire comprimido del sistema pasa por esta primera zona de la instalación. Además, suele sobredimensionarse por si hay que ampliar en el futuro la instalación.</li>
+<li><strong>Forma de parrilla:</strong> normalmente se adopta esa forma de red para garantizar que el aire llegue por diferentes caminos a los puntos de utilización. Así se garantiza el funcionamiento aunque haya alguna avería o mantenimiento en otro punto de la instalación.</li>
+<li><strong>Pendiente del 1 % al 3%:</strong> por si aparece alguna condensación, que no se quede atrapada en los tubos y se deslice para ser purgada del sistema.</li>
+<li><strong>Evitar cambios bruscos de sección y dirección:</strong> las tuberías deben ser lo más rectas y uniformes posible, para evitar pérdidas de presión.</li>
 </ul>
 <h2>Red secundaria</h2>
 <p>Es la parte de la instalación donde se encuentran las tuberías finales que llevan el aire comprimido a los actuadores. Tendremos en cuenta algunas consideraciones a la hora de diseñarla:</p>
 <ul>
-<li>Para evitar detener el suministro de aire comprimido en la red cuando se hagan reparaciones de fugas, nuevas instalaciones y operaciones de mantenimiento es esencial que se ubiquen <span style="color: #008000;"><strong>llaves de paso</strong></span> frecuentemente en la red.</li>
-<li>Las <span style="color: #008000;"><strong>tomas de aire</strong> </span>para los actuadores no deben de hacerse nunca en la parte inferior de la tubería sino en la <span style="color: #008000;"><strong>parte superior</strong></span>, para evitar que el agua condensada que circula por defecto de la gravedad pueda ser recogida y llevada a los distintos equipos neumáticos conectados a la red.</li>
+<li>Para evitar detener el suministro de aire comprimido en la red cuando se hagan reparaciones de fugas, nuevas instalaciones y operaciones de mantenimiento es esencial que se ubiquen <strong>llaves de paso</strong> frecuentemente en la red.</li>
+<li>Las <strong>tomas de aire</strong> para los actuadores no deben de hacerse nunca en la parte inferior de la tubería sino en la <strong>parte superior</strong>, para evitar que el agua condensada que circula por defecto de la gravedad pueda ser recogida y llevada a los distintos equipos neumáticos conectados a la red.</li>
 </ul>
 </div>
-<p>En general, debe intentarse que la <span style="color: #008000;"><strong>pérdida de presión</strong> </span>que experimente el aire debido a la fricción en los tubos, codos, válvulas, etc.,&nbsp;<span style="color: #008000;"><strong>no supere el 5 %</strong> </span>de la presión nominal de trabajo. En general, a mayor diámetro de las tuberías, menos pérdida de carga. Pero, dado que hay que mantener una velocidad del aire de entre 6 a 10 m/s en los tubos, mayor diámetro implica mayor caudal, lo que encarece todo el sistema (compresor, unidad de mantenimiento, depósitos, etc). Hay que intentar diseñar la instalación de manera óptima, aunque es un cálculo complicado y, en la práctica, suele sobredimensionarse un poco por si acaso.<br><br></p></div></div></section></div>
+<p>En general, debe intentarse que la <strong>pérdida de presión</strong> que experimente el aire debido a la fricción en los tubos, codos, válvulas, etc.,&nbsp;<strong>no supere el 5 %</strong> de la presión nominal de trabajo. En general, a mayor diámetro de las tuberías, menos pérdida de carga. Pero, dado que hay que mantener una velocidad del aire de entre 6 a 10 m/s en los tubos, mayor diámetro implica mayor caudal, lo que encarece todo el sistema (compresor, unidad de mantenimiento, depósitos, etc). Hay que intentar diseñar la instalación de manera óptima, aunque es un cálculo complicado y, en la práctica, suele sobredimensionarse un poco por si acaso.<br><br></p>
 </div>
 </div>
 </article>

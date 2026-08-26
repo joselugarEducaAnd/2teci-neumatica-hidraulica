@@ -9,7 +9,7 @@
 <link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
 <meta name="description" content="Neumática e hidráulica. Tecnología e Ingeniería II.">
 <script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"20260802105839GHSB0K","packageTitle":"Neumática e hidráulica","language":"es"};</script><script src="../libs/xapi/exe_xapi.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
-<script src="../idevices/udl-content/udl-content.js"></script><link rel="stylesheet" href="../idevices/udl-content/udl-content.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
 <script src="../libs/exe_effects/exe_effects.js"> </script>
 <link rel="stylesheet" href="../libs/exe_effects/exe_effects.css">
 <script src="../libs/exe_tooltips/exe_tooltips.js"> </script>
@@ -17,26 +17,7 @@
 <script src="../libs/exe_tooltips/imagesloaded.pkg.min.js"> </script>
 <link rel="stylesheet" href="../libs/exe_tooltips/jquery.qtip.min.css">
 <link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css"><link rel="stylesheet" href="../theme/zzz-majuelo.css">
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX", "output/HTML-CSS"],
-    tex2jax: {
- inlineMath: [ ['$','$'], ["\\(","\\)"] ],
- displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
- processEscapes: true
-    },
-    "HTML-CSS": { fonts: ["TeX"] }
-  });
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-</script>
-<script type="text/javascript"
-   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default">
-</script>
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
 </head>
 <body class="exe-export exe-web-site">
 <script>document.body.className+=" js"</script>
@@ -60,6 +41,8 @@ MathJax.Hub.Config({
 </li>
 <li> <a href="../html/ejemplos-de-circuitos.html" class="no-ch">Ejemplos de circuitos</a>
 </li>
+<li> <a href="../html/simulacion-de-circuitos-neumaticos.html" class="no-ch">Simulación de circuitos neumáticos</a>
+</li>
 </ul>
 </li>
 <li> <a href="../html/circuitos-oleohidraulicos.html" class="no-ch">Circuitos oleohidráulicos</a>
@@ -76,16 +59,16 @@ MathJax.Hub.Config({
 <span>Toggle content</span>
 </button></header>
 <div class="box-content">
-<div id="idevice-msbkixks-bc21lk5sc" class="idevice_node udl-content" data-idevice-path="../idevices/udl-content/" data-idevice-type="udl-content">
-<div class="bloque bloque-nota"><p class="bloque-titulo">Sesión 11</p></div>
-<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Para regular y controlar el caudal y la presión con la que el aire llega a los diferentes puntos de consumo, se utilizan unos dispositivos denominados <span style="color: #008000;"><strong>válvulas</strong></span>.</p>
+<div id="idevice-msbkixks-bc21lk5sc" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-msbkixks-bc21lk5sc&quot;}">
+<style>.exe-content{--chrome:#2c6046;--chrome-osc:#1d4531;--chrome-tinte:#e8f0eb;--chrome-linea:#c6dccd;}</style>
+<p>Para regular y controlar el caudal y la presión con la que el aire llega a los diferentes puntos de consumo, se utilizan unos dispositivos denominados <strong>válvulas</strong>.</p>
 <p>Las válvulas pueden ser de varios tipos según su finalidad:</p>
 <ul>
-<li><span style="color: #008000;"><strong>Válvulas de vías o distribuidoras:&nbsp;</strong></span>determinan el camino que ha de tomar la corriente de aire.</li>
-<li><span style="color: #008000;"><strong>Válvulas de bloqueo:</strong></span>&nbsp;bloquean el paso del caudal de aire o lo dejan pasar, según queramos.</li>
-<li><span style="color: #008000;"><strong>Válvulas de caudal:&nbsp;</strong></span>regulan la cantidad de caudal de aire por una zona de la instalación.</li>
+<li><strong>Válvulas de vías o distribuidoras:&nbsp;</strong>determinan el camino que ha de tomar la corriente de aire.</li>
+<li><strong>Válvulas de bloqueo:</strong>&nbsp;bloquean el paso del caudal de aire o lo dejan pasar, según queramos.</li>
+<li><strong>Válvulas de caudal:&nbsp;</strong>regulan la cantidad de caudal de aire por una zona de la instalación.</li>
 </ul>
-</div></div></section></div>
+
 </div>
 </div>
 </article><article id="block-msbkixks-m3fk7r07i" class="box">
@@ -95,83 +78,66 @@ MathJax.Hub.Config({
 <span>Toggle content</span>
 </button></header>
 <div class="box-content">
-<div id="idevice-msbkixks-f5gphjm80" class="idevice_node udl-content" data-idevice-path="../idevices/udl-content/" data-idevice-type="udl-content">
-<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Son los componentes que determinan el camino que ha de tomar la corriente de aire. Todas estas válvulas se definen por tres características funcionales:</p>
+<div id="idevice-msbkixks-f5gphjm80" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-msbkixks-f5gphjm80&quot;}">
+<p>Son los componentes que determinan el camino que ha de tomar la corriente de aire. Todas estas válvulas se definen por tres características funcionales:</p>
 <ul>
-<li><span style="font-size: 1.05em;">Número de </span><span style="color: #008000;"><strong>vías</strong></span><span style="font-size: 1.05em;">&nbsp;u orificios que tienen.</span></li>
-<li><span style="font-size: 1.05em;">Número de <span style="color: #008000;"><strong>posiciones</strong></span>&nbsp;que pueden tomar.</span></li>
-<li><span style="font-size: 1.05em;">Tipo de <span style="color: #008000;"><strong>accionamiento</strong></span> y de <span style="color: #008000;"><strong>retorno</strong></span> que necesitan para pasar de una posición a otra.</span></li>
+<li><span style="font-size: 1.05em;">Número de </span><strong>vías</strong><span style="font-size: 1.05em;">&nbsp;u orificios que tienen.</span></li>
+<li><span style="font-size: 1.05em;">Número de <strong>posiciones</strong>&nbsp;que pueden tomar.</span></li>
+<li><span style="font-size: 1.05em;">Tipo de <strong>accionamiento</strong> y de <strong>retorno</strong> que necesitan para pasar de una posición a otra.</span></li>
 </ul>
-<p>Todas estas características se reflejan en el <span style="color: #008000;"><strong>símbolo</strong></span> de la válvula como veremos a continuación:</p>
+<p>Todas estas características se reflejan en el <strong>símbolo</strong> de la válvula como veremos a continuación:</p>
 <div class="exe-fx exe-accordion">
 <h2>Vías</h2>
 <p>Las vías (o agujeros) tienen una serie de líneas internas y externas al símbolo de la válvula que indican lo siguiente:</p>
-<table border="0" style="height: 309px; width: 90%; border-collapse: collapse; margin-left: auto; margin-right: auto;">
+<table class="tabla-datos">
 <thead>
-<tr style="height: 23px;">
-<td style="width: 50%; height: 23px; border-right: solid; text-align: center;" colspan="2"><span style="color: #008000;"><strong>LÍNEAS INTERNAS</strong></span></td>
-<td style="width: 50%; text-align: center; height: 23px;" colspan="2"><span style="color: #008000;"><strong>LÍNEAS EXTERNAS</strong></span></td>
-</tr>
+<tr><th scope="col">Símbolo</th><th scope="col">Significado</th></tr>
 </thead>
 <tbody>
-<tr style="height: 113px;">
-<td style="width: 8.36777%; height: 113px;"><img src="../content/resources/INT-TUB.png" alt="" width="70" height="64"></td>
-<td style="width: 41.6322%; height: 113px; border-right: solid;">Las líneas indican <span style="color: #008000;"><strong>tuberías</strong></span>. La flecha indica el sentido de paso del aire comprimido.</td>
-<td style="width: 7.74793%; height: 113px;"><img src="../content/resources/EXT-TOMA.png" alt="" width="70" height="118"></td>
-<td style="width: 42.2521%; height: 113px;">Toma de presión</td>
-</tr>
-<tr style="height: 81px;">
-<td style="width: 8.36777%; height: 81px;"><img src="../content/resources/INT-CIERRE.png" alt="" width="70" height="67"></td>
-<td style="width: 41.6322%; height: 81px; border-right: solid;">Este símbolo indica un <span style="color: #008000;"><strong>bloqueo</strong></span>. El aire no puede pasar por ese orificio de la válvula.</td>
-<td style="width: 7.74793%; height: 81px;"><img src="../content/resources/EXT-DIRECTO.png" alt="" width="70" height="82"></td>
-<td style="width: 42.2521%; height: 81px;">Aire evacuado a la atmósfera (escape directo)</td>
-</tr>
-<tr style="height: 92px;">
-<td style="width: 8.36777%; height: 92px;"></td>
-<td style="width: 41.6322%; height: 92px;"></td>
-<td style="width: 7.74793%; height: 92px; border-left: solid;"><img src="../content/resources/EXT-INDIR.png" alt="" width="70" height="95"></td>
-<td style="width: 42.2521%; height: 92px;">Aire evacuado a la atmósfera (escape indirecto)</td>
-</tr>
+<tr><td><img src="../content/resources/INT-TUB.png" alt="Línea continua con una punta de flecha que indica el sentido de paso del aire" width="70" height="64"></td><td>Línea interna: <strong>tubería</strong>. La flecha indica el sentido de paso del aire comprimido.</td></tr>
+<tr><td><img src="../content/resources/INT-CIERRE.png" alt="Línea interna terminada en una T transversal, símbolo de orificio bloqueado" width="70" height="67"></td><td>Línea interna: <strong>bloqueo</strong>. El aire no puede pasar por ese orificio de la válvula.</td></tr>
+<tr><td><img src="../content/resources/EXT-TOMA.png" alt="Símbolo externo de toma de presión: línea corta perpendicular al cuerpo de la válvula" width="70" height="118"></td><td>Línea externa: toma de presión.</td></tr>
+<tr><td><img src="../content/resources/EXT-DIRECTO.png" alt="Símbolo externo de escape directo: triángulo abierto sin línea de unión" width="70" height="82"></td><td>Línea externa: aire evacuado a la atmósfera (escape directo).</td></tr>
+<tr><td><img src="../content/resources/EXT-INDIR.png" alt="Símbolo externo de escape indirecto: triángulo unido al cuerpo por un trazo" width="70" height="95"></td><td>Línea externa: aire evacuado a la atmósfera (escape indirecto).</td></tr>
 </tbody>
 </table>
-<h1></h1>
 <h2>Posiciones</h2>
 <p>Cada posición se representa mediante un cuadrado:</p>
-<p><img src="../content/resources/pos-valv.png" alt="" width="702" height="114" style="display: block; margin-left: auto; margin-right: auto;">Lo normal son 2 posiciones (reposo y trabajo). Pero hay válvulas con otra posición <span style="color: #008000;"><strong>neutra central</strong></span>.</p>
-<p>La <span style="color: #008000;"><strong>posición inicial</strong></span> es la que se obtiene al dar presión y es <span style="color: #008000;"><strong>en la que se dibujan conectadas las vías exteriores</strong></span> de la válvula. Es la posición a partir de la cual empieza el programa establecido. La segunda posición se obtendría&nbsp;<span style="color: #008000;"><strong>desplazando lateralmente los cuadrados</strong></span>.</p>
+<p><img src="../content/resources/pos-valv.png" alt="" width="702" height="114" style="display: block; margin-left: auto; margin-right: auto;">Lo normal son 2 posiciones (reposo y trabajo). Pero hay válvulas con otra posición <strong>neutra central</strong>.</p>
+<p>La <strong>posición inicial</strong> es la que se obtiene al dar presión y es <strong>en la que se dibujan conectadas las vías exteriores</strong> de la válvula. Es la posición a partir de la cual empieza el programa establecido. La segunda posición se obtendría&nbsp;<strong>desplazando lateralmente los cuadrados</strong>.</p>
 <p>Aquí tienes algunos ejemplos de válvulas distribuidoras muy usadas:</p>
 <p><img src="../content/resources/valvulas-comunes.png" width="803" height="106" style="display: block; margin-left: auto; margin-right: auto;"></p>
 <h2>Tipo de accionamiento-retorno</h2>
 <p>En general, las válvulas pueden tener cuatro tipos distintos de accionamiento: manual, mecánico, neumático o eléctrico. Aquí tienes los tipos de accionamientos o retornos de válvulas más comunes y sus símbolos correspondientes:</p>
-<h3><span style="color: #008000;"><strong>Accionamientos manuales</strong></span></h3>
-<p>Están pensados para ser accionados <span style="color: #008000;"><strong>directamente por un operario</strong></span>. Los más básicos son estos:</p>
-<h3><img src="../content/resources/acc-manual.jpeg" width="700" height="131" style="display: block; margin-left: auto; margin-right: auto;"><span style="color: #008000;"><strong>Accionamientos mecánicos</strong></span></h3>
-<p>Están pensados para accionarse <span style="color: #008000;"><strong>automáticamente</strong></span> cuando ocurra algo (normalmente, cuando se detecte una pieza en algún punto del sistema). También se incluye aquí el <span style="color: #008000;"><strong>retorno</strong></span> mediante un muelle o resorte de la válvula a una posición inicial cuando cese la fuerza que la ha accionado.</p>
+<h3><strong>Accionamientos manuales</strong></h3>
+<p>Están pensados para ser accionados <strong>directamente por un operario</strong>. Los más básicos son estos:</p>
+<p><img src="../content/resources/acc-manual.jpeg" alt="Símbolos de accionamiento manual de válvulas" width="700" height="131" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<h3><strong>Accionamientos mecánicos</strong></h3>
+<p>Están pensados para accionarse <strong>automáticamente</strong> cuando ocurra algo (normalmente, cuando se detecte una pieza en algún punto del sistema). También se incluye aquí el <strong>retorno</strong> mediante un muelle o resorte de la válvula a una posición inicial cuando cese la fuerza que la ha accionado.</p>
 <p><img src="../content/resources/acc-mec.jpeg" alt="" width="699" height="145" style="display: block; margin-left: auto; margin-right: auto;"></p>
-<h3><span style="color: #008000;"><strong>Accionamientos neumáticos</strong></span></h3>
-<p>La válvula se mueve mediante la acción de la misma presión de aire comprimido del sistema. Si la válvula no es muy grande puede moverse directamente utilizando un flujo de aire de control de menor presión, pero si es pesada necesita aire a alta presión, que le será proporcionado en el momento oportuno por una pequeña válvula auxiliar. Es el llamado <span style="color: #008000;"><strong>servopilotaje</strong></span>.</p>
+<h3><strong>Accionamientos neumáticos</strong></h3>
+<p>La válvula se mueve mediante la acción de la misma presión de aire comprimido del sistema. Si la válvula no es muy grande puede moverse directamente utilizando un flujo de aire de control de menor presión, pero si es pesada necesita aire a alta presión, que le será proporcionado en el momento oportuno por una pequeña válvula auxiliar. Es el llamado <strong>servopilotaje</strong>.</p>
 <p><img src="../content/resources/acc-neum.jpeg" width="400" height="126" style="display: block; margin-left: auto; margin-right: auto;"></p>
-<p>El <span style="color: #008000;"><strong>servopilotaje</strong></span> se utiliza en válvulas distribuidoras de gran tamaño, para evitar un esfuerzo grande en el<br>accionamiento. Es un pilotaje neumático indirecto. Consiste en actuar en realidad sobre una pequeña válvula, que se comunica y deja pasar el aire comprimido para accionar la válvula principal. Todo el conjunto va montado sobre la misma válvula.</p>
-<h3><span style="color: #008000;"><strong>Accionamientos eléctricos</strong></span></h3>
-<p>Funcionan mediante una <span style="color: #008000;"><strong>bobina solenoide</strong></span> que, al recibir una corriente eléctrica, genera un campo magnético que atrae un componente metálico, accionando la válvula.</p>
-<h1><span style="color: #008000;"><img src="../content/resources/acc-elec.jpeg" width="180" height="144" style="display: block; margin-left: auto; margin-right: auto;"></span></h1>
-<p>Las electroválvulas son<span style="color: #008000;"><strong> las más utilizadas en la actualidad</strong></span> en los sistemas neumáticos porque se pueden controlar directamente desde un <a href="#t7b10b705-4d1f-d36e-c9f5-59469f3b63ee" id="link7b10b705-4d1f-d36e-c9f5-59469f3b63ee" title="PLC | PLC" class="exe-tooltip definition-tt titled-tt"><span style="color: #008000;"><strong>PLC (Programmable Logic Controller)</strong></span></a> que emite las señales eléctricas que accionan las válvulas automáticamente.</p>
-<h3><span style="color: #008000;">Accionamientos combinados</span></h3>
+<p>El <strong>servopilotaje</strong> se utiliza en válvulas distribuidoras de gran tamaño, para evitar un esfuerzo grande en el<br>accionamiento. Es un pilotaje neumático indirecto. Consiste en actuar en realidad sobre una pequeña válvula, que se comunica y deja pasar el aire comprimido para accionar la válvula principal. Todo el conjunto va montado sobre la misma válvula.</p>
+<h3><strong>Accionamientos eléctricos</strong></h3>
+<p>Funcionan mediante una <strong>bobina solenoide</strong> que, al recibir una corriente eléctrica, genera un campo magnético que atrae un componente metálico, accionando la válvula.</p>
+<p><img src="../content/resources/acc-elec.jpeg" alt="Símbolos de accionamiento eléctrico de válvulas" width="180" height="144" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>Las electroválvulas son<strong> las más utilizadas en la actualidad</strong> en los sistemas neumáticos porque se pueden controlar directamente desde un <a href="#t7b10b705-4d1f-d36e-c9f5-59469f3b63ee" id="link7b10b705-4d1f-d36e-c9f5-59469f3b63ee" title="PLC | PLC" class="exe-tooltip definition-tt titled-tt"><strong>PLC (Programmable Logic Controller)</strong></a> que emite las señales eléctricas que accionan las válvulas automáticamente.</p>
+<h3>Accionamientos combinados</h3>
 <p>Es posible combinar varios accionamientos en una misma válvula, como puedes ver en este ejemplo:</p>
-<h3><img src="../content/resources/acc-comb.jpeg" width="230" height="123" style="display: block; margin-left: auto; margin-right: auto;"><span style="color: #008000;"></span></h3>
-<h3><span style="color: #008000;">Válvulas biestables y monoestables</span></h3>
+<p><img src="../content/resources/acc-comb.jpeg" alt="Válvula con accionamientos combinados" width="230" height="123" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<h3>Válvulas biestables y monoestables</h3>
 <p>Las válvulas pueden ser de dos tipos según permanezcan o no en la posición en que se han colocado:</p>
 <ul>
-<li><span style="color: #008000;"><strong>Biestables:</strong></span> la válvula se mantiene en cualquier posición en que la coloquemos y no cambiará hasta que volvamos a accionarla.</li>
-<li><span style="color: #008000;"><strong>Monoestables:</strong></span> la válvula sólo tiene una posición estable (la inicial). Si la accionamos y cambia de posición, volverá automáticamente a la posición inicial en cuanto cese el accionamiento. Normalmente será un <span style="color: #008000;"><strong>resorte</strong></span> o <span style="color: #008000;"><strong>muelle</strong></span> el encargado de retornar la válvula a su estado estable.</li>
+<li><strong>Biestables:</strong> la válvula se mantiene en cualquier posición en que la coloquemos y no cambiará hasta que volvamos a accionarla.</li>
+<li><strong>Monoestables:</strong> la válvula sólo tiene una posición estable (la inicial). Si la accionamos y cambia de posición, volverá automáticamente a la posición inicial en cuanto cese el accionamiento. Normalmente será un <strong>resorte</strong> o <strong>muelle</strong> el encargado de retornar la válvula a su estado estable.</li>
 </ul>
-<p>En general, en las válvulas biestables hay que tener un sistema de accionamiento para cada posición a la que queramos mover la válvula, pero es posible tener una válvula biestable con un solo accionamiento, utilizando un retorno por muelle y lo que se conoce como un <span style="color: #008000;"><strong>enclavamiento</strong></span>.&nbsp;</p>
+<p>En general, en las válvulas biestables hay que tener un sistema de accionamiento para cada posición a la que queramos mover la válvula, pero es posible tener una válvula biestable con un solo accionamiento, utilizando un retorno por muelle y lo que se conoce como un <strong>enclavamiento</strong>.&nbsp;</p>
 <p>Al accionar una vez la válvula, esta cambiará de posición y se quedará sujeta por el enclavamiento. Al volver a accionar la válvula, el enclavamiento se soltará y el muelle hará retornar a la válvula al estado inicial.</p>
 <p>El símbolo del enclavamiento son unas hendiduras en forma de "V" que pueden combinarse con diferentes accionamientos. Por ejemplo, todas estas válvulas tendrían enclavamiento, independientemente de su accionamiento:</p>
 <p><img src="../content/resources/acc-enclav.jpeg" alt="" width="509" height="120" style="display: block; margin-left: auto; margin-right: auto;"></p>
 </div>
-<h1></h1>
-<h1><span style="color: #008000;">Identificación de una válvula distribuidora</span></h1>
+<h1>Identificación de una válvula distribuidora</h1>
 <p>La identificación de la válvula se define indicando los siguientes elementos:</p>
 <ul>
 <li>Dos cifras separadas por una barra (/), la primera indicando el número de vías y la segunda el número de posiciones.</li>
@@ -182,36 +148,36 @@ MathJax.Hub.Config({
 <table border="1" style="width: 90%; margin-left: auto; margin-right: auto; height: 362px;" class="exe-table">
 <thead>
 <tr style="height: 23px;">
-<td style="width: 26.9232%; text-align: center; height: 23px;"><span style="color: #008000;"><strong>SÍMBOLO</strong></span></td>
-<td style="width: 73.0768%; text-align: center; height: 23px;"><span style="color: #008000;"><strong>IDENTIFICACIÓN</strong></span></td>
+<td style="width: 26.9232%; text-align: center; height: 23px;"><strong>SÍMBOLO</strong></td>
+<td style="width: 73.0768%; text-align: center; height: 23px;"><strong>IDENTIFICACIÓN</strong></td>
 </tr>
 </thead>
 <tbody>
 <tr style="height: 66px;">
 <td style="width: 26.9232%; height: 66px;"><img src="../content/resources/ej-v-1.png" width="150" height="67" style="display: block; margin-left: auto; margin-right: auto;"></td>
-<td style="width: 73.0768%; height: 66px;">Válvula <span style="color: #008000;"><strong>3/2</strong> <strong>monoestable</strong></span> con <span style="color: #008000;"><strong>accionamiento manual</strong></span> y <span style="color: #008000;"><strong>retorno</strong></span> automático por <span style="color: #008000;"><strong>resorte</strong></span></td>
+<td style="width: 73.0768%; height: 66px;">Válvula <strong>3/2</strong> <strong>monoestable</strong> con <strong>accionamiento manual</strong> y <strong>retorno</strong> automático por <strong>resorte</strong></td>
 </tr>
 <tr style="height: 64px;">
 <td style="width: 26.9232%; height: 64px;"><img src="../content/resources/ej-v-2.png" alt="" width="151" height="64" style="display: block; margin-left: auto; margin-right: auto;"></td>
-<td style="width: 73.0768%; height: 64px;">Válvula <span style="color: #008000;"><strong>4/2 monoestable</strong></span> con <span style="color: #008000;"><strong>accionamiento por palanca</strong></span> y <span style="color: #008000;"><strong>retorno</strong></span> automático por <span style="color: #008000;"><strong>resorte</strong></span></td>
+<td style="width: 73.0768%; height: 64px;">Válvula <strong>4/2 monoestable</strong> con <strong>accionamiento por palanca</strong> y <strong>retorno</strong> automático por <strong>resorte</strong></td>
 </tr>
 <tr style="height: 62px;">
 <td style="width: 26.9232%; height: 62px;"><img src="../content/resources/ej-v-3.png" alt="" width="151" height="63" style="display: block; margin-left: auto; margin-right: auto;"></td>
-<td style="width: 73.0768%; height: 62px;">Válvula <span style="color: #008000;"><strong>3/2 monoestable</strong></span> con <span style="color: #008000;"><strong>accionamiento manual servopilotado</strong> </span>y <span style="color: #008000;"><strong>retorno</strong></span> automático por <span style="color: #008000;"><strong>resorte</strong></span></td>
+<td style="width: 73.0768%; height: 62px;">Válvula <strong>3/2 monoestable</strong> con <strong>accionamiento manual servopilotado</strong> y <strong>retorno</strong> automático por <strong>resorte</strong></td>
 </tr>
 <tr style="height: 72px;">
 <td style="width: 26.9232%; text-align: center; height: 72px;"><img src="../content/resources/ej-v-4.png" alt="" width="150" height="65"></td>
-<td style="width: 73.0768%; height: 72px;">Válvula <span style="color: #008000;"><strong>3/2 biestable</strong></span> con <span style="color: #008000;"><strong>accionamiento neumático</strong></span> mediante <span style="color: #008000;"><strong>presión directa</strong></span></td>
+<td style="width: 73.0768%; height: 72px;">Válvula <strong>3/2 biestable</strong> con <strong>accionamiento neumático</strong> mediante <strong>presión directa</strong></td>
 </tr>
 <tr style="height: 75px;">
 <td style="width: 26.9232%; text-align: center; height: 75px;"><img src="../content/resources/ej-v-5.png" width="231" height="79"></td>
-<td style="width: 73.0768%; height: 75px;">Válvula <span style="color: #008000;"><strong>5/3 monoestable</strong></span> con <span style="color: #008000;"><strong>accionamiento neumático</strong></span> mediante <span style="color: #008000;"><strong>presión directa</strong></span> y <span style="color: #008000;"><strong>centrado</strong></span> automático mediante <span style="color: #008000;"><strong>resorte</strong></span> (posición central de bloqueo)</td>
+<td style="width: 73.0768%; height: 75px;">Válvula <strong>5/3 monoestable</strong> con <strong>accionamiento neumático</strong> mediante <strong>presión directa</strong> y <strong>centrado</strong> automático mediante <strong>resorte</strong> (posición central de bloqueo)</td>
 </tr>
 </tbody>
 </table>
 <div id="t7b10b705-4d1f-d36e-c9f5-59469f3b63ee" class="exe-tooltip-text">
 <p>El “PLC” (Programmable Logic Controller, por sus siglas en inglés) es un dispositivo electrónico que se programa para realizar acciones de control automáticamente. Un PLC es un cerebro que activa componentes de maquinarias para ejecuten tareas que pudieran ser peligrosas para el ser humano o muy lentas o imperfectas.</p>
-</div></div></div></section></div>
+</div>
 </div>
 </div>
 </article><article id="block-msbkixks-9l34w2j6x" class="box">
@@ -221,20 +187,42 @@ MathJax.Hub.Config({
 <span>Toggle content</span>
 </button></header>
 <div class="box-content">
-<div id="idevice-msbkixks-611iymdzs" class="idevice_node udl-content" data-idevice-path="../idevices/udl-content/" data-idevice-type="udl-content">
-<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Son los componentes que bloquean o dejan pasar el caudal de aire por donde queramos y cuando queramos. Son las siguientes:</p>
-<h1><span style="color: #008000;">Válvula antirretorno</span></h1>
-<p>Permite la circulación de aire comprimido en un solo sentido. En el dibujo permite el paso del aire izquierda a<br>derecha.</p>
-<p><img src="../content/resources/valv-antrret.png" alt="" width="151" height="73" style="display: block; margin-left: auto; margin-right: auto;"></p>
-<h1><span style="color: #008000;">Válvula selectora o válvula “OR”</span></h1>
-<p>Permite la salida de aire cuando <span style="color: #008000;"><strong>al menos una</strong></span> de las dos entradas tiene presión. No hay circulación de aire cuando en ninguna entrada hay presión.</p>
-<p><img src="../content/resources/valv-or.png" alt="" width="150" height="99" style="display: block; margin-left: auto; margin-right: auto;"></p>
-<h1><span style="color: #008000;">Válvula de simultaneidad o válvula “AND”</span></h1>
-<p>Permite la salida de aire <span style="color: #008000;"><strong>cuando las dos entradas disponen de presión</strong></span>. No hay circulación si no hay presión en alguna entrada o en ambas.</p>
-<h1><img src="../content/resources/valv-and.png" alt="" width="150" height="94" style="display: block; margin-left: auto; margin-right: auto;"><br><span style="color: #008000;">Válvula de escape rápido</span></h1>
+<div id="idevice-msbkixks-611iymdzs" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-msbkixks-611iymdzs&quot;}">
+<p>Son los componentes que bloquean o dejan pasar el caudal de aire por donde queramos y cuando queramos. Son las siguientes:</p>
+<table class="tabla-datos">
+<thead>
+<tr>
+<th>Símbolo</th>
+<th>Válvula</th>
+<th>Función</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../content/resources/valv-antrret.png" alt="Símbolo de la válvula antirretorno" width="151" height="73"></td>
+<td>Válvula antirretorno</td>
+<td>Permite la circulación de aire comprimido en un solo sentido. En el dibujo permite el paso del aire de izquierda a derecha.</td>
+</tr>
+<tr>
+<td><img src="../content/resources/valv-or.png" alt="Símbolo de la válvula selectora u OR" width="150" height="99"></td>
+<td>Válvula selectora o válvula “OR”</td>
+<td>Permite la salida de aire cuando <strong>al menos una</strong> de las dos entradas tiene presión. No hay circulación de aire cuando en ninguna entrada hay presión.</td>
+</tr>
+<tr>
+<td><img src="../content/resources/valv-and.png" alt="Símbolo de la válvula de simultaneidad o AND" width="150" height="94"></td>
+<td>Válvula de simultaneidad o válvula “AND”</td>
+<td>Permite la salida de aire <strong>cuando las dos entradas disponen de presión</strong>. No hay circulación si no hay presión en alguna entrada o en ambas.</td>
+</tr>
+<tr>
+<td><img src="../content/resources/valv-esc.png" alt="Símbolo de la válvula de escape rápido" width="149" height="73"></td>
+<td>Válvula de escape rápido</td>
+<td>
 <p>Las válvulas de escape rápido (o liberación rápida) son válvulas que abren automáticamente el camino de salida a la atmósfera cuando cae la presión del aire en el camino de salida.</p>
 <p>La tarea de estas válvulas es vaciar rápidamente las cámaras de los receptores neumáticos, por ejemplo, actuadores. Gracias a su uso, es posible aumentar significativamente la velocidad de movimiento del pistón actuador, especialmente de simple efecto.</p>
-<p><img src="../content/resources/valv-esc.png" alt="" width="149" height="73" style="display: block; margin-left: auto; margin-right: auto;"></p></div></div></section></div>
+</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </article><article id="block-msbkixks-xudirbn2c" class="box">
@@ -244,18 +232,37 @@ MathJax.Hub.Config({
 <span>Toggle content</span>
 </button></header>
 <div class="box-content">
-<div id="idevice-msbkixks-8eci1x3iv" class="idevice_node udl-content" data-idevice-path="../idevices/udl-content/" data-idevice-type="udl-content">
-<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Son los componentes que regulan el caudal de aire que llega a los diferentes elementos del circuito. Los principales son:</p>
-<h1><span style="color: #008000;">Válvula estranguladora unidireccional</span></h1>
-<p>Regula el caudal de aire en una sola dirección (mediante la apertura y cierre de un tornillo desde el valor 0 hasta el máximo). En el otro sentido el aire circula libremente.</p>
-<p><img src="../content/resources/valv-est-uni.png" alt="" width="151" height="96" style="display: block; margin-left: auto; margin-right: auto;">La válvula del dibujo permite el paso libre del aire de derecha a izquierda y lo estrangula en sentido contrario.</p>
-<h1><span style="color: #008000;">Válvula estranguladora bidireccional</span></h1>
-<p>Regula el caudal de aire en ambos sentidos.</p>
-<p><img src="../content/resources/valv-est-bi.png" alt="" width="151" height="73" style="display: block; margin-left: auto; margin-right: auto;"></p>
-<h1><span style="color: #008000;">Temporizador</span></h1>
-<p>Se utiliza para retardar la llegada de aire y el accionamiento del cilindro. Combinan una válvula estranguladora<br>unidireccional y un depósito de aire cuyo tiempo de llenado establece el retardo.</p>
-<p><img src="../content/resources/temp.png" alt="" width="200" height="137" style="display: block; margin-left: auto; margin-right: auto;">Aquí puedes ver un ejemplo de uso de un temporizador:</p>
-<p><img src="../content/resources/ejemplo-temp.png" alt="" width="400" height="157" style="display: block; margin-left: auto; margin-right: auto;">El aire pasa por el estrangulamiento y va llenando el depósito lentamente. Hasta que el depósito no se llena por completo, la presión que llega a la válvula no es suficiente para accionarla, por lo que hay un retardo. Regulando el estrangulamiento podemos variar el tiempo de llenado del depósito y, por tanto, el retardo de la válvula 3/2.</p></div></div></section></div>
+<div id="idevice-msbkixks-8eci1x3iv" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-msbkixks-8eci1x3iv&quot;}">
+<p>Son los componentes que regulan el caudal de aire que llega a los diferentes elementos del circuito. Los principales son:</p>
+<table class="tabla-datos">
+<thead>
+<tr>
+<th>Símbolo</th>
+<th>Válvula</th>
+<th>Función</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../content/resources/valv-est-uni.png" alt="Símbolo de la válvula estranguladora unidireccional" width="151" height="96"></td>
+<td>Válvula estranguladora unidireccional</td>
+<td>Regula el caudal de aire en una sola dirección (mediante la apertura y cierre de un tornillo desde el valor 0 hasta el máximo). En el otro sentido el aire circula libremente. La válvula del dibujo permite el paso libre del aire de derecha a izquierda y lo estrangula en sentido contrario.</td>
+</tr>
+<tr>
+<td><img src="../content/resources/valv-est-bi.png" alt="Símbolo de la válvula estranguladora bidireccional" width="151" height="73"></td>
+<td>Válvula estranguladora bidireccional</td>
+<td>Regula el caudal de aire en ambos sentidos.</td>
+</tr>
+<tr>
+<td><img src="../content/resources/temp.png" alt="Símbolo del temporizador neumático" width="200" height="137"></td>
+<td>Temporizador</td>
+<td>Se utiliza para retardar la llegada de aire y el accionamiento del cilindro. Combinan una válvula estranguladora unidireccional y un depósito de aire cuyo tiempo de llenado establece el retardo.</td>
+</tr>
+</tbody>
+</table>
+<p>Aquí puedes ver un ejemplo de uso de un temporizador:</p>
+<p><img src="../content/resources/ejemplo-temp.png" alt="Circuito de ejemplo con un temporizador que retarda el accionamiento de una válvula 3/2" width="400" height="157" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>El aire pasa por el estrangulamiento y va llenando el depósito lentamente. Hasta que el depósito no se llena por completo, la presión que llega a la válvula no es suficiente para accionarla, por lo que hay un retardo. Regulando el estrangulamiento podemos variar el tiempo de llenado del depósito y, por tanto, el retardo de la válvula 3/2.</p>
 </div>
 </div>
 </article>

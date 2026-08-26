@@ -9,30 +9,11 @@
 <link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
 <meta name="description" content="Neumática e hidráulica. Tecnología e Ingeniería II.">
 <script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"20260802105839GHSB0K","packageTitle":"Neumática e hidráulica","language":"es"};</script><script src="../libs/xapi/exe_xapi.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
-<script src="../idevices/udl-content/udl-content.js"></script><link rel="stylesheet" href="../idevices/udl-content/udl-content.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
 <script src="../libs/exe_effects/exe_effects.js"> </script>
 <link rel="stylesheet" href="../libs/exe_effects/exe_effects.css">
 <link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css"><link rel="stylesheet" href="../theme/zzz-majuelo.css">
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX", "output/HTML-CSS"],
-    tex2jax: {
- inlineMath: [ ['$','$'], ["\\(","\\)"] ],
- displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
- processEscapes: true
-    },
-    "HTML-CSS": { fonts: ["TeX"] }
-  });
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-</script>
-<script type="text/javascript"
-   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default">
-</script>
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
 </head>
 <body class="exe-export exe-web-site">
 <script>document.body.className+=" js"</script>
@@ -56,6 +37,8 @@ MathJax.Hub.Config({
 </li>
 <li> <a href="../html/ejemplos-de-circuitos.html" class="no-ch">Ejemplos de circuitos</a>
 </li>
+<li> <a href="../html/simulacion-de-circuitos-neumaticos.html" class="no-ch">Simulación de circuitos neumáticos</a>
+</li>
 </ul>
 </li>
 <li> <a href="../html/circuitos-oleohidraulicos.html" class="no-ch">Circuitos oleohidráulicos</a>
@@ -72,35 +55,35 @@ MathJax.Hub.Config({
 <span>Toggle content</span>
 </button></header>
 <div class="box-content">
-<div id="idevice-msbkixks-gx4d3be9f" class="idevice_node udl-content" data-idevice-path="../idevices/udl-content/" data-idevice-type="udl-content">
-<div class="bloque bloque-nota"><p class="bloque-titulo">Sesión 2</p></div>
-<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Para que funcione un circuito neumático, el aire es tomado de la atmósfera, sometido a un aumento de presión (es decir, comprimido) y confinado en un espacio reducido como es un depósito.</p>
-<p>Ese aumento de presión produce la <span style="color: #008000;"><strong>condensación del agua presente en la atmósfera</strong></span>, que podría estropear los elementos metálicos del circuito. Asimismo, el aire debe ser <span style="color: #008000;"><strong>filtrado</strong></span> para eliminar las impurezas y, por último, lubricado y regulado para que tenga la presión exacta y necesaria en el circuito.</p>
-<p>Todo este proceso constituye la producción y tratamiento del aire comprimido. Los <span style="color: #008000;"><strong>elementos</strong></span> necesarios para llevarlo a cabo son los siguientes:</p>
+<div id="idevice-msbkixks-gx4d3be9f" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-msbkixks-gx4d3be9f&quot;}">
+<style>.exe-content{--chrome:#2c6046;--chrome-osc:#1d4531;--chrome-tinte:#e8f0eb;--chrome-linea:#c6dccd;}</style>
+<p>Para que funcione un circuito neumático, el aire es tomado de la atmósfera, sometido a un aumento de presión (es decir, comprimido) y confinado en un espacio reducido como es un depósito.</p>
+<p>Ese aumento de presión produce la <strong>condensación del agua presente en la atmósfera</strong>, que podría estropear los elementos metálicos del circuito. Asimismo, el aire debe ser <strong>filtrado</strong> para eliminar las impurezas y, por último, lubricado y regulado para que tenga la presión exacta y necesaria en el circuito.</p>
+<p>Todo este proceso constituye la producción y tratamiento del aire comprimido. Los <strong>elementos</strong> necesarios para llevarlo a cabo son los siguientes:</p>
 <div class="exe-fx exe-accordion">
 <h2>Compresor</h2>
 <p>Es el elemento encargado ed elevar la presión del aire (presión atmosférica) hasta la presión de trabajo necesaria.</p>
 <p>Según las exigencias referentes a la presión de trabajo y al caudal de suministro, se pueden emplear diversos tipos de construcción. Se distinguen dos tipos básicos de compresores:</p>
 <ul>
-<li><span style="color: #008000;"><strong>De desplazamiento positivo:</strong></span> El principio de funcionamiento de estos compresores se basa en la <span style="color: #008000;"><strong>disminución del volumen</strong></span> del aire en la cámara de compresión donde se encuentra confinado, produciéndose el incremento de la presión interna hasta llegar al valor de diseño previsto, momento en el cual el aire es liberado al sistema.&nbsp;Dentro de esta categoría encontramos compresores alternativos o rotativos:
+<li><strong>De desplazamiento positivo:</strong> El principio de funcionamiento de estos compresores se basa en la <strong>disminución del volumen</strong> del aire en la cámara de compresión donde se encuentra confinado, produciéndose el incremento de la presión interna hasta llegar al valor de diseño previsto, momento en el cual el aire es liberado al sistema.&nbsp;Dentro de esta categoría encontramos compresores alternativos o rotativos:
 <ul>
-<li><span style="color: #008000;"><strong>Alternativos:</strong></span> utilizan un pistón que se mueve alternativamente gracias a un mecanismo de biela-manivela y va comprimiendo el aire.<img src="../content/resources/piston.gif" width="300" height="200" style="display: block; margin-left: auto; margin-right: auto;"></li>
-<li><span style="color: #008000;"><strong>Rotativos:</strong></span> tienen piezas que se mueven de forma rotativa y fuerzan al aire a estar en un recinto con un volumen cada vez menor, con lo que se comprime. Los más utilizados son:
+<li><strong>Alternativos:</strong> utilizan un pistón que se mueve alternativamente gracias a un mecanismo de biela-manivela y va comprimiendo el aire.<img src="../content/resources/piston.gif" width="300" height="200" style="display: block; margin-left: auto; margin-right: auto;"></li>
+<li><strong>Rotativos:</strong> tienen piezas que se mueven de forma rotativa y fuerzan al aire a estar en un recinto con un volumen cada vez menor, con lo que se comprime. Los más utilizados son:
 <ul>
-<li><span style="color: #008000;"><strong>De paletas</strong></span>&nbsp;<img src="../content/resources/paletas.jpg" width="199" height="125" style="display: block; margin-left: auto; margin-right: auto;"></li>
-<li><span style="color: #008000;"><strong>De tornillo</strong></span><span style="color: #008000;"><strong></strong></span></li>
+<li><strong>De paletas</strong>&nbsp;<img src="../content/resources/paletas.jpg" width="199" height="125" style="display: block; margin-left: auto; margin-right: auto;"></li>
+<li><strong>De tornillo</strong><strong></strong></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<p><span style="color: #008000;"><strong><img src="../content/resources/tornillo.gif" alt="" width="240" height="180" style="display: block; margin-left: auto; margin-right: auto;"></strong></span></p>
+<p><strong><img src="../content/resources/tornillo.gif" alt="" width="240" height="180" style="display: block; margin-left: auto; margin-right: auto;"></strong></p>
 <ul>
 <li style="list-style-type: none;">
 <ul>
 <li style="list-style-type: none;">
 <ul>
-<li><span style="color: #008000;"><strong>De scroll</strong></span></li>
+<li><strong>De scroll</strong></li>
 </ul>
 </li>
 </ul>
@@ -108,30 +91,30 @@ MathJax.Hub.Config({
 </ul>
 <p><img src="../content/resources/scroll.gif" width="240" height="240" style="display: block; margin-left: auto; margin-right: auto;"></p>
 <ul>
-<li><span style="color: #008000;"><strong>Compresores dinámicos:</strong></span> El principio de funcionamiento de estos compresores se basa en la <span style="color: #008000;"><strong>aceleración</strong></span> molecular. El aire es aspirado por el rodete a través de su campana de entrada y acelerado a gran velocidad. Después es descargado directamente a unos difusores situados junto al rodete, donde toda la energía cinética del aire se transforma en presión estática. A partir de este punto es liberado al sistema.</li>
+<li><strong>Compresores dinámicos:</strong> El principio de funcionamiento de estos compresores se basa en la <strong>aceleración</strong> molecular. El aire es aspirado por el rodete a través de su campana de entrada y acelerado a gran velocidad. Después es descargado directamente a unos difusores situados junto al rodete, donde toda la energía cinética del aire se transforma en presión estática. A partir de este punto es liberado al sistema.</li>
 </ul>
 <p><img src="../content/resources/comp-radial.jpg" alt="" width="249" height="184" style="display: block; margin-left: auto; margin-right: auto;"></p>
 <h2>Depósito</h2>
 <p>Estos depósitos están concebidos para acumular aire en su interior y regular el funcionamiento del compresor estabilizando la red de aire comprimido.</p>
 <p><img src="../content/resources/deposito-aire.jpg" width="399" height="288" style="display: block; margin-left: auto; margin-right: auto;">El aire se mantiene en su interior a la presión de trabajo y se va aportando al sistema cuando sea necesario. En el momento en que la presión en el depósito baja de un valor prefijado, se conecta el compresor y se repone el aire necesario hasta recuperar la presión del depósito.</p>
 <h2>Secador</h2>
-<p>Sirve para <span style="color: #008000;"><strong>reducir el contenido de vapor de agua</strong></span> existente en el aire.&nbsp;El aire comprimido seco&nbsp;reduce el riesgo de daños por corrosión del sistema de aire comprimido&nbsp;y mejora el presupuesto operativo de la maquinaria y las herramientas conectadas.</p>
+<p>Sirve para <strong>reducir el contenido de vapor de agua</strong> existente en el aire.&nbsp;El aire comprimido seco&nbsp;reduce el riesgo de daños por corrosión del sistema de aire comprimido&nbsp;y mejora el presupuesto operativo de la maquinaria y las herramientas conectadas.</p>
 <p>Existen diferentes tipos de secado de aire comprimido:</p>
 <ul>
-<li><span style="color: #008000;"><strong>Secadores de aire refrigerados o secadores frigoríficos:</strong></span> enfrían el aire comprimido hasta su <span style="color: #008000;"><strong>punto de rocío</strong></span> (aproximadamente unos 5°C), temperatura a la que la humedad del aire <span style="color: #008000;"><strong>se condensa&nbsp;</strong></span>después de lo cual se drena. El&nbsp;aire enfriado se recalienta&nbsp;a temperatura ambiente al salir del secador y antes de utilizarlo.</li>
-<li><span style="color: #008000;"><strong>Secadores de adsorción con desecante:</strong> </span>utilizan <span style="color: #008000;"><strong>un medio higroscópico poroso</strong></span> como la alúmina activada y el gel de sílice para extraer la humedad del aire y secarla. Los secadores de aire de adsorción son más adecuados para el secado en una segunda etapa, de lo contrario, el medio higroscópico se saturaría rápidamente. Esto significa que&nbsp;suelen ser el segundo paso después de un secado con otro sistema&nbsp;como un secador frigorífico.</li>
-<li><span style="color: #008000;"><strong>Secadores de adsorción delicuescentes:</strong></span> al igual que otros secadores de adsorción, pasan el aire a través de un medio higroscópico para secarlo, paro, a diferencia de los secadores de aire con desecante, los secadores de aire delicuescentes utilizan&nbsp;<span style="color: #008000;"><strong>tabletas de sal solubles&nbsp;</strong></span>en lugar de un medio sólido que necesita regeneración. La salmuera resultante necesita ser drenada y las tabletas reemplazadas cada cierto tiempo.</li>
-<li><span style="color: #008000;"><strong>Secadores de membrana:</strong></span> como su nombre indica, pasa aire entrante sobre&nbsp;una <span style="color: #008000;"><strong>membrana higroscópica</strong></span>&nbsp;para eliminar la humedad. El aire se acumula en la membrana hasta&nbsp;que migra a través&nbsp;del otro lado, que es de baja presión. Un gas seco es entonces atravesado, llevando la humedad lejos para la expulsión.&nbsp;A menudo son secadoras de segunda o incluso tercera etapa.</li>
+<li><strong>Secadores de aire refrigerados o secadores frigoríficos:</strong> enfrían el aire comprimido hasta su <strong>punto de rocío</strong> (aproximadamente unos 5°C), temperatura a la que la humedad del aire <strong>se condensa&nbsp;</strong>después de lo cual se drena. El&nbsp;aire enfriado se recalienta&nbsp;a temperatura ambiente al salir del secador y antes de utilizarlo.</li>
+<li><strong>Secadores de adsorción con desecante:</strong> utilizan <strong>un medio higroscópico poroso</strong> como la alúmina activada y el gel de sílice para extraer la humedad del aire y secarla. Los secadores de aire de adsorción son más adecuados para el secado en una segunda etapa, de lo contrario, el medio higroscópico se saturaría rápidamente. Esto significa que&nbsp;suelen ser el segundo paso después de un secado con otro sistema&nbsp;como un secador frigorífico.</li>
+<li><strong>Secadores de adsorción delicuescentes:</strong> al igual que otros secadores de adsorción, pasan el aire a través de un medio higroscópico para secarlo, paro, a diferencia de los secadores de aire con desecante, los secadores de aire delicuescentes utilizan&nbsp;<strong>tabletas de sal solubles&nbsp;</strong>en lugar de un medio sólido que necesita regeneración. La salmuera resultante necesita ser drenada y las tabletas reemplazadas cada cierto tiempo.</li>
+<li><strong>Secadores de membrana:</strong> como su nombre indica, pasa aire entrante sobre&nbsp;una <strong>membrana higroscópica</strong>&nbsp;para eliminar la humedad. El aire se acumula en la membrana hasta&nbsp;que migra a través&nbsp;del otro lado, que es de baja presión. Un gas seco es entonces atravesado, llevando la humedad lejos para la expulsión.&nbsp;A menudo son secadoras de segunda o incluso tercera etapa.</li>
 </ul>
 <h2>Filtro</h2>
 <p>Se&nbsp; utiliza para&nbsp;filtrar las impurezas del aire atmosférico, como el polvo, el aceite y la humedad, a fin de que el aire comprimido sea viable para su uso.</p>
 <p>Al igual que los secadores de aire,&nbsp;son una parte crucial del&nbsp; proceso de tratamiento del aire&nbsp;para asegurarse de que el aire comprimido está limpio y es seguro de usar, y para aumentar la vida útil del equipo.</p>
 <p>Los filtros de línea de aire más comunes y sus principios básicos de funcionamiento son:</p>
 <ul>
-<li><span style="color: #008000;"><strong>Filtros de partículas:</strong> </span>eliminan el polvo y otras partículas del aire después de la compresión, atrapándolas y reteniéndolas dentro del compresor de aire. A menudo se combinan con el secador de aire de adsorción.</li>
-<li><span style="color: #008000;"><strong>Filtros de aire de carbón activo:</strong></span> eliminan los gases y olores del aire con un medio de carbono compuesto. Estos filtros se utilizan a menudo en la industria alimentaria y para respirar gas.</li>
-<li><span style="color: #008000;"><strong>Filtros de aire coalescentes:</strong></span> filtran el aceite y las partículas de agua del aire y las condensan en una masa que se puede limpiar fácilmente. A diferencia de los separadores de Aceite-Agua, los filtros de aire coalescentes sólo eliminan la humedad y los aerosoles de aceite, no el líquido real.</li>
-<li><span style="color: #008000;"><strong>Filtros de admisión&nbsp;de aire comprimido:</strong></span> eliminan los contaminantes microscópicos del aire, así como las posibles partículas químicas.</li>
+<li><strong>Filtros de partículas:</strong> eliminan el polvo y otras partículas del aire después de la compresión, atrapándolas y reteniéndolas dentro del compresor de aire. A menudo se combinan con el secador de aire de adsorción.</li>
+<li><strong>Filtros de aire de carbón activo:</strong> eliminan los gases y olores del aire con un medio de carbono compuesto. Estos filtros se utilizan a menudo en la industria alimentaria y para respirar gas.</li>
+<li><strong>Filtros de aire coalescentes:</strong> filtran el aceite y las partículas de agua del aire y las condensan en una masa que se puede limpiar fácilmente. A diferencia de los separadores de Aceite-Agua, los filtros de aire coalescentes sólo eliminan la humedad y los aerosoles de aceite, no el líquido real.</li>
+<li><strong>Filtros de admisión&nbsp;de aire comprimido:</strong> eliminan los contaminantes microscópicos del aire, así como las posibles partículas químicas.</li>
 </ul>
 <h2>Regulador de presión</h2>
 <p>Tiene por objeto mantener el aire a una presión constante, que se determine como necesaria, evitando las variaciones que pueda ocasionar el consumo de aire de la instalación. Los reguladores de presión suelen incorporar un manómetro.</p>
@@ -152,10 +135,10 @@ MathJax.Hub.Config({
 </div>
 <p>En los circuitos neumáticos, cada uno de estos elementos tiene un símbolo que puedes ver a continuación:</p>
 <p><img src="../content/resources/simb-acond-aire.png" width="701" height="179" style="display: block; margin-left: auto; margin-right: auto;"></p>
-<p>Como ves, al conjunto del filtro, el regulador de presión y el lubricador se le conoce con el nombre de <span style="color: #008000;"><strong>Unidad de mantenimiento FRL</strong></span> (filtro, regulador, lubricador), ya que se suele instalar como una unidad compacta que se encarga de realizar esas funciones. Esta unidad de mantenimiento tiene su propio símbolo para representarla como un único elemento en los circuitos neumáticos:</p>
+<p>Como ves, al conjunto del filtro, el regulador de presión y el lubricador se le conoce con el nombre de <strong>Unidad de mantenimiento FRL</strong> (filtro, regulador, lubricador), ya que se suele instalar como una unidad compacta que se encarga de realizar esas funciones. Esta unidad de mantenimiento tiene su propio símbolo para representarla como un único elemento en los circuitos neumáticos:</p>
 <p><img src="../content/resources/simb-un-mant.png" alt="" width="150" height="71" style="display: block; margin-left: auto; margin-right: auto;"></p>
-<p>Como los elementos de acondicionamiento de aire aparecen en todos los circuitos y siempre son los mismos, el conjunto de todos ellos se suele representar mediante un símbolo simplificado que se conoce como <span style="color: #008000;"><strong>fuente de presión</strong></span>:</p>
-<p><img src="../content/resources/simb-presion.png" alt="" width="90" height="43" style="display: block; margin-left: auto; margin-right: auto;">Cuando veas este símbolo en un circuito, ¡recuerda que tiene mucho más detrás que "simplemente" aportar aire a presión!</p></div></div></section></div>
+<p>Como los elementos de acondicionamiento de aire aparecen en todos los circuitos y siempre son los mismos, el conjunto de todos ellos se suele representar mediante un símbolo simplificado que se conoce como <strong>fuente de presión</strong>:</p>
+<p><img src="../content/resources/simb-presion.png" alt="" width="90" height="43" style="display: block; margin-left: auto; margin-right: auto;">Cuando veas este símbolo en un circuito, ¡recuerda que tiene mucho más detrás que "simplemente" aportar aire a presión!</p>
 </div>
 </div>
 </article>

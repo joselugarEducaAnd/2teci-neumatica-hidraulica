@@ -11,26 +11,7 @@
 <script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"20260802105839GHSB0K","packageTitle":"Neumática e hidráulica","language":"es"};</script><script src="../libs/xapi/exe_xapi.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
 <script src="../idevices/udl-content/udl-content.js"></script><link rel="stylesheet" href="../idevices/udl-content/udl-content.css">
 <link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css"><link rel="stylesheet" href="../theme/zzz-majuelo.css">
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX", "output/HTML-CSS"],
-    tex2jax: {
- inlineMath: [ ['$','$'], ["\\(","\\)"] ],
- displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
- processEscapes: true
-    },
-    "HTML-CSS": { fonts: ["TeX"] }
-  });
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-</script>
-<script type="text/javascript"
-   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default">
-</script>
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
 </head>
 <body class="exe-export exe-web-site">
 <script>document.body.className+=" js"</script>
@@ -54,6 +35,8 @@ MathJax.Hub.Config({
 </li>
 <li> <a href="../html/ejemplos-de-circuitos.html" class="no-ch">Ejemplos de circuitos</a>
 </li>
+<li> <a href="../html/simulacion-de-circuitos-neumaticos.html" class="no-ch">Simulación de circuitos neumáticos</a>
+</li>
 </ul>
 </li>
 <li> <a href="../html/circuitos-oleohidraulicos.html" class="no-ch">Circuitos oleohidráulicos</a>
@@ -72,6 +55,7 @@ MathJax.Hub.Config({
 <div class="box-content">
 <div id="idevice-msbkixks-seij63tx4" class="idevice_node udl-content" data-idevice-path="../idevices/udl-content/" data-idevice-type="udl-content">
 <div class="bloque bloque-nota"><p class="bloque-titulo">Material de apoyo</p></div>
+<style>.exe-content{--chrome:#2c6046;--chrome-osc:#1d4531;--chrome-tinte:#e8f0eb;--chrome-linea:#c6dccd;}</style>
 <div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Los circuitos neumáticos están compuestos por una serie de elementos que permiten transformar el aire atmosférico desde que es absorbido de la atmósfera hasta que se produce una acción del actuador.</p>
 <p>A grandes rasgos, podemos señalar las siguientes fases en los circuitos neumáticos:</p>
 <ol>
@@ -83,7 +67,7 @@ MathJax.Hub.Config({
 <ul>
 <li>La materia prima (el aire) es barata y abundante</li>
 <li>El aire es también fácil de transportar y de almacenar.</li>
-<li>Las fugas no son peligrosas, tóxicas in contaminantes</li>
+<li>Las fugas no son peligrosas, tóxicas ni contaminantes</li>
 <li>No hay riesgo de explosión.</li>
 <li>No hacen falta mecanismos complicados, ya que no es necesario realizar transformaciones energéticas intermedias.</li>
 <li>Son ideales en condiciones ambientales desfavorables.</li>

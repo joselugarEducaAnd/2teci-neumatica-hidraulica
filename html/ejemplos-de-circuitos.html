@@ -9,30 +9,12 @@
 <link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
 <meta name="description" content="Neumática e hidráulica. Tecnología e Ingeniería II.">
 <script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script>window.exeXapi={"odeId":"20260802105839GHSB0K","packageTitle":"Neumática e hidráulica","language":"es"};</script><script src="../libs/xapi/exe_xapi.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
 <script src="../idevices/udl-content/udl-content.js"></script><link rel="stylesheet" href="../idevices/udl-content/udl-content.css">
 <script src="../libs/exe_effects/exe_effects.js"> </script>
 <link rel="stylesheet" href="../libs/exe_effects/exe_effects.css">
 <link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css"><link rel="stylesheet" href="../theme/zzz-majuelo.css">
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX", "output/HTML-CSS"],
-    tex2jax: {
- inlineMath: [ ['$','$'], ["\\(","\\)"] ],
- displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
- processEscapes: true
-    },
-    "HTML-CSS": { fonts: ["TeX"] }
-  });
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-</script>
-<script type="text/javascript"
-   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default">
-</script>
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
 </head>
 <body class="exe-export exe-web-site">
 <script>document.body.className+=" js"</script>
@@ -56,6 +38,8 @@ MathJax.Hub.Config({
 </li>
 <li class="active"> <a href="../html/ejemplos-de-circuitos.html" class="active no-ch">Ejemplos de circuitos</a>
 </li>
+<li> <a href="../html/simulacion-de-circuitos-neumaticos.html" class="no-ch">Simulación de circuitos neumáticos</a>
+</li>
 </ul>
 </li>
 <li> <a href="../html/circuitos-oleohidraulicos.html" class="no-ch">Circuitos oleohidráulicos</a>
@@ -72,9 +56,9 @@ MathJax.Hub.Config({
 <span>Toggle content</span>
 </button></header>
 <div class="box-content">
-<div id="idevice-msbkixks-lf9v0scj3" class="idevice_node udl-content" data-idevice-path="../idevices/udl-content/" data-idevice-type="udl-content">
-<div class="bloque bloque-nota"><p class="bloque-titulo">Sesión 11</p></div>
-<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>A continuación veremos una serie de circuitos básicos en neumática para entender su funcionamiento, lo que nos permitirá tener una idea clara de cómo diseñar circuitos neumáticos más complejos combinando estas técnicas básicas.</p></div></div></section></div>
+<div id="idevice-msbkixks-lf9v0scj3" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-msbkixks-lf9v0scj3&quot;}">
+<style>.exe-content{--chrome:#2c6046;--chrome-osc:#1d4531;--chrome-tinte:#e8f0eb;--chrome-linea:#c6dccd;}</style>
+<p>A continuación veremos una serie de circuitos básicos en neumática para entender su funcionamiento, lo que nos permitirá tener una idea clara de cómo diseñar circuitos neumáticos más complejos combinando estas técnicas básicas.</p>
 </div>
 </div>
 </article><article id="block-msbkixks-d3mc5fhn1" class="box">
@@ -84,11 +68,11 @@ MathJax.Hub.Config({
 <span>Toggle content</span>
 </button></header>
 <div class="box-content">
-<div id="idevice-msbkixks-wvztoteaj" class="idevice_node udl-content" data-idevice-path="../idevices/udl-content/" data-idevice-type="udl-content">
-<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Vemos algunos ejemplos de control básico de cilindros mediante pulsadores:</p>
+<div id="idevice-msbkixks-wvztoteaj" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-msbkixks-wvztoteaj&quot;}">
+<p>Vemos algunos ejemplos de control básico de cilindros mediante pulsadores:</p>
 <div class="exe-fx exe-accordion">
 <h2>Cilindro de simple efecto con válvula 3/2</h2>
-<p>Este circuito básico consiste en controlar manualmente, mediante un pulsador, el funcionamiento de un cilindro de simple efecto. <span style="color: #008000;"><strong>Al pulsar, el cilindro sale y, al soltar, el cilindro se retrae</strong></span>.</p>
+<p>Este circuito básico consiste en controlar manualmente, mediante un pulsador, el funcionamiento de un cilindro de simple efecto. <strong>Al pulsar, el cilindro sale y, al soltar, el cilindro se retrae</strong>.</p>
 <p>Circuito con componentes:</p>
 <p><video width="600" height="240" style="display: block; margin-left: auto; margin-right: auto;" controls="controls">
 <source src="../content/resources/01A-Mando_cilindro_simple_efecto_con_valvula_3_2.mp4" type="video/mp4"></video></p>
@@ -96,7 +80,7 @@ MathJax.Hub.Config({
 <p><video width="600" height="240" style="display: block; margin-left: auto; margin-right: auto;" controls="controls">
 <source src="../content/resources/01B-Mando_cilindro_simple_efecto_con_valvula_3_2_ESQUEMA.mp4" type="video/mp4"></video></p>
 <h2>Cilindro de doble efecto con válvula 5/2</h2>
-<p>En este caso, al igual que en el anterior, se quiere que el cilindro <span style="color: #008000;"><strong>salga al pulsar el botón y se retraiga al soltarlo</strong></span>. La diferencia es que, en esta ocasión, utilizamos un cilindro de doble efecto porque se necesitará realizar un trabajo importante también en el retroceso.</p>
+<p>En este caso, al igual que en el anterior, se quiere que el cilindro <strong>salga al pulsar el botón y se retraiga al soltarlo</strong>. La diferencia es que, en esta ocasión, utilizamos un cilindro de doble efecto porque se necesitará realizar un trabajo importante también en el retroceso.</p>
 <p>Circuito con componentes:</p>
 <p><video width="600" height="240" style="display: block; margin-left: auto; margin-right: auto;" controls="controls">
 <source src="../content/resources/02A-Mando_cilindro_doble_efecto_con_valvula_5_2.mp4" type="video/mp4"></video></p>
@@ -104,7 +88,7 @@ MathJax.Hub.Config({
 <p><video width="600" height="240" style="display: block; margin-left: auto; margin-right: auto;" controls="controls">
 <source src="../content/resources/02B-Mando_cilindro_doble_efecto_con_valvula_5_2_ESQUEMA.mp4" type="video/mp4"></video></p>
 <h2>Control de un cilindro con dos pulsadores a la vez (válvula AND)</h2>
-<p>En este caso queremos controlar el funcionamiento de un cilindro desde dos pulsadores. El cilindro sólo debe salir si pulsamos <span style="color: #008000;"><strong>los dos botones a la vez</strong></span>. En cualquier otro caso, debe retraerse (o permanecer retraído).</p>
+<p>En este caso queremos controlar el funcionamiento de un cilindro desde dos pulsadores. El cilindro sólo debe salir si pulsamos <strong>los dos botones a la vez</strong>. En cualquier otro caso, debe retraerse (o permanecer retraído).</p>
 <p>Circuito con componentes:</p>
 <p><video width="600" height="240" style="display: block; margin-left: auto; margin-right: auto;" controls="controls">
 <source src="../content/resources/03A-Cilindro_simple_efecto_pilotado_simultaneamente_desde_2_puntos_valvula_AND.mp4" type="video/mp4"></video></p>
@@ -112,29 +96,10 @@ MathJax.Hub.Config({
 <p><video width="600" height="240" style="display: block; margin-left: auto; margin-right: auto;" controls="controls">
 <source src="../content/resources/03B-Cilindro_simple_efecto_pilotado_simultaneamente_desde_2_puntos_AND-ESQUEMA.mp4" type="video/mp4"></video></p>
 </div>
-<h1><span style="color: #008000;">Simulaciones interactivas</span></h1>
-<p>Aquí tienes algunos circuitos simples de ejemplo en un simulador online en el que puedes comprobar el funcionamiento de cada elemento:</p>
-<ul>
-<li>Cilindro de simple efecto:<br>
-<ul>
-<li><a href="http://www.logiclab.hu/lesson.php?fe=2" target="_blank" rel="noopener">Control directo</a></li>
-<li><a href="http://www.logiclab.hu/lesson.php?fe=4" target="_blank" rel="noopener">Control indirecto</a></li>
-</ul>
-</li>
-<li>Cilindro de doble efecto:
-<ul>
-<li><a href="http://www.logiclab.hu/lesson.php?fe=3" target="_blank" rel="noopener">Control directo</a></li>
-<li><a href="http://www.logiclab.hu/lesson.php?fe=19" target="_blank" rel="noopener">Control indirecto</a></li>
-</ul>
-</li>
-<li>Lógica de control simple
-<ul>
-<li><a href="http://www.logiclab.hu/lesson.php?fe=21" target="_blank" rel="noopener">AND mediante válvulas en serie</a></li>
-<li><a href="http://www.logiclab.hu/lesson.php?fe=22" target="_blank" rel="noopener">Mediante válvula AND</a></li>
-<li><a href="http://www.logiclab.hu/lesson.php?fe=9" target="_blank" rel="noopener">Mediante válvula OR&nbsp;</a></li>
-</ul>
-</li>
-</ul></div></div></section></div>
+<div class="bloque bloque-nota">
+<p class="bloque-titulo">Estos tres circuitos, en el simulador</p>
+<p>En la página siguiente, «Simulación de circuitos neumáticos», tienes un simulador donde puedes montar estos mismos circuitos y verlos funcionar. Los tres están ya dibujados en su menú <em>Ejemplos</em>: «Simple → Válvula 3/2», «Doble → Válvula 5/2 manual» y «Simple → Válvula AND».</p>
+</div>
 </div>
 </div>
 </article><article id="block-msbkixkt-vxvase4fx" class="box">
@@ -144,8 +109,8 @@ MathJax.Hub.Config({
 <span>Toggle content</span>
 </button></header>
 <div class="box-content">
-<div id="idevice-msbkixkt-w2xly5g2f" class="idevice_node udl-content" data-idevice-path="../idevices/udl-content/" data-idevice-type="udl-content">
-<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>En estos vídeos vas a ver ejemplos de cómo <span style="color: #008000;"><strong>controlar la velocidad de avance y retroceso de un cilindro utilizando válvulas reguladoras</strong></span>.</p>
+<div id="idevice-msbkixkt-w2xly5g2f" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-msbkixkt-w2xly5g2f&quot;}">
+<p>En estos vídeos vas a ver ejemplos de cómo <strong>controlar la velocidad de avance y retroceso de un cilindro utilizando válvulas reguladoras</strong>.</p>
 <div class="exe-fx exe-accordion">
 <h2>Para un cilindro de doble efecto</h2>
 <p><video width="600" height="240" style="display: block; margin-left: auto; margin-right: auto;" controls="controls">
@@ -153,7 +118,7 @@ MathJax.Hub.Config({
 <h2>Para un cilindro de simple efecto</h2>
 <p><video width="600" height="240" style="display: block; margin-left: auto; margin-right: auto;" controls="controls">
 <source src="../content/resources/REGULACION_CILINDRO_SE.mp4" type="video/mp4"></video></p>
-</div></div></div></section></div>
+</div>
 </div>
 </div>
 </article><article id="block-msbkixkt-zt7211e0n" class="box">
@@ -193,14 +158,14 @@ MathJax.Hub.Config({
 <span>Toggle content</span>
 </button></header>
 <div class="box-content">
-<div id="idevice-msbkixkt-opmnqbmex" class="idevice_node udl-content" data-idevice-path="../idevices/udl-content/" data-idevice-type="udl-content">
-<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-fx exe-accordion">
+<div id="idevice-msbkixkt-opmnqbmex" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-msbkixkt-opmnqbmex&quot;}">
+<div class="exe-fx exe-accordion">
 <h2>Avance por pulsador y retroceso automático</h2>
 <p>En el circuito neumático de la siguiente figura, utilizamos una válvula de accionamiento y retorno eléctrico, que gobierna un cilindro de doble efecto. Éste avanza su émbolo por medio del accionamiento del pulsador de la válvula de la izquierda. Una vez alcanza su posición final, retrocede por medio de un final de carrera colocado en el recorrido del vástago, que acciona a su vez la válvula de la derecha.</p>
 <p><img src="../content/resources/ej-el-1.png" alt="" width="401" height="301" style="display: block; margin-left: auto; margin-right: auto;"></p>
 <h2>Cilindro de doble efecto controlado por dos pulsadores eléctricos</h2>
 <p>Queremos que, al accionar el primer pulsador P1, se produzca completamente la salida del vástago. El retroceso del vástago se producirá al accionar el segundo pulsador eléctrico P2.</p>
-<p>La solución es plantea mediante el <span style="color: #008000;"><strong>mando indirecto</strong></span>, con dos pulsadores que activan dos relés eléctricos. El funcionamiento es el siguiente:</p>
+<p>La solución es plantea mediante el <strong>mando indirecto</strong>, con dos pulsadores que activan dos relés eléctricos. El funcionamiento es el siguiente:</p>
 <ul>
 <li>Al accionar el pulsador P1, el circuito eléctrico se cierra y se activa el relé K1. Un contacto abierto del relé K1 hace que la bobina Y1 de la electroválvula se active y esto provoca que el vástago del cilindro salga.</li>
 <li>Tras llegar el cilindro al final de su recorrido, permanecerá en esa posición hasta que actuemos sobre el pulsador P2;</li>
@@ -212,13 +177,13 @@ MathJax.Hub.Config({
 <p><img src="../content/resources/ej-el-2b.png" width="250" height="235" style="display: block; margin-left: auto; margin-right: auto;"></p>
 
 </div>
-</div></div></section></div>
+
 </div>
 </div>
 </article>
 </div></main><div class="nav-buttons">
 <a href="../html/analisis-y-diseno-de-circuitos-neumaticos.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
-<a href="../html/circuitos-oleohidraulicos.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+<a href="../html/simulacion-de-circuitos-neumaticos.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
 </div>
 <footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-nc-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="license">Creative Commons: Reconocimiento - no comercial - compartir igual 4.0</a></p>
 </div>
