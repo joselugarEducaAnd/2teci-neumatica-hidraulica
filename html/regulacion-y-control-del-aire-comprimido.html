@@ -176,6 +176,18 @@
 </tr>
 </tbody>
 </table>
+<h1 style="clear: both;">La válvula y el cilindro por dentro</h1>
+<p>Aquí tienes una válvula como las de la tabla, una 5/2 monoestable con accionamiento manual por pulsador y retorno por muelle, unida al cilindro de doble efecto de la página anterior; las dos, cortadas por la mitad. Al abrirla funciona sola, en ciclo automático: la válvula se pulsa y se suelta en bucle. Pulsa <strong>Parar el ciclo</strong> y acciónala tú con <strong>Pulsar la válvula</strong>: mira cómo la corredera cambia el camino del aire, la cámara que estaba a escape pasa a estar a presión y el vástago sale. Con <strong>Soltar la válvula</strong>, el muelle devuelve la corredera y el vástago entra. Junto al dibujo tienes el mismo circuito con sus símbolos: se ilumina la casilla de la válvula que está trabajando. Con <strong>Nombres</strong> salen los nombres de las piezas y con <strong>Maximizar</strong> la ves a pantalla completa.</p>
+<iframe class="sda07-valvula" src="../content/resources/valvula_5_2_cilindro.html" title="Figura interactiva: válvula 5/2 monoestable de pulsador y cilindro de doble efecto cortados por la mitad, con el camino del aire y el esquema de símbolos sincronizado" width="100%" height="1300" loading="lazy" allow="fullscreen" style="display: block; clear: both; width: 100%; max-width: 1120px; margin: 1rem auto; border: 0; border-radius: 14px; background: #ffffff;" allowfullscreen></iframe>
+<div class="bloque bloque-actividad"><p class="bloque-titulo">Actividad. La válvula y el cilindro por dentro</p>
+<ol>
+<li>Con la válvula sin pulsar, ¿qué cámara del cilindro está a presión y dónde está el vástago? ¿Por qué se dice que la válvula es monoestable?</li>
+<li>Con los datos de la figura (D = 50 mm, d = 20 mm, p = 6 bar y un rozamiento del 10 %), calcula la fuerza de avance y la de retroceso. ¿Por qué es menor la de retroceso?</li>
+<li>Con una carrera L = 200 mm, ¿cuánto aire a la presión de trabajo gasta una embolada completa?</li>
+</ol>
+<p><strong>Resultados:</strong> 1) La cámara delantera, la del vástago; el vástago está dentro. Es monoestable porque solo tiene una posición estable: el muelle la devuelve a ella en cuanto se suelta el pulsador. 2) \(F_{avance}\approx 1060\ \text{N}\) y \(F_{retroceso}\approx 891\ \text{N}\); en el retroceso el vástago le quita superficie al émbolo. 3) \(V_{embolada}\approx\text{0,723}\ \text{L}\): \(\text{0,393}\ \text{L}\) en el avance y \(\text{0,330}\ \text{L}\) en el retroceso.</p>
+</div>
+<script>(function(){function ajusta(){var fs=document.querySelectorAll("iframe.sda07-valvula");for(var i=0;i<fs.length;i++){var f=fs[i];if(!f.getBoundingClientRect().width)continue;try{var d=f.contentDocument,b=d&&d.body;if(!b)continue;if(d.fullscreenElement||d.webkitFullscreenElement)continue;var h=Math.ceil(b.getBoundingClientRect().height+16);if(h>300&&Math.abs(h-f.clientHeight)>4)f.style.height=h+"px";}catch(e){}}}document.addEventListener("click",function(){setTimeout(ajusta,120);setTimeout(ajusta,600);},true);window.addEventListener("load",function(){ajusta();setTimeout(ajusta,400);});window.addEventListener("resize",function(){setTimeout(ajusta,200);});setInterval(ajusta,1000);})();</script>
 <div id="t7b10b705-4d1f-d36e-c9f5-59469f3b63ee" class="exe-tooltip-text">
 <p>El “PLC” (Programmable Logic Controller, por sus siglas en inglés) es un dispositivo electrónico que se programa para realizar acciones de control automáticamente. Un PLC es un cerebro que activa componentes de maquinarias para ejecuten tareas que pudieran ser peligrosas para el ser humano o muy lentas o imperfectas.</p>
 </div>
